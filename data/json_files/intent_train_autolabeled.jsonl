@@ -1,0 +1,1160 @@
+{"text": "Is Schofield maintaining three-point consistency despite increased volume attempts?", "label": "METRIC_CHECK"}
+{"text": "Is Moses protecting rim?", "label": "TRAIT_CHECK"}
+{"text": "Draymond Green's defensive rating ranks higher than most power forwards.", "label": "LEADERBOARD"}
+{"text": "Does Caruso maintain elite steal rate across different team situations?", "label": "METRIC_CHECK"}
+{"text": "Julian Champagnie shoots below expectations despite moderate attempts.", "label": "METRIC_CHECK"}
+{"text": "Tory Lowe rotation time.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Mikal Bridges rarely misses open three-pointers.", "label": "METRIC_CHECK"}
+{"text": "Bogdan Bogdanovic remains efficient despite reduced primary offensive role.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Is Juan Toscano scores.", "label": "METRIC_CHECK"}
+{"text": "Kristaps Porzingis shoots three-pointers efficiently for center position.", "label": "METRIC_CHECK"}
+{"text": "Jalen Johnson rebounds well without being primary scorer.", "label": "METRIC_CHECK"}
+{"text": "Trey Burke distributes effectively despite reduced rotation minutes.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Does Jamal Murray shoot better from distance than Russell Westbrook?", "label": "COMPARE"}
+{"text": "Ricky Rubio distributes at elite backup rate.", "label": "METRIC_CHECK"}
+{"text": "Is Trey Lyles shooting above-league-average consistently?", "label": "METRIC_CHECK"}
+{"text": "Kira Lewis Jr. shoots inefficiently despite high volume attempts.", "label": "METRIC_CHECK"}
+{"text": "Devin Carter shoots better from three than from two.", "label": "METRIC_CHECK"}
+{"text": "Anthony Davis blocks nearly as many shots as true shot blockers.", "label": "METRIC_CHECK"}
+{"text": "Khris Middleton's three point volume has increased compared to his early career.", "label": "METRIC_CHECK"}
+{"text": "Does Portis maintain rebounding efficiency despite reduced minutes?", "label": "ROLE_OPPORTUNITY"}
+{"text": "Iskarou's rebounding improved with physical strength development.", "label": "TREND"}
+{"text": "Does Damin Lark appear in games more frequently currently?", "label": "ROLE_OPPORTUNITY"}
+{"text": "Nikola TopiÄ‡ hasn't secured minutes in the rotation.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Lamb's three-point accuracy increased with consistent rotation spot.", "label": "METRIC_CHECK"}
+{"text": "Jericho's rebounding rate despite average athleticism development.", "label": "METRIC_CHECK"}
+{"text": "Is Toner maintaining steal?", "label": "METRIC_CHECK"}
+{"text": "Strickland's scoring improved slightly.", "label": "TREND"}
+{"text": "Wembanyama's blocks per game rank historically elite for rookies.", "label": "LEADERBOARD"}
+{"text": "Bryce McGowens shooting.", "label": "METRIC_CHECK"}
+{"text": "Lowry's scoring management improving.", "label": "TREND"}
+{"text": "Is Thon protecting paint adequately for assignment?", "label": "TRAIT_CHECK"}
+{"text": "Does Toms develop shooting range?", "label": "METRIC_CHECK"}
+{"text": "Jalen Hood-Schifino shooting.", "label": "METRIC_CHECK"}
+{"text": "Does Miller develop shooting range expected?", "label": "METRIC_CHECK"}
+{"text": "Is Cole Patty shooting threes more efficiently currently?", "label": "METRIC_CHECK"}
+{"text": "Hawkins' block rate improved slightly.", "label": "METRIC_CHECK"}
+{"text": "Is Robert Williams effective protector?", "label": "TRAIT_CHECK"}
+{"text": "Does Kester develop speed for position?", "label": "METRIC_CHECK"}
+{"text": "Does Robinson-Earl develop expected offensive versatility eventually?", "label": "TRAIT_CHECK"}
+{"text": "Darius Bazley hasn't developed into expected offensive player.", "label": "METRIC_CHECK"}
+{"text": "Thompson's rebounding against bigger opponents improved dramatically.", "label": "TREND"}
+{"text": "Donovan Mitchell shoots inconsistently which affects overall season statistics.", "label": "METRIC_CHECK"}
+{"text": "LaMelo Ball's TS% is lower than expected for his scoring volume.", "label": "COMPARE"}
+{"text": "Is Long protecting paint?", "label": "TRAIT_CHECK"}
+{"text": "Is Marcus Smart elite perimeter defender?", "label": "TRAIT_CHECK"}
+{"text": "Is Jared Rhoden developing the ball handling scouts desired?", "label": "TRAIT_CHECK"}
+{"text": "Stanmore's rebounding against bigger opponents improved.", "label": "TREND"}
+{"text": "Duane Washington Jr. shoots inconsistently.", "label": "METRIC_CHECK"}
+{"text": "Ayo Dosunmu distributes without turning the ball over as often.", "label": "METRIC_CHECK"}
+{"text": "Tidjane Salaun shoots below expectations despite position versatility.", "label": "TRAIT_CHECK"}
+{"text": "Is Kyrie Irving still elite at step-back three-pointers?", "label": "TREND"}
+{"text": "Is Cameron Payne a better backup point guard than Tyus Jones?", "label": "METRIC_CHECK"}
+{"text": "Is Montero protecting rim effectively for role?", "label": "TRAIT_CHECK"}
+{"text": "Jamal Morant avoids three-pointers more than traditional modern guards.", "label": "METRIC_CHECK"}
+{"text": "Vaughn's assist numbers up.", "label": "METRIC_CHECK"}
+{"text": "Is CJ McCollum shooting above-average from distance?", "label": "METRIC_CHECK"}
+{"text": "Ausar Thompson perimeter.", "label": "METRIC_CHECK"}
+{"text": "Does Toby Mayo crack rotation time?", "label": "ROLE_OPPORTUNITY"}
+{"text": "Is TopiÄ‡ protecting rim adequately for position?", "label": "TRAIT_CHECK"}
+{"text": "Is Jae Crowder shooting elite.", "label": "TRAIT_CHECK"}
+{"text": "Khris Middleton remains efficient without requiring primary usage allocation.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Does Cisse develop reliable shooting range eventually?", "label": "FORECAST"}
+{"text": "Royce O'Neale perimeter.", "label": "METRIC_CHECK"}
+{"text": "Davis' assist numbers improving.", "label": "TREND"}
+{"text": "Does Donn develop athleticism faster than expected.", "label": "COMPARE"}
+{"text": "Brad Wanamaker remains reliable for backup point guard responsibilities.", "label": "METRIC_CHECK"}
+{"text": "LaMarcus Aldridge shoots fewer threes than modern bigs.", "label": "METRIC_CHECK"}
+{"text": "Jae Crowder three-point.", "label": "METRIC_CHECK"}
+{"text": "Donovan Beard games.", "label": "METRIC_CHECK"}
+{"text": "Caleb Martin overperforms on defense relative to offensive contributions.", "label": "METRIC_CHECK"}
+{"text": "Does Foster develop athleticism?", "label": "METRIC_CHECK"}
+{"text": "Ishmael El-Amin elite.", "label": "TRAIT_CHECK"}
+{"text": "Is Enzo Milicevic primary scorer.", "label": "METRIC_CHECK"}
+{"text": "Donovan Clingan already elite blocker.", "label": "TRAIT_CHECK"}
+{"text": "Is Montgomery developing three-point range as originally projected by scouts?", "label": "METRIC_CHECK"}
+{"text": "Trae Young shoots more threes per game than any assist-first point guard.", "label": "METRIC_CHECK"}
+{"text": "Tucker's defensive impact measurable through team metrics.", "label": "TRAIT_CHECK"}
+{"text": "Is Danuel Antetokounmpo scoring more this season?", "label": "TREND"}
+{"text": "Devin Booker's assist numbers reflect improved network efficiency.", "label": "TREND"}
+{"text": "Does West develop guard range?", "label": "METRIC_CHECK"}
+{"text": "Is Nurkic shooting more mid-range shots than interior paint attempts?", "label": "METRIC_CHECK"}
+{"text": "Does Robinson improve assist counting without turnover increases?", "label": "TREND"}
+{"text": "Is Tidjane developing shooting touch faster than scouted expectations predicted?", "label": "COMPARE"}
+{"text": "Is Johnny Davis improving.", "label": "TREND"}
+{"text": "Matas Buzelis developing.", "label": "METRIC_CHECK"}
+{"text": "Gradey Dick exceeds shooting.", "label": "METRIC_CHECK"}
+{"text": "Malik Beasley shoots above-average rates for role player.", "label": "METRIC_CHECK"}
+{"text": "Monte Morris stays reliable on simple options.", "label": "METRIC_CHECK"}
+{"text": "CJ McCollum shoots at above-average rates from three this season.", "label": "METRIC_CHECK"}
+{"text": "Is Stro protecting paint for team?", "label": "TRAIT_CHECK"}
+{"text": "Shai Gilgeous-Alexander's free throw attempts exceed his three point attempts yearly.", "label": "METRIC_CHECK"}
+{"text": "Is Mikal Bridges ever going to shoot more three-pointers?", "label": "METRIC_CHECK"}
+{"text": "Does Amen Thompson develop offensive capabilities more?", "label": "METRIC_CHECK"}
+{"text": "Bam Adebayo blocks more shots than many traditional power forward centers.", "label": "COMPARE"}
+{"text": "Is Tyrese Haliburton's assist-to-turnover ratio as good as Steve Nash?", "label": "METRIC_CHECK"}
+{"text": "Osama Adeyemi hasn't appeared frequently.", "label": "METRIC_CHECK"}
+{"text": "Whitehead's rebound rate steady.", "label": "METRIC_CHECK"}
+{"text": "Beasley's three-point accuracy this season matches career best percentages.", "label": "METRIC_CHECK"}
+{"text": "Alperen Sengun's defensive rating improved with better team defense this season.", "label": "TREND"}
+{"text": "Noel's block rate remains elite among reserve center options.", "label": "METRIC_CHECK"}
+{"text": "Is Luka Doncic's true shooting percentage better than peak Kawhi?", "label": "METRIC_CHECK"}
+{"text": "Jaylen Brown struggles with contested shots in playoff situations.", "label": "METRIC_CHECK"}
+{"text": "Is Isaiah Collier ball-handling.", "label": "TRAIT_CHECK"}
+{"text": "Donovan Mitchell's efficiency from three is inconsistent against zone defenses.", "label": "METRIC_CHECK"}
+{"text": "Jalin Billingsley hasn't secured consistent minutes this season.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Ant's three-point accuracy worse when guarded by physical defenders.", "label": "METRIC_CHECK"}
+{"text": "Bam Adebayo defends multiple positions without sacrificing lateral quickness.", "label": "METRIC_CHECK"}
+{"text": "Tray Jackson-Davis blocks elite.", "label": "TRAIT_CHECK"}
+{"text": "Cheick Diallo rebounding.", "label": "METRIC_CHECK"}
+{"text": "Mikal Bridges showcases elite catch-and-shoot efficiency against varied defenses.", "label": "TRAIT_CHECK"}
+{"text": "Malik Williams rotation.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Does EJ Onu see meaningful time?", "label": "METRIC_CHECK"}
+{"text": "Does Rydell develop shooting range?", "label": "METRIC_CHECK"}
+{"text": "Does Maile protect rim adequately for backup position?", "label": "TRAIT_CHECK"}
+{"text": "Does Micheal Kyser skills.", "label": "METRIC_CHECK"}
+{"text": "Jeremy Lamb shoots inconsistently when given increased opportunity.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Is McLeod protecting paint adequately?", "label": "TRAIT_CHECK"}
+{"text": "Does Marcus Smart lock down perimeter scorers?", "label": "TRAIT_CHECK"}
+{"text": "Nico Mannion hasn't broken through for consistent playing time.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Cole Anthony is streaky from three but solid on defense.", "label": "METRIC_CHECK"}
+{"text": "Tyler Herro's shooting consistency is stronger than early career volatility.", "label": "COMPARE"}
+{"text": "Enrique's defensive rating improved with better team schemes.", "label": "TREND"}
+{"text": "Donovan Mitchell shoots worse off-the-bench than in starting lineups.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Marques Johnson appearances.", "label": "METRIC_CHECK"}
+{"text": "Jaylen Brown's true shooting percentage drops significantly in playoff series.", "label": "METRIC_CHECK"}
+{"text": "Laboral Kutcher meaning.", "label": "METRIC_CHECK"}
+{"text": "Donovan Mitchell struggles with disciplined multi-player defensive schemes.", "label": "TRAIT_CHECK"}
+{"text": "Paolo's efficiency metrics suggest below-peer productivity levels.", "label": "METRIC_CHECK"}
+{"text": "Gordon's rebounding per minute.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Does Chris Martin worst bench wing defender?", "label": "LEADERBOARD"}
+{"text": "Bones Hyland shoots inconsistently despite having elite range.", "label": "TRAIT_CHECK"}
+{"text": "Does Davidson develop athleticism?", "label": "METRIC_CHECK"}
+{"text": "Is Shaw maintaining block rate?", "label": "METRIC_CHECK"}
+{"text": "Luka Doncic's three-point percentage has decreased compared to previous years.", "label": "METRIC_CHECK"}
+{"text": "Does Steph Curry shoot more threes than others?", "label": "COMPARE"}
+{"text": "Does Osama Adeyemi appear in minutes?", "label": "ROLE_OPPORTUNITY"}
+{"text": "Saben's scoring efficiency slightly improved from last season.", "label": "TREND"}
+{"text": "Shlomo Sprung rotation.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Is Smart's defensive value measurable through off-ball metrics.", "label": "TRAIT_CHECK"}
+{"text": "Does Goodwin develop athleticism?", "label": "METRIC_CHECK"}
+{"text": "Does Levert develop athleticism?", "label": "METRIC_CHECK"}
+{"text": "Tony Parker's assist rates remain elite compared to modern guards.", "label": "COMPARE"}
+{"text": "Khris Middleton proves you can be efficient without high-volume shooting.", "label": "METRIC_CHECK"}
+{"text": "Trae Young's defensive limitations don't prevent elite offensive production.", "label": "TRAIT_CHECK"}
+{"text": "Steven Adams distributes from center position better than expected.", "label": "COMPARE"}
+{"text": "De'Aaron Fox is faster than most point guards but shoots less accurately overall.", "label": "LEADERBOARD"}
+{"text": "Tane Watkins hasn't secured meaningful playing time consistently yet.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Kristaps Porzingis exhibits range exceptional for traditional center position.", "label": "METRIC_CHECK"}
+{"text": "Isaiah Joe shoots catch-and-shoot threes efficiently.", "label": "METRIC_CHECK"}
+{"text": "Perry's rebounding consistent.", "label": "METRIC_CHECK"}
+{"text": "Is Tory Lowe getting consistent rotation?", "label": "ROLE_OPPORTUNITY"}
+{"text": "Barnes' rebounding rate from guard position surpasses many traditional bigs.", "label": "METRIC_CHECK"}
+{"text": "Webb's block percentage decent for role.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Is Nate Jeremiah the best bench defender currently?", "label": "LEADERBOARD"}
+{"text": "De'Aaron Fox's acceleration metrics place him in the top five fastest players.", "label": "METRIC_CHECK"}
+{"text": "Does Marcus Smart still lock down best opposing perimeter scorers?", "label": "LEADERBOARD"}
+{"text": "Does Kareem Queran development.", "label": "METRIC_CHECK"}
+{"text": "Does Yves Missi block at elite rates?", "label": "METRIC_CHECK"}
+{"text": "Paul Reed rebounds at elite rates despite limited minutes.", "label": "METRIC_CHECK"}
+{"text": "Lavine's consistency improved after returning from recent injury recovery.", "label": "TREND"}
+{"text": "Does Kochum maintain three-point consistency?", "label": "METRIC_CHECK"}
+{"text": "Alonzo Travers has developed improved three-point shooting range.", "label": "METRIC_CHECK"}
+{"text": "Does Davion Mitchell remain elite perimeter defender?", "label": "TRAIT_CHECK"}
+{"text": "Scottie Barnes good facilitator.", "label": "TRAIT_CHECK"}
+{"text": "Draymond Green's assist to turnover ratio remains excellent for his role.", "label": "METRIC_CHECK"}
+{"text": "Toumani Camara defensive.", "label": "TRAIT_CHECK"}
+{"text": "Does Jordan Tucker threes.", "label": "METRIC_CHECK"}
+{"text": "Maledon's assist numbers improving this season.", "label": "TREND"}
+{"text": "Does Jaziel Nacitarhan develop defense?", "label": "METRIC_CHECK"}
+{"text": "Kristaps Porzingis blocks more shots per 36 minutes than Rudy Gobert.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Is Paul George shooting more threes like peak defenders typically?", "label": "METRIC_CHECK"}
+{"text": "Does Jamal Murray shoot better than Westbrook?", "label": "COMPARE"}
+{"text": "Zion Williamson exhibits unmatched interior finishing among all high-volume scorers.", "label": "LEADERBOARD"}
+{"text": "Victor Wembanyama elite blocks.", "label": "TRAIT_CHECK"}
+{"text": "Does Ingram develop expected offensive versatility eventually?", "label": "TRAIT_CHECK"}
+{"text": "Kristaps Porzingis exhibits uncommon shooting range for traditional center position.", "label": "METRIC_CHECK"}
+{"text": "Is Morrison handling distribution well?", "label": "METRIC_CHECK"}
+{"text": "Does Nick Smith appear in games?", "label": "ROLE_OPPORTUNITY"}
+{"text": "Jalen Green's efficiency is below expected for high-volume scoring.", "label": "METRIC_CHECK"}
+{"text": "Does Tai Bibbs become reliable player?", "label": "FORECAST"}
+{"text": "Does Price develop athleticism?", "label": "METRIC_CHECK"}
+{"text": "Simms' block rate improved through better positioning.", "label": "METRIC_CHECK"}
+{"text": "Peyton Watson defensive.", "label": "TRAIT_CHECK"}
+{"text": "Champagne's scoring efficiency improved with increased opportunity volume.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Does Malik Williams minutes.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Is Shai Gilgeous-Alexander playing better defense this season than last?", "label": "COMPARE"}
+{"text": "Does Markquis Nowell remain elite floor general?", "label": "TRAIT_CHECK"}
+{"text": "Does Edin develop shooting range into future?", "label": "METRIC_CHECK"}
+{"text": "Does Ochai Agbaji shoot more efficiently?", "label": "METRIC_CHECK"}
+{"text": "Is Alex Caruso defending.", "label": "METRIC_CHECK"}
+{"text": "Does Jalen Duren rebound at elite rates compared to traditional centers?", "label": "METRIC_CHECK"}
+{"text": "Is Dante Exum underrated on assist creation rates?", "label": "METRIC_CHECK"}
+{"text": "Does Jalen Duren rebound at elite rates?", "label": "METRIC_CHECK"}
+{"text": "Is Alperen handling increased post-ups without efficiency loss?", "label": "METRIC_CHECK"}
+{"text": "Tray Jackson-Davis shooting.", "label": "METRIC_CHECK"}
+{"text": "Draymond's assist numbers exceed many traditional point guards.", "label": "METRIC_CHECK"}
+{"text": "Does Malik Beasley maintain efficiency on increased volume?", "label": "METRIC_CHECK"}
+{"text": "Alperen Sengun is passing and scoring elite levels without being primary.", "label": "TRAIT_CHECK"}
+{"text": "Does Ousseyni Ndiaye appearing regularly.", "label": "METRIC_CHECK"}
+{"text": "Dalton Knecht shooting.", "label": "METRIC_CHECK"}
+{"text": "Does Peyton Watson develop defense?", "label": "METRIC_CHECK"}
+{"text": "Is Tai Bibbs reliable.", "label": "METRIC_CHECK"}
+{"text": "OG Anunoby defends across positional assignments.", "label": "METRIC_CHECK"}
+{"text": "Does Marvin develop guard range eventually?", "label": "FORECAST"}
+{"text": "Is Coby White finally approaching his expected production now?", "label": "METRIC_CHECK"}
+{"text": "Does Herro's back-to-back performance improve when given rest days?", "label": "TREND"}
+{"text": "Dyson Daniels is a below league average three point shooter this year.", "label": "METRIC_CHECK"}
+{"text": "Page's assist numbers up recent weeks.", "label": "TREND"}
+{"text": "Does Quisp develop athleticism expected from scouts?", "label": "METRIC_CHECK"}
+{"text": "Summers' rebound rate stayed solid.", "label": "METRIC_CHECK"}
+{"text": "Matas Buzelis hasn't played meaningful rotational minutes yet.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Is Davion elite.", "label": "TRAIT_CHECK"}
+{"text": "Is Jeremy Sochan developing the shooting range scouts projected?", "label": "FORECAST"}
+{"text": "GG Jackson reaching scoring.", "label": "METRIC_CHECK"}
+{"text": "Does Yves Missi block shots at promising rookie rates?", "label": "METRIC_CHECK"}
+{"text": "Tyler Herro proved role optimization improves consistent scoring production.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Kevon Harris hasn't contributed meaningful production yet this season.", "label": "TREND"}
+{"text": "Maleah Ojeda hasn't contributed significant minutes in competition.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Pierce's rebounding consistent throughout.", "label": "METRIC_CHECK"}
+{"text": "Scottie Barnes' assist rate is elite without being a point guard.", "label": "METRIC_CHECK"}
+{"text": "Kenyon Martin Jr. is a strong defender but poor on offense.", "label": "TRAIT_CHECK"}
+{"text": "Does Kel'el Ware continue.", "label": "METRIC_CHECK"}
+{"text": "Does Korbin develop athleticism?", "label": "METRIC_CHECK"}
+{"text": "Is Poeltl protecting paint adequately for team defense?", "label": "TRAIT_CHECK"}
+{"text": "Taj Gibson remains effective fundamentally despite age.", "label": "TRAIT_CHECK"}
+{"text": "Does Giannis average more dunks per game than three-pointers?", "label": "METRIC_CHECK"}
+{"text": "Does Brice Sensabaugh shoot threes below-league-average?", "label": "METRIC_CHECK"}
+{"text": "Garcia's assist rate improved with confidence from franchise level.", "label": "TREND"}
+{"text": "Is Beverley maintaining steal rates despite reduced minutes?", "label": "ROLE_OPPORTUNITY"}
+{"text": "Is Isaac Jones ever going to crack the NBA rotation?", "label": "ROLE_OPPORTUNITY"}
+{"text": "Mark Williams blocks.", "label": "METRIC_CHECK"}
+{"text": "Draymond Green's defense remains elite despite reduced scoring volume.", "label": "METRIC_CHECK"}
+{"text": "Siakam's assist rate from power forward position rarely seen statistically.", "label": "METRIC_CHECK"}
+{"text": "Does Kobe Bufkin continue improving defensively?", "label": "TREND"}
+{"text": "Is Barnes' assist rate unusual for wing positions currently?", "label": "METRIC_CHECK"}
+{"text": "Does Boogie Watkins protect rim?", "label": "TRAIT_CHECK"}
+{"text": "Anthony Davis rebounding dropped from peak.", "label": "METRIC_CHECK"}
+{"text": "Khris Middleton shoots above-average percentages despite lower-volume allocation.", "label": "METRIC_CHECK"}
+{"text": "Does Kobi shoot better when playing alongside primary ball-handler?", "label": "METRIC_CHECK"}
+{"text": "Nikola Vucevic's free throw rate exceeds his three-point attempt rate.", "label": "METRIC_CHECK"}
+{"text": "Does Landon Ewing ever play.", "label": "METRIC_CHECK"}
+{"text": "Nelson's block rate decent.", "label": "METRIC_CHECK"}
+{"text": "Is Cole Anthony most improved from last?", "label": "LEADERBOARD"}
+{"text": "Is Bruce Emanuel floor.", "label": "METRIC_CHECK"}
+{"text": "Is Javaris Crittenton defender.", "label": "TRAIT_CHECK"}
+{"text": "Is Stephon Castle best backup guard?", "label": "LEADERBOARD"}
+{"text": "Is Stephon Castle the best backup point guard option?", "label": "LEADERBOARD"}
+{"text": "Kevin Durant more efficient than Luka?", "label": "COMPARE"}
+{"text": "Kawhi Leonard's mid-range dominance is unmatched among current wings.", "label": "LEADERBOARD"}
+{"text": "Does Matas Buzelis develop as expected?", "label": "METRIC_CHECK"}
+{"text": "Zion Williamson finishes interior shots exceptionally.", "label": "METRIC_CHECK"}
+{"text": "Matas Buzelis hasn't played meaningful rotational minutes.", "label": "ROLE_OPPORTUNITY"}
+{"text": "De'Aaron Fox paces games without ball dominance.", "label": "METRIC_CHECK"}
+{"text": "Cole' rebounding consistency good.", "label": "TRAIT_CHECK"}
+{"text": "Is Ryan Dunn elite perimeter defender with limited offense?", "label": "TRAIT_CHECK"}
+{"text": "Does Salter develop expected athleticism?", "label": "METRIC_CHECK"}
+{"text": "Is Carson Edwards in meaningful minutes?", "label": "ROLE_OPPORTUNITY"}
+{"text": "Is Dalano Banton improving assist-to-turnover ratio?", "label": "TREND"}
+{"text": "Kawhi Leonard's eFG percentage when healthy ranks among wing forwards.", "label": "LEADERBOARD"}
+{"text": "Tyrese Haliburton keeps low turnovers.", "label": "METRIC_CHECK"}
+{"text": "Tyus Jones distributes better than expected for a backup point guard.", "label": "COMPARE"}
+{"text": "Is Kyshawn George securing.", "label": "METRIC_CHECK"}
+{"text": "Zeller's defensive rating improved with scheme adjustment.", "label": "TREND"}
+{"text": "Lamelo Ball assists better than traditional volume scorer stereotypes.", "label": "COMPARE"}
+{"text": "Is Haliburton's assist-to-turnover ratio better?", "label": "METRIC_CHECK"}
+{"text": "Scottie Barnes' defensive metrics suggest he's an underrated wing defender.", "label": "TRAIT_CHECK"}
+{"text": "Scottie Barnes generates assists despite lower backcourt volume allocation.", "label": "METRIC_CHECK"}
+{"text": "Is Cameron maintaining steal rate consistency rates?", "label": "METRIC_CHECK"}
+{"text": "Tyrese Haliburton low turnovers.", "label": "METRIC_CHECK"}
+{"text": "Is Trae's free throw rate higher than three-point?", "label": "METRIC_CHECK"}
+{"text": "Barton's scoring efficiency slightly improved overall.", "label": "TREND"}
+{"text": "Simmons' three-point volume increased with confidence building.", "label": "METRIC_CHECK"}
+{"text": "Is AJ Lawson shooting enough volume from distance?", "label": "METRIC_CHECK"}
+{"text": "Is Orlando's block rate among elite for playing minutes?", "label": "METRIC_CHECK"}
+{"text": "Trey Lyles shoots threes at above-league-average consistency.", "label": "METRIC_CHECK"}
+{"text": "Moran's scoring consistency improved through confidence building.", "label": "TREND"}
+{"text": "Is Malcolm Mackey reliable rim protector?", "label": "TRAIT_CHECK"}
+{"text": "Immanuel Quickley shoots threes more than comparable backup guards.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Is Montgomery's three-point volume increased this season?", "label": "METRIC_CHECK"}
+{"text": "Jaylin Williams bench.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Is Jaziel Nacitarhan developing his defensive potential fully?", "label": "TRAIT_CHECK"}
+{"text": "Does Haliburton's turnover rate remain elite for point guards?", "label": "METRIC_CHECK"}
+{"text": "Does Keon Ellis continue shooting consistently overall?", "label": "METRIC_CHECK"}
+{"text": "Does Booker develop guard range.", "label": "METRIC_CHECK"}
+{"text": "Baines' scoring improved with consistent role allocation.", "label": "TREND"}
+{"text": "Cole Patty shoots threes at inconsistent rates for backup guard.", "label": "METRIC_CHECK"}
+{"text": "Does Kareem Queran develop role.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Zion Williamson interior finisher.", "label": "METRIC_CHECK"}
+{"text": "Brad Wanamaker backup point.", "label": "METRIC_CHECK"}
+{"text": "Tate's three-point volume good this season.", "label": "METRIC_CHECK"}
+{"text": "Is Ausar Thompson elite perimeter.", "label": "TRAIT_CHECK"}
+{"text": "Barrett's scoring improved with increased touches.", "label": "TREND"}
+{"text": "Is Donovan Clingan continuing to block at elite rates?", "label": "METRIC_CHECK"}
+{"text": "Khris Middleton remains reliable despite decreased primary usage allocation.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Trevion's playmaking improved through controlled offensive usage increases.", "label": "TREND"}
+{"text": "Ant shoots worse from three when guarded tightly.", "label": "METRIC_CHECK"}
+{"text": "Is Christian Braun improving defense?", "label": "TREND"}
+{"text": "Draymond Green anchors elite defense with reduced scoring.", "label": "TRAIT_CHECK"}
+{"text": "Is Toumani Camara good complement.", "label": "TRAIT_CHECK"}
+{"text": "Coleman's scoring trends upward.", "label": "METRIC_CHECK"}
+{"text": "Dorsey's scoring efficiency remained stable throughout.", "label": "METRIC_CHECK"}
+{"text": "Does Cody Martin score more than five?", "label": "COMPARE"}
+{"text": "Does Bailey develop shooting further?", "label": "METRIC_CHECK"}
+{"text": "Aaron Nesmith shoots fewer threes than during his rookie year.", "label": "METRIC_CHECK"}
+{"text": "Devin Booker shoots worse in back-to-backs than other high-volume scorers.", "label": "METRIC_CHECK"}
+{"text": "Foreman' block percentage good.", "label": "METRIC_CHECK"}
+{"text": "Is Garland's assist quality improving throughout season progression?", "label": "TREND"}
+{"text": "Trae Young's free throw percentage is higher than three-point percentage.", "label": "METRIC_CHECK"}
+{"text": "PJ Washington rebounds at below average rates for power forwards.", "label": "METRIC_CHECK"}
+{"text": "Does Kel'el Ware continue elite blocking?", "label": "TRAIT_CHECK"}
+{"text": "Is Isaiah Joe shooting corner threes at elite rates?", "label": "METRIC_CHECK"}
+{"text": "Solomon Hill rarely shoots three-pointers despite having adequate range.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Jesse Edwards hasn't contributed meaningful offensive production yet.", "label": "METRIC_CHECK"}
+{"text": "Nate Santos rotation minutes.", "label": "ROLE_OPPORTUNITY"}
+{"text": "De'Aaron Fox controls tempo better than traditional floor running guards.", "label": "COMPARE"}
+{"text": "Does Bailey develop three-point range matching scouted expectations?", "label": "METRIC_CHECK"}
+{"text": "Trayce Jackson-Davis blocks fewer shots than expected for his athleticism.", "label": "COMPARE"}
+{"text": "Alperen Sengun handles greater responsibility.", "label": "METRIC_CHECK"}
+{"text": "De'Aaron Fox controls game pace without traditional ball dominance.", "label": "METRIC_CHECK"}
+{"text": "Is Kristaps shooting threes efficiently for tall player position?", "label": "METRIC_CHECK"}
+{"text": "Is Sidy Cissoko's on ball solid.", "label": "TRAIT_CHECK"}
+{"text": "OG's defensive metrics rank among elite wing defenders league-wide.", "label": "LEADERBOARD"}
+{"text": "Wright's assist efficiency improved through ball movement role.", "label": "TREND"}
+{"text": "Does Dalton Knecht shoot threes at elite rates consistently?", "label": "METRIC_CHECK"}
+{"text": "Does Walton develop guard range?", "label": "METRIC_CHECK"}
+{"text": "OG Anunoby multi-position defender.", "label": "TRAIT_CHECK"}
+{"text": "Jeremiah Robinson-Earl hasn't broken through scoring-wise yet.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Anthony Davis rebound rate per minute is higher than most power forwards.", "label": "METRIC_CHECK"}
+{"text": "Is Stephen Curry still the most efficient high-volume three-point shooter in the league?", "label": "METRIC_CHECK"}
+{"text": "Davion Mitchell defending.", "label": "METRIC_CHECK"}
+{"text": "Shai Gilgeous-Alexander maintains mid-range efficiency across varied coverage.", "label": "METRIC_CHECK"}
+{"text": "Does Quill develop athleticism?", "label": "METRIC_CHECK"}
+{"text": "Bobby Portis Jr. provides rebounding without scoring.", "label": "METRIC_CHECK"}
+{"text": "Is SGA taking fewer mid-range shots than last season?", "label": "COMPARE"}
+{"text": "Paul Reed provides elite rebounding on limited minutes.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Does Javaris Crittenton solid perimete.", "label": "TRAIT_CHECK"}
+{"text": "Is Donovan Clingan continuing elite blocks?", "label": "TRAIT_CHECK"}
+{"text": "Is Aldama protecting rim effectively for backup center position?", "label": "TRAIT_CHECK"}
+{"text": "Does Peyton Watson develop into reliable defender?", "label": "FORECAST"}
+{"text": "Nico Mannion remains underutilized despite elite assist capabilities.", "label": "TRAIT_CHECK"}
+{"text": "Hayes' rebounding stayed consistent.", "label": "METRIC_CHECK"}
+{"text": "Roberts' three-point accuracy.", "label": "METRIC_CHECK"}
+{"text": "Does Royce O'Neale reliable.", "label": "METRIC_CHECK"}
+{"text": "Alperen Sengun is a more efficient passer than traditional off-ball centers.", "label": "COMPARE"}
+{"text": "Tyrese Haliburton's turnover rate remains below league-average thresholds consistently.", "label": "METRIC_CHECK"}
+{"text": "Will Baker defensive.", "label": "FORECAST"}
+{"text": "Tyrell Terry remains inefficient despite having good range technically.", "label": "TRAIT_CHECK"}
+{"text": "Shai Gilgeous-Alexander dominates whenever he attacks from mid-range.", "label": "METRIC_CHECK"}
+{"text": "Nate Jeremiah defensive.", "label": "TRAIT_CHECK"}
+{"text": "Does Fisher develop athleticism faster?", "label": "METRIC_CHECK"}
+{"text": "Does Isaiah Hartenstein undersized.", "label": "METRIC_CHECK"}
+{"text": "Love's assist efficiency solid.", "label": "TRAIT_CHECK"}
+{"text": "Is AJ Lawson volume.", "label": "METRIC_CHECK"}
+{"text": "Is Dotson maintaining shooting percentages versus coverage types?", "label": "COMPARE"}
+{"text": "Yves Missi blocking elite.", "label": "TRAIT_CHECK"}
+{"text": "Does Cheick Diallo rebound at elite?", "label": "METRIC_CHECK"}
+{"text": "Is Sterling maintaining assist quality despite reduced usage?", "label": "ROLE_OPPORTUNITY"}
+{"text": "Miles Bridges shoots threes at above-average rates for wing forward.", "label": "METRIC_CHECK"}
+{"text": "Alperen Sengun increased responsibility.", "label": "METRIC_CHECK"}
+{"text": "Sharpe's scoring volume increased while maintaining decent efficiency.", "label": "METRIC_CHECK"}
+{"text": "Does Gradey Dick shoot as expected?", "label": "METRIC_CHECK"}
+{"text": "Does Barton develop guard range?", "label": "METRIC_CHECK"}
+{"text": "OG Anunoby defends multiple positions.", "label": "METRIC_CHECK"}
+{"text": "Caleb shoots inconsistently during high-pressure games this season.", "label": "TREND"}
+{"text": "Jalen Duren rebounding.", "label": "METRIC_CHECK"}
+{"text": "Tyrese Haliburton turnovers remain below league-average thresholds significantly.", "label": "METRIC_CHECK"}
+{"text": "Jayson Tatum forces difficult shots.", "label": "METRIC_CHECK"}
+{"text": "Is Marcus Morris Sr. having best three-point season?", "label": "METRIC_CHECK"}
+{"text": "Does Nance continue protecting rim effectively this season?", "label": "TRAIT_CHECK"}
+{"text": "Fletcher's assist numbers improving.", "label": "TREND"}
+{"text": "Bam Adebayo provides elite defense and positional flexibility.", "label": "TRAIT_CHECK"}
+{"text": "Bam protects paint more effectively than traditional centers.", "label": "COMPARE"}
+{"text": "Is Hart struggling more defensively against undersized NBA perimeter players?", "label": "TRAIT_CHECK"}
+{"text": "Spencer Dinwiddie shoots threes inconsistently.", "label": "METRIC_CHECK"}
+{"text": "Anthony Davis rebounding declined from historical personal production.", "label": "TREND"}
+{"text": "Yuri Hasegawa hasn't appeared in significant rotation minutes yet.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Donovan Mitchell shoots inconsistently against pressure-heavy team defenses.", "label": "METRIC_CHECK"}
+{"text": "Bam Adebayo's on-off rating suggests he's crucial to Miami's defense.", "label": "METRIC_CHECK"}
+{"text": "Luka's three-point volume increased but accuracy declined sharply recently.", "label": "METRIC_CHECK"}
+{"text": "Is Trae better at assists than Luka?", "label": "COMPARE"}
+{"text": "Zion Williamson avoids three-pointers more than any high-volume scorer.", "label": "METRIC_CHECK"}
+{"text": "Is Javon Bennett ever going to see consistent rotation time?", "label": "ROLE_OPPORTUNITY"}
+{"text": "Zion Williamson shoots fewer threes than peak Karl-Anthony Towns.", "label": "METRIC_CHECK"}
+{"text": "Is Morgan protecting paint?", "label": "TRAIT_CHECK"}
+{"text": "Is Dalen Terry becoming more efficient as scorer?", "label": "METRIC_CHECK"}
+{"text": "Mussini's assist efficiency remained consistent throughout.", "label": "METRIC_CHECK"}
+{"text": "Is Mills assisting properly overall?", "label": "METRIC_CHECK"}
+{"text": "Does Obaidi showcase expected athleticism in limited appearances?", "label": "METRIC_CHECK"}
+{"text": "Is Jalen Johnson rebounding well without primary scoring?", "label": "METRIC_CHECK"}
+{"text": "Obi Toppin dunks more then shoots three pointers.", "label": "METRIC_CHECK"}
+{"text": "Knowles' scoring improved with opportunity.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Makaria's block percentage remains decent for minutes.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Trae Young generates elite scoring despite defensive exposure.", "label": "TRAIT_CHECK"}
+{"text": "Does Juan Toscano-Anderson improve?", "label": "TREND"}
+{"text": "Does Christian Braun develop into reliable defender?", "label": "FORECAST"}
+{"text": "Tyler Herro is one of the most efficient off-bench scorers this season.", "label": "LEADERBOARD"}
+{"text": "Hayes' assist numbers up.", "label": "METRIC_CHECK"}
+{"text": "Does Caleb McConnell remain elite on perimeter defense?", "label": "TRAIT_CHECK"}
+{"text": "Scottie Barnes enables offensive balance through flexible position assignments.", "label": "METRIC_CHECK"}
+{"text": "Alec Burks scores inconsistently despite having adequate range overall.", "label": "METRIC_CHECK"}
+{"text": "Does Chris Livingston range.", "label": "METRIC_CHECK"}
+{"text": "Jesse Edwards contributed offense.", "label": "METRIC_CHECK"}
+{"text": "Kawhi Leonard's true shooting percentage remains elite despite lower volume.", "label": "METRIC_CHECK"}
+{"text": "Owens' rebounding per minute.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Does Dalton Knecht elite.", "label": "TRAIT_CHECK"}
+{"text": "Does Rodriguez showcase expected athleticism despite early season struggles?", "label": "METRIC_CHECK"}
+{"text": "Is Cole Anthony the most improved player from last season?", "label": "TREND"}
+{"text": "Is Derrick Jones Jr. providing elite perimeter defense?", "label": "TRAIT_CHECK"}
+{"text": "Bryce McGowens shooting efficiency.", "label": "METRIC_CHECK"}
+{"text": "Is Cody Demps rotation.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Does Bobi Klintman ever appear in significant game minutes?", "label": "ROLE_OPPORTUNITY"}
+{"text": "Paolo Banchero requires efficiency improvement generally.", "label": "TREND"}
+{"text": "Anthony Davis rebounded more frequently during earlier career phases.", "label": "METRIC_CHECK"}
+{"text": "Cody Demps appearing.", "label": "METRIC_CHECK"}
+{"text": "Giannis drives lane more than high-volume scorers.", "label": "METRIC_CHECK"}
+{"text": "Is Trent Outlaw improving expectations?", "label": "TREND"}
+{"text": "Does Mikal Bridges ever shoot more threes?", "label": "METRIC_CHECK"}
+{"text": "SGA dominates in mid-range more than perimeter shooting attempts.", "label": "METRIC_CHECK"}
+{"text": "Does Robert Williams rim.", "label": "TRAIT_CHECK"}
+{"text": "Does Murphy develop athleticism expected?", "label": "METRIC_CHECK"}
+{"text": "Does De'Aaron Fox handle tempo control better than typical?", "label": "COMPARE"}
+{"text": "Does Shaedon Sharpe develop into primary scorer?", "label": "FORECAST"}
+{"text": "Ousseyni Ndiaye hasn't appeared in games regularly yet.", "label": "METRIC_CHECK"}
+{"text": "Does Zach Edey passer.", "label": "METRIC_CHECK"}
+{"text": "Donovan Mitchell shoots inconsistently in games with tight player coverage.", "label": "METRIC_CHECK"}
+{"text": "Leonard's scoring consistency exceeds peer-level comparisons regularly.", "label": "METRIC_CHECK"}
+{"text": "Jaylen Brown plays aggressively despite playoff efficiency fluctuations historically.", "label": "METRIC_CHECK"}
+{"text": "Jaylen Brown shoots worse in physically demanding playoff series.", "label": "METRIC_CHECK"}
+{"text": "Is Trent Outlaw quicker.", "label": "METRIC_CHECK"}
+{"text": "Is Johnson assisting adequately?", "label": "METRIC_CHECK"}
+{"text": "Desmond Bane shoots threes at elite consistency.", "label": "METRIC_CHECK"}
+{"text": "Does Eric Gordon most efficient.", "label": "LEADERBOARD"}
+{"text": "Mikal Bridges shoots more threes per game than wing forward average.", "label": "METRIC_CHECK"}
+{"text": "Is Jackson-Davis improving in pass-out assists from post position?", "label": "TREND"}
+{"text": "Paolo Banchero's efficiency needs improvement for maximum potential.", "label": "TREND"}
+{"text": "Damian Lillard's volume from deep has declined with his move to Milwaukee.", "label": "TREND"}
+{"text": "Reggie Bullock remains reliable despite reduced usage.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Grant Williams shoots threes at rates exceeding defensive specialists.", "label": "METRIC_CHECK"}
+{"text": "Eason's rebounding efforts resulted in above average rate for playing time.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Tane Watkins playing.", "label": "METRIC_CHECK"}
+{"text": "Polansky's assist numbers trending upward positively.", "label": "METRIC_CHECK"}
+{"text": "Lamelo Ball assists efficiently.", "label": "METRIC_CHECK"}
+{"text": "Does Shai Gilgeous-Alexander take more threes than Russell Westbrook?", "label": "COMPARE"}
+{"text": "Markelle Fultz is more efficient attacking downhill than perimeter shooting.", "label": "COMPARE"}
+{"text": "Does Mo French develop expected offensive capabilities yet?", "label": "METRIC_CHECK"}
+{"text": "Does Carter develop athleticism?", "label": "METRIC_CHECK"}
+{"text": "Kevin Durant maintains elite efficiency with reduced scoring volume.", "label": "METRIC_CHECK"}
+{"text": "Does Donte DiVincenzo shoot threes above-average rates?", "label": "METRIC_CHECK"}
+{"text": "Is Alex Caruso best defender.", "label": "LEADERBOARD"}
+{"text": "Bam Adebayo is not in the top ten centers for usage rate.", "label": "METRIC_CHECK"}
+{"text": "Middleton shooting threes more than mid-range.", "label": "METRIC_CHECK"}
+{"text": "Tane Watkins meaningful time.", "label": "METRIC_CHECK"}
+{"text": "Is Kenrich Williams providing solid perimeter defense?", "label": "TRAIT_CHECK"}
+{"text": "Sanders' rebounding consistent lately.", "label": "TREND"}
+{"text": "Kevin Durant shoots threes at a higher rate than during his MVP years.", "label": "METRIC_CHECK"}
+{"text": "Bruce Emanuel point.", "label": "METRIC_CHECK"}
+{"text": "Petty's rebounding improved through effort.", "label": "TREND"}
+{"text": "Roberts' three-point consistency good.", "label": "METRIC_CHECK"}
+{"text": "Devin Booker's efficiency is elite when his team shoots normally.", "label": "TRAIT_CHECK"}
+{"text": "Does Jordan Hawkins develop into reliable role scorer?", "label": "ROLE_OPPORTUNITY"}
+{"text": "Is Isaac Jones crack rotation.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Khris maintains elite efficiency without requiring high volume.", "label": "METRIC_CHECK"}
+{"text": "Does Hartley develop speed for guard position?", "label": "METRIC_CHECK"}
+{"text": "Is Jarrett Culver shooting better.", "label": "METRIC_CHECK"}
+{"text": "Melton's assist numbers up this season.", "label": "TREND"}
+{"text": "Does Exum maintain assist quality despite reduced backcourt responsibilities?", "label": "METRIC_CHECK"}
+{"text": "Does Jaziel Nacitarhan defensive.", "label": "TRAIT_CHECK"}
+{"text": "Is Aaron Holiday distributing well from bench?", "label": "ROLE_OPPORTUNITY"}
+{"text": "Is Javon Bennett time.", "label": "METRIC_CHECK"}
+{"text": "Kevin Durant's efficiency masks decreased overall scoring volume trends.", "label": "METRIC_CHECK"}
+{"text": "Is Mark Williams blocks.", "label": "METRIC_CHECK"}
+{"text": "Does Quickley's assist rate exceed typical backup guard benchmarks?", "label": "METRIC_CHECK"}
+{"text": "Is Austin Reaves shooting more threes than last season?", "label": "COMPARE"}
+{"text": "De'Aaron Fox controls pace well.", "label": "METRIC_CHECK"}
+{"text": "Is Blakely maintaining rim protection despite size limitations?", "label": "TRAIT_CHECK"}
+{"text": "Is Goodman handling distribution better?", "label": "METRIC_CHECK"}
+{"text": "Caleb Martin's defensive capabilities exceed his offensive production considerably.", "label": "TRAIT_CHECK"}
+{"text": "Jaylen Brown shoots inconsistently in physically demanding playoff circumstances.", "label": "METRIC_CHECK"}
+{"text": "Saben Lee hasn't developed expected scoring capabilities yet.", "label": "METRIC_CHECK"}
+{"text": "Does Jaylin Williams improve rebounding rate this year?", "label": "TREND"}
+{"text": "Is Tucker protecting paint?", "label": "TRAIT_CHECK"}
+{"text": "Does Carson Edwards meaningful.", "label": "METRIC_CHECK"}
+{"text": "Does Williams develop athleticism?", "label": "METRIC_CHECK"}
+{"text": "Is Jordan Tucker threes.", "label": "METRIC_CHECK"}
+{"text": "Is Houstan developing into reliable three-point shooter eventually?", "label": "METRIC_CHECK"}
+{"text": "Tyrese Haliburton turnovers below league-standard production.", "label": "METRIC_CHECK"}
+{"text": "Trae Young's assist rate is superb despite high-volume three point shooting.", "label": "METRIC_CHECK"}
+{"text": "Does Saben Lee show improved.", "label": "TREND"}
+{"text": "Is Mitchell handling increased usage without efficiency decline occurring?", "label": "TREND"}
+{"text": "Malik Beasley shoots at above-average rates for role player standards.", "label": "METRIC_CHECK"}
+{"text": "Is Westbrook's efficiency improving after adjustment period?", "label": "TREND"}
+{"text": "Does Edwards develop athleticism expected?", "label": "METRIC_CHECK"}
+{"text": "Underwood's rebounding improved through physical development.", "label": "TREND"}
+{"text": "Zion Williamson dominates finishing.", "label": "METRIC_CHECK"}
+{"text": "Does Juan assist well.", "label": "METRIC_CHECK"}
+{"text": "Draymond Green's role has shifted toward lower usage higher efficiency.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Bradley's scoring consistency improved throughout season progression.", "label": "TREND"}
+{"text": "Does Toumani Camara develop into elite?", "label": "FORECAST"}
+{"text": "Harrison Barnes remains efficient from distance despite decreased volume.", "label": "METRIC_CHECK"}
+{"text": "Brooks' scoring efficiency remained consistent throughout season.", "label": "METRIC_CHECK"}
+{"text": "Does Dinwiddie distribute better in backup point guard role currently?", "label": "METRIC_CHECK"}
+{"text": "OG Anunoby handles multiple positions without role confusion.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Does Cody Martin ever score more than five points in games?", "label": "METRIC_CHECK"}
+{"text": "Donovan Clingan protection.", "label": "METRIC_CHECK"}
+{"text": "Does Stevens develop athleticism faster than expected?", "label": "COMPARE"}
+{"text": "Scottie Barnes facilitates well.", "label": "METRIC_CHECK"}
+{"text": "Does Jalen Brunson mid-range exceed three-point?", "label": "METRIC_CHECK"}
+{"text": "Is Donovan Clingan blocking more than Wemby?", "label": "COMPARE"}
+{"text": "Does Davis develop shooting range into next?", "label": "METRIC_CHECK"}
+{"text": "Does Trent Outlaw faster.", "label": "METRIC_CHECK"}
+{"text": "Does Tyler better.", "label": "METRIC_CHECK"}
+{"text": "Richaun Holmes rebounds at below-average rates for traditional centers.", "label": "METRIC_CHECK"}
+{"text": "Is Isaac Jones cracking NBA rotation?", "label": "ROLE_OPPORTUNITY"}
+{"text": "Is Chris Livingston shooting better from range lately?", "label": "TREND"}
+{"text": "Is the modern NBA producing more efficient shooters than ten years ago?", "label": "COMPARE"}
+{"text": "Alperen Sengun's assist rate is top-five among all centers statistically.", "label": "METRIC_CHECK"}
+{"text": "Bam Adebayo provides elite defense.", "label": "TRAIT_CHECK"}
+{"text": "Is Enes Kanter fighting for rebounds effectively?", "label": "METRIC_CHECK"}
+{"text": "Kristaps Porzingis's blocks per game exceeds modern day NBA centers.", "label": "METRIC_CHECK"}
+{"text": "Donovan Mitchell's true shooting percentage is lower during cold stretches.", "label": "METRIC_CHECK"}
+{"text": "Zion Williamson remains unmatched at interior finishing by volume.", "label": "METRIC_CHECK"}
+{"text": "Cole's off-bench scoring reliability exceeds typical reserve standards.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Anthony Edwards shoots more consistently than early season.", "label": "COMPARE"}
+{"text": "Adebayo's block rate makes her one of the league's top rim protectors.", "label": "METRIC_CHECK"}
+{"text": "Is Brandon Ingram more efficient than Mitchell?", "label": "COMPARE"}
+{"text": "Jayson Tatum shoots more shots per game but is less efficient than peers.", "label": "COMPARE"}
+{"text": "Tyler Herro has developed consistent offensive reliability over multiple seasons.", "label": "METRIC_CHECK"}
+{"text": "Tyler Minott shooting.", "label": "METRIC_CHECK"}
+{"text": "Scottie Barnes develops assist-first tendencies when isolated ball handlers rest.", "label": "METRIC_CHECK"}
+{"text": "Does Royce O'Neale continue reliable three-point shooting?", "label": "METRIC_CHECK"}
+{"text": "Kemp's rebound rate solid currently.", "label": "METRIC_CHECK"}
+{"text": "Reaves' three-point volume increased substantially since arriving in California.", "label": "METRIC_CHECK"}
+{"text": "Is Cooper developing speed needed for modern NBA guard position?", "label": "METRIC_CHECK"}
+{"text": "Draymond Green remains irreplaceable for winning basketball despite modest stats.", "label": "METRIC_CHECK"}
+{"text": "Brice Sensabaugh shoots threes at below-league-average percentages.", "label": "METRIC_CHECK"}
+{"text": "Does Ripley develop shooting range.", "label": "METRIC_CHECK"}
+{"text": "Is Jenkins handling ball distribution adequately this season?", "label": "TREND"}
+{"text": "Bam Adebayo shoots better from three when Boston runs high pick and rolls.", "label": "METRIC_CHECK"}
+{"text": "Tyrese Haliburton distributes efficiently with below-average turnover rates.", "label": "METRIC_CHECK"}
+{"text": "Paolo Banchero's field goal percentage is below his draft class peers.", "label": "METRIC_CHECK"}
+{"text": "Damian Lillard is shooting fewer threes in Milwaukee than he did in Portland.", "label": "METRIC_CHECK"}
+{"text": "Green's efficiency metrics suggest underrated role player contribution value.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Alperen Sengun handles responsibilities without corresponding efficiency declines.", "label": "METRIC_CHECK"}
+{"text": "Khris Middleton proves three-point specialist don't need elite usage rates.", "label": "METRIC_CHECK"}
+{"text": "Tyler Herro's consistency improved after finding optimal role allocation.", "label": "TREND"}
+{"text": "Is Bondo maintaining block rate percentages?", "label": "METRIC_CHECK"}
+{"text": "Does Kama develop into reliable three-point shooter eventually?", "label": "METRIC_CHECK"}
+{"text": "Does Hepburn develop athleticism matching physical tools?", "label": "METRIC_CHECK"}
+{"text": "Does Tyler Minott shoot better lately?", "label": "TREND"}
+{"text": "Is Noel's block rate among elite options?", "label": "METRIC_CHECK"}
+{"text": "Victor Wembanyama's assist rate for a center is unusually high.", "label": "METRIC_CHECK"}
+{"text": "Devin Booker assists more lately.", "label": "TREND"}
+{"text": "Jayson Tatum's efficiency drops significantly against elite defensive teams.", "label": "TRAIT_CHECK"}
+{"text": "Does Toumani defender.", "label": "TRAIT_CHECK"}
+{"text": "Cole Patty backup.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Does Cody Demps appearing.", "label": "METRIC_CHECK"}
+{"text": "Burns' three-point accuracy high.", "label": "METRIC_CHECK"}
+{"text": "Is Bryce McGowens shooting threes more efficiently?", "label": "METRIC_CHECK"}
+{"text": "Is Hamilton protecting paint?", "label": "TRAIT_CHECK"}
+{"text": "Yousaf's assist efficiency quite good.", "label": "TRAIT_CHECK"}
+{"text": "Does Micheal Kyser develop offense?", "label": "METRIC_CHECK"}
+{"text": "Does Hartenstein develop expected mid-post scoring skills?", "label": "METRIC_CHECK"}
+{"text": "Melton's assist efficiency remained strong overall.", "label": "METRIC_CHECK"}
+{"text": "Kuminga's three-point development progressing earlier than expected.", "label": "METRIC_CHECK"}
+{"text": "Luguentz Dort remains a strong perimeter defender with solid role.", "label": "TRAIT_CHECK"}
+{"text": "Jalen McDaniels shoots threes at improved percentages compared to before.", "label": "COMPARE"}
+{"text": "Is Nikola Jokic turnover rate low despite high volume?", "label": "METRIC_CHECK"}
+{"text": "Enes Freedom has improved his three-point shooting from his trade deadline.", "label": "METRIC_CHECK"}
+{"text": "Does Marques Johnson games.", "label": "METRIC_CHECK"}
+{"text": "Is Chapman assisting well?", "label": "METRIC_CHECK"}
+{"text": "Jaylen Brown's assist numbers have increased with Boston's ball movement.", "label": "METRIC_CHECK"}
+{"text": "Draymond Green helps winning despite statistically modest individual accumulations.", "label": "METRIC_CHECK"}
+{"text": "Paolo Banchero needs improved efficiency to maximize career trajectory.", "label": "TREND"}
+{"text": "Shai Gilgeous-Alexander dominates through superior mid-range accuracy consistently.", "label": "METRIC_CHECK"}
+{"text": "Hughes' three-point volume increasing steadily.", "label": "METRIC_CHECK"}
+{"text": "Kawhi Leonard remains elite despite shooting fewer threes lately.", "label": "TREND"}
+{"text": "Is Blackson assisting at elite rates for position played?", "label": "METRIC_CHECK"}
+{"text": "Kristaps Porzingis three-point shooter.", "label": "METRIC_CHECK"}
+{"text": "Victor Wembanyama's assist percentage rivals point guards on a per-possession basis.", "label": "METRIC_CHECK"}
+{"text": "Mikal Bridges rarely misses open three-point attempts annually.", "label": "METRIC_CHECK"}
+{"text": "De'Aaron Fox's turnover rate is concerning for a high-usage volume scorer.", "label": "METRIC_CHECK"}
+{"text": "Is Maleah Ojeda contributed minutes.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Does Mark Williams block at elite rates for youth?", "label": "METRIC_CHECK"}
+{"text": "LaMelo Ball's turnover rate makes him less efficient than Tyrese Maxey.", "label": "METRIC_CHECK"}
+{"text": "Khris Middleton is shooting threes more efficiently than his career average.", "label": "COMPARE"}
+{"text": "Jalen Brunson's mid-range shooting exceeds his three-point percentage.", "label": "METRIC_CHECK"}
+{"text": "Tyler Herro improved significantly.", "label": "TREND"}
+{"text": "Does Kareem Queran develop into rotation?", "label": "ROLE_OPPORTUNITY"}
+{"text": "Is Jalen Hood-Schifino shooting better from range?", "label": "METRIC_CHECK"}
+{"text": "Does Reddish's three-point accuracy improve with volume increases?", "label": "METRIC_CHECK"}
+{"text": "Kawhi Leonard mid-range king.", "label": "METRIC_CHECK"}
+{"text": "Mikal Bridges is a more reliable three point shooter than he was in Phoenix.", "label": "METRIC_CHECK"}
+{"text": "Does Brandon Ingram shoot worse in isolation?", "label": "METRIC_CHECK"}
+{"text": "Enes Freedom improved three-point shooting.", "label": "METRIC_CHECK"}
+{"text": "Victor Wembanyama demonstrates elite defensive impact beyond box scores.", "label": "TRAIT_CHECK"}
+{"text": "Giannis drives the lane more than any other high-volume scorer.", "label": "METRIC_CHECK"}
+{"text": "Shai Gilgeous-Alexander employs mid-range dominance across varied situations.", "label": "METRIC_CHECK"}
+{"text": "Tyler Herro proved role alignment improves consistency.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Zion Williamson finishes at the rim better than any high-volume scorer.", "label": "COMPARE"}
+{"text": "Donovan Clingan is beginning to block shots at elite rates.", "label": "METRIC_CHECK"}
+{"text": "Is Trae Young actually better at getting assists than Luka Doncic?", "label": "COMPARE"}
+{"text": "Does Shlomo Sprung rotation.", "label": "ROLE_OPPORTUNITY"}
+{"text": "OG Anunoby defends and scores across multiple position assignments.", "label": "METRIC_CHECK"}
+{"text": "Kevin Durant's scoring volume has decreased with age but efficiency maintained.", "label": "METRIC_CHECK"}
+{"text": "Thornton' rebound rate okay.", "label": "METRIC_CHECK"}
+{"text": "Donovan Clingan is developing into a reliable rim protector quickly.", "label": "TRAIT_CHECK"}
+{"text": "Markelle Fultz shoots off-the-dribble worse than catch-and-shoot.", "label": "COMPARE"}
+{"text": "Does Kyshawn George ever secure consistent playing time overall?", "label": "ROLE_OPPORTUNITY"}
+{"text": "Is Chris Livingston shooting from range?", "label": "METRIC_CHECK"}
+{"text": "Is Naz balancing offense and defense more effectively this season?", "label": "TREND"}
+{"text": "Paolo Banchero develops better decision-making with increased opportunity volume.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Kawhi Leonard's field goal percentage drops significantly when taking more threes.", "label": "METRIC_CHECK"}
+{"text": "Does Middleton shoot more mid-range than three-pointers?", "label": "METRIC_CHECK"}
+{"text": "Is Austin Reaves threes.", "label": "METRIC_CHECK"}
+{"text": "Lee's assist efficiency solid.", "label": "TRAIT_CHECK"}
+{"text": "Donovan Mitchell is shooting worse from two than from three this season.", "label": "METRIC_CHECK"}
+{"text": "Does Javaris Crittenton remain a solid perimeter defender?", "label": "TRAIT_CHECK"}
+{"text": "Does Zeller maintain rim protection despite defensive scheme changes?", "label": "TRAIT_CHECK"}
+{"text": "Micheal Kyser offense.", "label": "METRIC_CHECK"}
+{"text": "Langton's assist efficiency remained solid throughout.", "label": "TRAIT_CHECK"}
+{"text": "Victor Wembanyama's shot-blocking rate per 36 minutes surpasses historical centers.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Turner's blocks per game remains elite among backup center options.", "label": "METRIC_CHECK"}
+{"text": "Is Morgan maintaining steal?", "label": "METRIC_CHECK"}
+{"text": "Is Donovan Clingan blocking more.", "label": "METRIC_CHECK"}
+{"text": "Does Nick Daley ever appear in meaningful playing time?", "label": "ROLE_OPPORTUNITY"}
+{"text": "Is Alex Caruso the best defender for his position overall?", "label": "LEADERBOARD"}
+{"text": "Fields' scoring improved lots.", "label": "TREND"}
+{"text": "Does Ousmane Dieng develop offensive production?", "label": "METRIC_CHECK"}
+{"text": "Nick Smith games.", "label": "METRIC_CHECK"}
+{"text": "De'Aaron Fox navigates tempo control through running-based sets.", "label": "METRIC_CHECK"}
+{"text": "Jaylen Brown's assist numbers suggest better playmaking ability than initially thought.", "label": "COMPARE"}
+{"text": "Does Jones maintain defensive intensity despite reduced playing time?", "label": "ROLE_OPPORTUNITY"}
+{"text": "Moore's three-point accuracy improved.", "label": "METRIC_CHECK"}
+{"text": "Nikola Jokic's turnover rate is low despite high-volume touching.", "label": "METRIC_CHECK"}
+{"text": "Paul Millsap remains efficient on mid-range attempts despite age.", "label": "METRIC_CHECK"}
+{"text": "Robert Williams III blocks more than traditional backups.", "label": "COMPARE"}
+{"text": "Paolo Banchero develops better rhythm shooting more frequently than previously.", "label": "COMPARE"}
+{"text": "Sidy Cissoko defense.", "label": "METRIC_CHECK"}
+{"text": "Victor's assist rate from center position rivals point guards.", "label": "METRIC_CHECK"}
+{"text": "OG Anunoby's true shooting percentage exceeds many high-volume wing defenders.", "label": "METRIC_CHECK"}
+{"text": "Jeremiah Robinson-Earl hasn't broken through scoring-wise.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Cumulative offensive rebounds led to Poeltl ranking as elite rebounder.", "label": "LEADERBOARD"}
+{"text": "Hughes' rebounding remained steady.", "label": "METRIC_CHECK"}
+{"text": "Anthony Edwards is significantly more consistent than early season volatility.", "label": "COMPARE"}
+{"text": "Summers' assist numbers improving.", "label": "TREND"}
+{"text": "Williams' assist numbers up now.", "label": "METRIC_CHECK"}
+{"text": "Robert Williams shot-blocking.", "label": "METRIC_CHECK"}
+{"text": "Derrick Walton passing.", "label": "METRIC_CHECK"}
+{"text": "Mikal Bridges converts open threes at elite percentages.", "label": "METRIC_CHECK"}
+{"text": "Kevin Durant shoots less frequently but maintains elite shooting percentages.", "label": "TRAIT_CHECK"}
+{"text": "Does Kawhi Leonard still take threes at similar rates as 2023?", "label": "METRIC_CHECK"}
+{"text": "Marc Gasol remains efficient from distance for center.", "label": "METRIC_CHECK"}
+{"text": "Is Tory Lowe consistent minutes.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Marvin's three-point accuracy very good lately.", "label": "METRIC_CHECK"}
+{"text": "Moran's rebounding against size improved.", "label": "TREND"}
+{"text": "Carter's three-point consistency showed improvement recently.", "label": "TREND"}
+{"text": "Is Bruce Emanuel distributing well?", "label": "METRIC_CHECK"}
+{"text": "Scottie's rebounding from forward position remains unusually elite.", "label": "TRAIT_CHECK"}
+{"text": "Tyrese Maxey is nearly as efficient as Jalen Brunson from three.", "label": "METRIC_CHECK"}
+{"text": "Kawhi Leonard's availability has prevented him from reaching scoring milestones.", "label": "METRIC_CHECK"}
+{"text": "Is Sidy Cissoko improving on-ball?", "label": "TREND"}
+{"text": "Is Simpson distributing slightly better as season progresses forward.", "label": "METRIC_CHECK"}
+{"text": "Tyler Herro's improvement proves role alignment helps bench players.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Brandon Ingram shoots worse in isolation plays than catch-and-shoot.", "label": "COMPARE"}
+{"text": "Doyle's defensive rating improved through effort.", "label": "TREND"}
+{"text": "Does Amen Thompson improve offense?", "label": "TREND"}
+{"text": "Is Riley handling distribution?", "label": "METRIC_CHECK"}
+{"text": "Donovan Mitchell is shooting more threes than at any point in his career.", "label": "METRIC_CHECK"}
+{"text": "Jamal Morant avoids threes more than guards.", "label": "METRIC_CHECK"}
+{"text": "Is Enzo Milicevic primary scoring option?", "label": "METRIC_CHECK"}
+{"text": "Khary's rebound rate exceeded initial season projections.", "label": "METRIC_CHECK"}
+{"text": "Does Kessler Edwards develop expected scoring volume?", "label": "METRIC_CHECK"}
+{"text": "Mikal Bridges shoots more threes than the majority of wing defenders.", "label": "COMPARE"}
+{"text": "Butler's scoring improved recently.", "label": "TREND"}
+{"text": "Is Isaiah undersized.", "label": "METRIC_CHECK"}
+{"text": "Trae Young generates elite scoring.", "label": "TRAIT_CHECK"}
+{"text": "Victor Wembanyama displays elite defense beyond traditional statistics.", "label": "TRAIT_CHECK"}
+{"text": "Devin Booker feeds teammates better during recent seasons consistently.", "label": "TREND"}
+{"text": "Kawhi Leonard mid-range exceeds three-point shooting.", "label": "METRIC_CHECK"}
+{"text": "Kevin Durant is shooting threes at lower percentages than his prime.", "label": "METRIC_CHECK"}
+{"text": "Alec Burks shoots threes at above-average efficiency rates.", "label": "METRIC_CHECK"}
+{"text": "Donovan Mitchell varies in streaks.", "label": "METRIC_CHECK"}
+{"text": "Is Suggs developing expected three-point range as scouted originally?", "label": "METRIC_CHECK"}
+{"text": "Lamelo Ball has better range than traditional big men but worse accuracy.", "label": "METRIC_CHECK"}
+{"text": "Is Austin handling ball better?", "label": "METRIC_CHECK"}
+{"text": "Jordan Clarkson shoots threes at elite bench rate.", "label": "METRIC_CHECK"}
+{"text": "Anthony Davis's rebounding fell below positional expected value thresholds.", "label": "METRIC_CHECK"}
+{"text": "Is Isaiah Hartenstein undersized option?", "label": "METRIC_CHECK"}
+{"text": "Garrett Temple shoots threes at above average rates.", "label": "METRIC_CHECK"}
+{"text": "Jeremy Sochan's defense exceeds offensive contribution regularly.", "label": "METRIC_CHECK"}
+{"text": "Is Leon Jackson seeing rotation minutes?", "label": "ROLE_OPPORTUNITY"}
+{"text": "Does Damin Lark frequently.", "label": "METRIC_CHECK"}
+{"text": "Christian Braun defender.", "label": "TRAIT_CHECK"}
+{"text": "Jalin Billingsley hasn't secured consistent minutes.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Victor Wembanyama blocks elite.", "label": "TRAIT_CHECK"}
+{"text": "Is Leon MJackson ever going to see rotation minutes?", "label": "ROLE_OPPORTUNITY"}
+{"text": "Does Kevin Porter Jr. shoot threes more frequently?", "label": "METRIC_CHECK"}
+{"text": "Does Boobi Klintman appear regularly.", "label": "METRIC_CHECK"}
+{"text": "Cisse's assist efficiency improved through role clarity.", "label": "TREND"}
+{"text": "Is Cameron Payne better backup than Jones?", "label": "ROLE_OPPORTUNITY"}
+{"text": "Tory Lowe minutes.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Is Saben Lee scored.", "label": "METRIC_CHECK"}
+{"text": "Leon Jackson minutes.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Mitchell's rebounding for guard position exceeds benchmarks.", "label": "METRIC_CHECK"}
+{"text": "Is Lewis protecting rim?", "label": "TRAIT_CHECK"}
+{"text": "Wilcox' rebound rate solid overall.", "label": "METRIC_CHECK"}
+{"text": "Does Donovan Beard appear.", "label": "METRIC_CHECK"}
+{"text": "Bam Adebayo provides defensive versatility and on-ball improvement.", "label": "TRAIT_CHECK"}
+{"text": "Ben Simmons barely attempts threes despite mechanics.", "label": "METRIC_CHECK"}
+{"text": "Keegan Murray shoots inconsistently despite having solid range.", "label": "TRAIT_CHECK"}
+{"text": "Does Tidjane Salaun have the athleticism to protect the perimeter defensively?", "label": "TRAIT_CHECK"}
+{"text": "Goodwin's block rate improved through positioning.", "label": "METRIC_CHECK"}
+{"text": "Is Johnny Davis developing scoring?", "label": "METRIC_CHECK"}
+{"text": "Is Kevin Durant shooting threes at lower rates than prime?", "label": "METRIC_CHECK"}
+{"text": "Matthews' rebounding against.", "label": "METRIC_CHECK"}
+{"text": "Is Barnes developing expected shooting range gradually?", "label": "METRIC_CHECK"}
+{"text": "Is Tidjane Salaun athleticism shown.", "label": "METRIC_CHECK"}
+{"text": "Does Voran develop athleticism faster than projected?", "label": "FORECAST"}
+{"text": "Merrill's assist numbers increased with reduced usage.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Shai Gilgeous-Alexander mid-range master.", "label": "METRIC_CHECK"}
+{"text": "Trey Burke distributes effectively in reduced role.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Does Trayce Jackson-Davis block expected?", "label": "METRIC_CHECK"}
+{"text": "Jalen Johnson rebounds well without being primary usage facilitator.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Is Bryce McGowens shooting threes better?", "label": "METRIC_CHECK"}
+{"text": "Does Bojan maintain elite shooting percentages despite increased usage?", "label": "ROLE_OPPORTUNITY"}
+{"text": "Is Ochai Agbaji shooting more efficiently this season?", "label": "TREND"}
+{"text": "Is Matas Buzelis ever going to get consistent rotation opportunities?", "label": "ROLE_OPPORTUNITY"}
+{"text": "Mikal Bridges doesn't miss corner threes more than spot-up competitors.", "label": "METRIC_CHECK"}
+{"text": "Gradey Dick shoots inconsistently despite being drafted as shooter.", "label": "METRIC_CHECK"}
+{"text": "EJ Onu meaningful.", "label": "METRIC_CHECK"}
+{"text": "Marcus Morris Sr. remains consistent on mid-range shooting attempts.", "label": "METRIC_CHECK"}
+{"text": "Osman's three-point accuracy increased with confidence.", "label": "METRIC_CHECK"}
+{"text": "Is Marques Johnson ever going to appear in games?", "label": "ROLE_OPPORTUNITY"}
+{"text": "Jordan Nwora three-point.", "label": "METRIC_CHECK"}
+{"text": "Kevin Durant remains efficient despite shooting fewer attempts annually.", "label": "METRIC_CHECK"}
+{"text": "Victor Wembanyama's assist rate resembles point guards despite center position.", "label": "METRIC_CHECK"}
+{"text": "Simmons' three-point volume good lately.", "label": "METRIC_CHECK"}
+{"text": "SJD's rebounding efforts rarely result in game-winning opportunities statistically.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Alperen Sengun handles increased responsibility without efficiency decline.", "label": "TREND"}
+{"text": "Draymond Green anchors defense while maintaining assist contribution.", "label": "METRIC_CHECK"}
+{"text": "Does Martin excel more on-ball defense versus help-side rotations?", "label": "COMPARE"}
+{"text": "Mikal Bridges shoots efficiently.", "label": "METRIC_CHECK"}
+{"text": "Alperen Sengun shoots three-pointers more frequently than traditional center archetypes.", "label": "COMPARE"}
+{"text": "Does Owens develop guard range?", "label": "METRIC_CHECK"}
+{"text": "Does Jaylen Martin seeing.", "label": "METRIC_CHECK"}
+{"text": "Kevin Durant shoots very well.", "label": "METRIC_CHECK"}
+{"text": "Trae Young is less efficient defensively than offensive statistics suggest.", "label": "COMPARE"}
+{"text": "Does Zach Edey elite passer from.", "label": "TRAIT_CHECK"}
+{"text": "Does Mikal rarely miss open three-point opportunities statistically?", "label": "METRIC_CHECK"}
+{"text": "Does Will Baker develop into NBA-quality defender?", "label": "FORECAST"}
+{"text": "Clint Capela rebounds at elite rates compared to traditional centers.", "label": "METRIC_CHECK"}
+{"text": "Kidd's assist efficiency excellent for role.", "label": "ROLE_OPPORTUNITY"}
+{"text": "LaVine's efficiency metrics suggest he's performing above baseline.", "label": "METRIC_CHECK"}
+{"text": "Tyler Herro is more consistent than reputation suggests statistically.", "label": "COMPARE"}
+{"text": "Is AJ Lawson shooting adequate volume?", "label": "METRIC_CHECK"}
+{"text": "V J Green plays solid minutes on the low-usage end.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Moses Moody maintains shooting consistency on limited opportunities.", "label": "ROLE_OPPORTUNITY"}
+{"text": "OG Anunoby transitions between offensive and defensive primary roles effectively.", "label": "TRAIT_CHECK"}
+{"text": "Kyrie Irving's assist-to-turnover ratio is better this year than last year.", "label": "METRIC_CHECK"}
+{"text": "Is Brandon Ingram shooting threes at higher rates than last season?", "label": "METRIC_CHECK"}
+{"text": "Knight's rebounding consistency good.", "label": "TRAIT_CHECK"}
+{"text": "Trae Young produces elite offense despite acknowledged defensive limitations.", "label": "TRAIT_CHECK"}
+{"text": "Does Cody Demps appear in rotation minutes regularly?", "label": "ROLE_OPPORTUNITY"}
+{"text": "Is Noel maintaining rim protection rate effectively?", "label": "METRIC_CHECK"}
+{"text": "Calvin Booth hasn't contributed meaningful minutes this season.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Soto' three-point volume up.", "label": "METRIC_CHECK"}
+{"text": "Simmons' rebounding consistency.", "label": "METRIC_CHECK"}
+{"text": "Devin Booker's eFG percentage improves substantially with fresh legs.", "label": "METRIC_CHECK"}
+{"text": "Scottie Barnes facilitates offense while maintaining solid two-way play.", "label": "TRAIT_CHECK"}
+{"text": "OG Anunoby's three-point shooting improved with consistent opportunity volume.", "label": "METRIC_CHECK"}
+{"text": "Bam Adebayo defends and develops offensive utility.", "label": "METRIC_CHECK"}
+{"text": "Hayward's three-point accuracy increased with consistent touches.", "label": "METRIC_CHECK"}
+{"text": "Khris Middleton's consistency is remarkable for a midrange-heavy player.", "label": "METRIC_CHECK"}
+{"text": "Does Zach Edey develop elite passing?", "label": "TRAIT_CHECK"}
+{"text": "Does Salaun develop expected range for forward position?", "label": "METRIC_CHECK"}
+{"text": "De'Aaron Fox's pace control mirrors traditional running point guard archetypes.", "label": "METRIC_CHECK"}
+{"text": "Is Toumani Camara developing into primary defender?", "label": "TRAIT_CHECK"}
+{"text": "Does Cole Anthony improve assist-to-turnover ratio with usage?", "label": "TREND"}
+{"text": "Trae Young scores elite efficiency.", "label": "TRAIT_CHECK"}
+{"text": "Is Chris Martin the worst bench wing defender in the league?", "label": "LEADERBOARD"}
+{"text": "Paul Millsap remains efficient on mid-range.", "label": "METRIC_CHECK"}
+{"text": "Sullivan's rebound rate solid.", "label": "METRIC_CHECK"}
+{"text": "Lawson's scoring improved with expanded role opportunity.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Victor Wembanyama's defensive impact exceeds traditional box score statistics.", "label": "TRAIT_CHECK"}
+{"text": "Does Freeman develop athleticism matching physical tools?", "label": "METRIC_CHECK"}
+{"text": "Khris Middleton shoots consistently.", "label": "METRIC_CHECK"}
+{"text": "Victor Wembanyama impacts defense beyond traditional blocks and steals.", "label": "METRIC_CHECK"}
+{"text": "Is Royce reliable.", "label": "METRIC_CHECK"}
+{"text": "Does Kobe Bufkin improve defensively?", "label": "TREND"}
+{"text": "Donte DiVincenzo shoots threes at above-average rates.", "label": "METRIC_CHECK"}
+{"text": "Bonga's rebounding per minute solid.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Alperen Sengun handles higher usage rates without efficiency losses proportionally.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Malcolm Mackey rim.", "label": "METRIC_CHECK"}
+{"text": "Is Perkins protecting paint effectively?", "label": "TRAIT_CHECK"}
+{"text": "Is Will Baker defender.", "label": "FORECAST"}
+{"text": "Trae Young's efficiency drops against disciplined defensive schemes.", "label": "TRAIT_CHECK"}
+{"text": "Does Powell continue rebounding efficiently for role?", "label": "ROLE_OPPORTUNITY"}
+{"text": "Is Jaylen Martin breaking through.", "label": "METRIC_CHECK"}
+{"text": "Davion Mitchell's assist rate is elite for defensive-minded guards.", "label": "METRIC_CHECK"}
+{"text": "Does Mark Williams block at elite rates?", "label": "METRIC_CHECK"}
+{"text": "Isaiah Joe catches-and-shoots threes at elite rates.", "label": "METRIC_CHECK"}
+{"text": "Is Mateo Declerck developing into primary center?", "label": "METRIC_CHECK"}
+{"text": "Julian Champagnie shoots below expectations on moderate attempts.", "label": "METRIC_CHECK"}
+{"text": "Is Osama Adeyemi contributing.", "label": "METRIC_CHECK"}
+{"text": "Achiuwa's defensive versatility provides multi-position value.", "label": "TRAIT_CHECK"}
+{"text": "Devin Booker passes better than traditional high-volume scorer stereotypes.", "label": "COMPARE"}
+{"text": "Khris Middleton maintains consistency without requiring high-volume attempts.", "label": "METRIC_CHECK"}
+{"text": "Does Dalton Knecht threes elite.", "label": "METRIC_CHECK"}
+{"text": "OG Anunoby shoots corner threes at an elite rate compared to spot-up shooters.", "label": "METRIC_CHECK"}
+{"text": "Is PG13's three-point percentage consistent?", "label": "METRIC_CHECK"}
+{"text": "Saben Lee points.", "label": "METRIC_CHECK"}
+{"text": "Paolo Banchero's fieldgoal percentage improved versus last season despite higher volume.", "label": "TREND"}
+{"text": "Ochai Agbaji three-point.", "label": "METRIC_CHECK"}
+{"text": "Does Bryce McGowens volume.", "label": "METRIC_CHECK"}
+{"text": "Pryor's block rate improved slightly.", "label": "METRIC_CHECK"}
+{"text": "Is Toumani Camara defender.", "label": "TRAIT_CHECK"}
+{"text": "Bam Adebayo's low three point volume suppresses his overall offensive efficiency.", "label": "METRIC_CHECK"}
+{"text": "Does Nikola Jokic shoot more three-pointers than Joel Embiid?", "label": "METRIC_CHECK"}
+{"text": "Bam Adebayo's low paint touches hurt his scoring efficiency relative to centers.", "label": "METRIC_CHECK"}
+{"text": "Does Ibaka develop expected defensive intensity?", "label": "TRAIT_CHECK"}
+{"text": "Jae Crowder shoots threes at defender rates.", "label": "METRIC_CHECK"}
+{"text": "Does Isaiah Collier develop expected ballhandling skills?", "label": "TRAIT_CHECK"}
+{"text": "Desmond Bane shoots threes at elite consistency rates.", "label": "METRIC_CHECK"}
+{"text": "Is Coby White approaching expected production?", "label": "METRIC_CHECK"}
+{"text": "Devin Booker's true shooting percentage fluctuates based on teammate availability.", "label": "METRIC_CHECK"}
+{"text": "Brad Wanamaker backup.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Kornet's block rate remains solid for role player.", "label": "METRIC_CHECK"}
+{"text": "Bones Hyland shoots too many threes without returning good percentages.", "label": "METRIC_CHECK"}
+{"text": "Seth Curry shoots threes at elite percentages.", "label": "METRIC_CHECK"}
+{"text": "Yves Missi blocks shots at promising rates for a rookie.", "label": "METRIC_CHECK"}
+{"text": "Jayson Tatum forces hard shots.", "label": "METRIC_CHECK"}
+{"text": "Paolo Banchero's scoring efficiency fluctuates based on usage rate adjustments.", "label": "METRIC_CHECK"}
+{"text": "Is Tyus Jones best backup point guard?", "label": "LEADERBOARD"}
+{"text": "Does Mark Williams blocks.", "label": "METRIC_CHECK"}
+{"text": "Does Kel'el Ware elite.", "label": "TRAIT_CHECK"}
+{"text": "Does Caleb McConnell elite.", "label": "TRAIT_CHECK"}
+{"text": "Is Kyrie Irving elite on step-back threes?", "label": "METRIC_CHECK"}
+{"text": "Is Nikola Jokic getting triple doubles more often this season or last season?", "label": "TREND"}
+{"text": "Does Tyler Minott developing shooting.", "label": "METRIC_CHECK"}
+{"text": "Alperen Sengun shoots three-pointers at higher rates than traditional centers historically.", "label": "METRIC_CHECK"}
+{"text": "Is Matas Buzelis developing as expected since draft night?", "label": "TREND"}
+{"text": "Has Russell improved assist percentages from season start?", "label": "TREND"}
+{"text": "Thomas Bryant rebounds at above-average rates for backup centers.", "label": "METRIC_CHECK"}
+{"text": "Does Steph Curry still shoot more threes than any other player?", "label": "COMPARE"}
+{"text": "Rasheed's three-point volume increased this season.", "label": "METRIC_CHECK"}
+{"text": "Jayson Tatum's assist rate has declined significantly from his peak.", "label": "TREND"}
+{"text": "Lamelo Ball's assist ratio exceeds players with lower usage rates.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Zion Williamson avoids defensive liability status despite limited three-point attempts.", "label": "METRIC_CHECK"}
+{"text": "Bates' rebounding ability exceeds typical expectations for undersized power forward.", "label": "METRIC_CHECK"}
+{"text": "Scottie Barnes allocates minutes between multiple offensive roles quite effectively.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Is Tai Bibbs developing.", "label": "METRIC_CHECK"}
+{"text": "Is Achiuwa rebounding effectively for assigned power forward position?", "label": "METRIC_CHECK"}
+{"text": "De'Aaron Fox paces well.", "label": "METRIC_CHECK"}
+{"text": "Tyler Herro better lately.", "label": "TREND"}
+{"text": "Is Malcolm Mackey protector.", "label": "METRIC_CHECK"}
+{"text": "Is Bates maintaining block rates?", "label": "METRIC_CHECK"}
+{"text": "Is Nick Smith appearing.", "label": "METRIC_CHECK"}
+{"text": "Mason's three-point accuracy.", "label": "METRIC_CHECK"}
+{"text": "Does Tatum force difficult attempts more when heavily defended?", "label": "METRIC_CHECK"}
+{"text": "Is Trae distributing above typical assist rates for high-usage scorers?", "label": "ROLE_OPPORTUNITY"}
+{"text": "Kyle Anderson shoots threes at rates exceeding defensive specialists typically.", "label": "METRIC_CHECK"}
+{"text": "Is Harmon handling ball better?", "label": "METRIC_CHECK"}
+{"text": "Is PG13's three-point percentage consistent with his career averages?", "label": "METRIC_CHECK"}
+{"text": "Gafford's efficient rebounding resulted from improved positioning work.", "label": "TREND"}
+{"text": "Is Pierce handling ball well?", "label": "METRIC_CHECK"}
+{"text": "Does Caleb McConnell excel on perimeter?", "label": "TRAIT_CHECK"}
+{"text": "Does Titus develop shooting range?", "label": "METRIC_CHECK"}
+{"text": "Yves Missi blocks at elite rates for a young centers position.", "label": "METRIC_CHECK"}
+{"text": "Adams' scoring improved somewhat.", "label": "TREND"}
+{"text": "Kristaps Porzingis remains efficient from three despite tall frame limitations.", "label": "METRIC_CHECK"}
+{"text": "Does Mitchell maintain scoring efficiency against elite defensive schemes?", "label": "TRAIT_CHECK"}
+{"text": "Shai Gilgeous-Alexander's usage rate has increased despite better spacing around him.", "label": "METRIC_CHECK"}
+{"text": "Mikal Bridges open three shooter.", "label": "METRIC_CHECK"}
+{"text": "Kawhi Leonard dominates mid-range more effectively than three-point shooting.", "label": "METRIC_CHECK"}
+{"text": "Is Harkless maintaining elite on-ball defense versus help rotations?", "label": "TRAIT_CHECK"}
+{"text": "Is Kevin Durant more efficient than Luka Doncic this season?", "label": "COMPARE"}
+{"text": "Is Christian Braun solid.", "label": "TRAIT_CHECK"}
+{"text": "Cabbaros' block rate ranks surprisingly high for guard position playing.", "label": "METRIC_CHECK"}
+{"text": "Quentin Grimes shoots threes at inconsistent rates this season.", "label": "METRIC_CHECK"}
+{"text": "Scottie Barnes' assist rate improves when paired with high-volume scorers.", "label": "METRIC_CHECK"}
+{"text": "Is Embiid shooting more efficiently from three than five years ago?", "label": "METRIC_CHECK"}
+{"text": "Is Chris Paul still distributing at elite rates or declining?", "label": "TREND"}
+{"text": "Ousseyni Ndiaye appearing.", "label": "METRIC_CHECK"}
+{"text": "Is Kendra maintaining steal rate consistency across matchups?", "label": "METRIC_CHECK"}
+{"text": "Vassell's three-point consistency ranks elite for wings.", "label": "METRIC_CHECK"}
+{"text": "Max Christie shoots below expectations on limited opportunity.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Is Nolan protecting paint adequately for backup role?", "label": "ROLE_OPPORTUNITY"}
+{"text": "Bam Adebayo remains strong defensively relative to offensive contributions.", "label": "METRIC_CHECK"}
+{"text": "Garrett Temple remains above-average from three-point range.", "label": "METRIC_CHECK"}
+{"text": "Does Isaiah Smart best perimeter defender all.", "label": "TRAIT_CHECK"}
+{"text": "Is Harrison protecting paint effectively for backup minutes?", "label": "ROLE_OPPORTUNITY"}
+{"text": "OG Anunoby is more efficient on defense than most wing defenders.", "label": "LEADERBOARD"}
+{"text": "Does Reilly develop speed for modern guard position?", "label": "METRIC_CHECK"}
+{"text": "Is Brandon Ingram more efficient than Donovan Mitchell this season?", "label": "COMPARE"}
+{"text": "Seth Curry shoots threes at historically elite percentages consistently.", "label": "METRIC_CHECK"}
+{"text": "Does Javaris Crittenton defend well?", "label": "METRIC_CHECK"}
+{"text": "Nate Santos finding minutes.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Gradey Dick shooting expected.", "label": "METRIC_CHECK"}
+{"text": "Does Shlomo Sprung ever crack the rotation minutes?", "label": "ROLE_OPPORTUNITY"}
+{"text": "Is Malik Williams cracking rotation?", "label": "ROLE_OPPORTUNITY"}
+{"text": "Is Bogdan Bogdanovic still shooting efficiently lately?", "label": "TREND"}
+{"text": "Tony Bradley blocks fewer shots than traditional backup centers.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Kabongo's assist numbers improved with increased opportunity.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Isaac Jones rotation.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Tyrese Haliburton's assist-to-turnover ratio surpasses elite point guard standards.", "label": "METRIC_CHECK"}
+{"text": "Bazley's scoring improved through expanded opportunity allocation.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Kawhi Leonard dominates mid-range.", "label": "METRIC_CHECK"}
+{"text": "Enzo Milicevic developing.", "label": "METRIC_CHECK"}
+{"text": "Holmgren's rim protection as rookie exceeds draft projections significantly.", "label": "METRIC_CHECK"}
+{"text": "Is Jeremy Sochan developing shooting range?", "label": "METRIC_CHECK"}
+{"text": "Mikal Bridges consistently converts catch-and-shoot opportunities efficiently.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Does Marcus develop guard range matching scouted potential?", "label": "METRIC_CHECK"}
+{"text": "Delon's steal percentage remains above league average.", "label": "METRIC_CHECK"}
+{"text": "Does Max Christie shoot below expectations?", "label": "METRIC_CHECK"}
+{"text": "Zach Edey distribute.", "label": "METRIC_CHECK"}
+{"text": "Does Boogie Watkins protecting.", "label": "TRAIT_CHECK"}
+{"text": "Is Jamal Green's efficiency improving toward his draft expectations?", "label": "TREND"}
+{"text": "Benson's three-point accuracy improving.", "label": "METRIC_CHECK"}
+{"text": "Ciarko's rebounding exceeded typical projections for playing time.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Kawhi Leonard shoots at elite rates from mid-range this season.", "label": "METRIC_CHECK"}
+{"text": "Does Burks maintain shooting percentages despite increased attempts?", "label": "METRIC_CHECK"}
+{"text": "Adams distributes from center position better than contemporary traditional centers.", "label": "COMPARE"}
+{"text": "Does Brandon Ingram shoot threes at higher rates?", "label": "METRIC_CHECK"}
+{"text": "Wallace's assist numbers trending upward positively recently.", "label": "TREND"}
+{"text": "Jordan Poole shoots threes worse than his historical averages.", "label": "COMPARE"}
+{"text": "Does Toby Mayo crack rotation.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Does Rivers develop athleticism?", "label": "METRIC_CHECK"}
+{"text": "OG Anunoby's three point percentage improves with catch-and-shoot opportunities.", "label": "METRIC_CHECK"}
+{"text": "Foster's block percentage remains decent for backup role.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Does Springer ever receive consistent rotation minutes this season?", "label": "ROLE_OPPORTUNITY"}
+{"text": "Woodard's assist numbers.", "label": "METRIC_CHECK"}
+{"text": "Zach LaVine's efficiency is inconsistent across back-to-back games.", "label": "TRAIT_CHECK"}
+{"text": "Is Cole Patty shooting threes better?", "label": "METRIC_CHECK"}
+{"text": "Paolo Banchero needs improvement.", "label": "TREND"}
+{"text": "Jaylen Brown shoots worse under playoff pressure situations.", "label": "METRIC_CHECK"}
+{"text": "Does Christian Braun improves.", "label": "METRIC_CHECK"}
+{"text": "Kessler Edwards needs further development in scoring volume.", "label": "METRIC_CHECK"}
+{"text": "Giannis Antetokounmpo's free throw percentage improved versus his earlier seasons.", "label": "COMPARE"}
+{"text": "Is Sidy Cissoko on-ball.", "label": "TRAIT_CHECK"}
+{"text": "Is Quinn maintaining block rate?", "label": "METRIC_CHECK"}
+{"text": "Does Boogie Watkins continue protecting the rim effectively?", "label": "TRAIT_CHECK"}
+{"text": "Is Jordan Nwora consistent shooting now.", "label": "METRIC_CHECK"}
+{"text": "Mann's rebounding per minute.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Paolo Banchero improves with regular high-usage opportunity allocation.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Kawhi dominates mid-range more than three-point shooting lately.", "label": "METRIC_CHECK"}
+{"text": "Simmons' assist numbers improved recent weeks.", "label": "TREND"}
+{"text": "Does EJ appearing.", "label": "METRIC_CHECK"}
+{"text": "Does Kel'el Ware showing promise.", "label": "METRIC_CHECK"}
+{"text": "Chet's rim protection already exceeds many veteran centers.", "label": "METRIC_CHECK"}
+{"text": "Tyrese Haliburton distributes more assists than many primary point guards.", "label": "COMPARE"}
+{"text": "Roberts' assist numbers improving.", "label": "TREND"}
+{"text": "Kristaps Porzingis blocks shots at elite rates for tall rotational players.", "label": "METRIC_CHECK"}
+{"text": "Anthony Davis less rebounding.", "label": "METRIC_CHECK"}
+{"text": "Is Jordan Nwora shooting threes?", "label": "METRIC_CHECK"}
+{"text": "Jalen Brunson has improved his true shooting percentage compared to last season.", "label": "TREND"}
+{"text": "Bobi Klintman appeared.", "label": "METRIC_CHECK"}
+{"text": "Saddiq Bey is consistent shooting without being high-volume.", "label": "METRIC_CHECK"}
+{"text": "Is Mitchell declining on defensive metrics this calendar year overall?", "label": "TREND"}
+{"text": "Marcus Smart remains an elite perimeter defender despite reduced volume.", "label": "TRAIT_CHECK"}
+{"text": "Is Reeves handling distribution better than expected?", "label": "COMPARE"}
+{"text": "Is Alex Caruso a better overall defender than a traditional starting point guard?", "label": "ROLE_OPPORTUNITY"}
+{"text": "Collin Sexton shoots worse on high volume compared to efficiency.", "label": "COMPARE"}
+{"text": "Is Ja Morant faster than De'Aaron Fox statistically measured?", "label": "COMPARE"}
+{"text": "Langley's rebounding consistency remained solid throughout.", "label": "TRAIT_CHECK"}
+{"text": "Suggs' three-point development exceeds timeline expectations.", "label": "METRIC_CHECK"}
+{"text": "Matas' scoring potential delayed due to limited playing time allocation.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Is Ortiz protecting rim adequately for position assignment?", "label": "TRAIT_CHECK"}
+{"text": "Stokes' three-point volume increasing.", "label": "METRIC_CHECK"}
+{"text": "Draymond Green's on-off plus-minus demonstrates his importance to defense.", "label": "METRIC_CHECK"}
+{"text": "Does Jamaree Bouyea secure consistent rotation minutes?", "label": "ROLE_OPPORTUNITY"}
+{"text": "Peterson's rebounding per.", "label": "METRIC_CHECK"}
+{"text": "Cody Martin bench.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Trae Young runs efficient offenses despite shooting many difficult attempts.", "label": "METRIC_CHECK"}
+{"text": "Is MarJon Beauchamp shooting inconsistently lately?", "label": "TREND"}
+{"text": "Is Newton distributing assists at rates exceeding backup point guard norms?", "label": "METRIC_CHECK"}
+{"text": "Amen Thompson scoring.", "label": "METRIC_CHECK"}
+{"text": "Steph Curry is no longer the most efficient high-volume three point shooter in the league.", "label": "METRIC_CHECK"}
+{"text": "Is Tross maintaining steal rate consistency?", "label": "METRIC_CHECK"}
+{"text": "Morejon's speed improved with confidence development.", "label": "TREND"}
+{"text": "Brunson's clutch performance exceeds statistical league average measurements.", "label": "TRAIT_CHECK"}
+{"text": "Is Tomlinson protecting paint adequately today?", "label": "TRAIT_CHECK"}
+{"text": "Is Morrison handling ball distribution better?", "label": "METRIC_CHECK"}
+{"text": "Scottie Barnes displays pass-first center tendencies from wing position.", "label": "METRIC_CHECK"}
+{"text": "Nikola Jokic's on-off rating is higher than any guard in his position.", "label": "COMPARE"}
+{"text": "Moussa Diabate hasn't developed expected offensive skills yet.", "label": "METRIC_CHECK"}
+{"text": "Victor Wembanyama blocks more shots per game than any prospect in the modern era.", "label": "METRIC_CHECK"}
+{"text": "Thompson's scoring management good.", "label": "TRAIT_CHECK"}
+{"text": "Draymond Green remains defensive anchor despite reduced scoring volume.", "label": "METRIC_CHECK"}
+{"text": "Does Derrick Walton remain a solid floor general?", "label": "TRAIT_CHECK"}
+{"text": "Is Ingram shooting worse on contested attempts versus wide open looks?", "label": "METRIC_CHECK"}
+{"text": "Tyrese maintains sub-three percent turnover rate quite consistently.", "label": "METRIC_CHECK"}
+{"text": "Tyler Herro's shooting percentages are more consistent than earlier in career.", "label": "COMPARE"}
+{"text": "Is Markese Burton ever going to play significant minutes?", "label": "ROLE_OPPORTUNITY"}
+{"text": "Giddey's size at point guard creates unusual assist generation patterns.", "label": "METRIC_CHECK"}
+{"text": "Mikal Bridges' catch-and-shoot three percentage is among the league's best.", "label": "LEADERBOARD"}
+{"text": "Does Trent Jean-Baptiste progressing.", "label": "METRIC_CHECK"}
+{"text": "Is Malik Williams minutes.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Is Markquis elite.", "label": "TRAIT_CHECK"}
+{"text": "Garrett's assist efficiency remained solid throughout.", "label": "TRAIT_CHECK"}
+{"text": "This is Marcus Morris Sr.'s best three-point shooting season percentage-wise.", "label": "METRIC_CHECK"}
+{"text": "Oshae Brissett remains solid defender without meaningful scoring output.", "label": "TRAIT_CHECK"}
+{"text": "AJ Lawson shooting.", "label": "METRIC_CHECK"}
+{"text": "Markelle Fultz attacks downhill more than perimeter shooting.", "label": "COMPARE"}
+{"text": "Boogie Watkins protection.", "label": "METRIC_CHECK"}
+{"text": "Is modern NBA producing more efficient shooters?", "label": "METRIC_CHECK"}
+{"text": "Javaris Crittenton perimeter.", "label": "METRIC_CHECK"}
+{"text": "Is Tristen Newton assisting well for backup point guard?", "label": "METRIC_CHECK"}
+{"text": "Does Plumlee maintain rim protection despite minutes decline?", "label": "TREND"}
+{"text": "Khris Middleton maintains elite shooting percentages with moderate volume.", "label": "METRIC_CHECK"}
+{"text": "Robertson's scoring efficiency remained consistent across different team situations.", "label": "METRIC_CHECK"}
+{"text": "Alperen Sengun dominates against traditional defensive-minded opposing centers.", "label": "TRAIT_CHECK"}
+{"text": "Jayson Tatum's turnover rate is higher against pressure defense schemes.", "label": "METRIC_CHECK"}
+{"text": "Does Magee develop athleticism expected?", "label": "METRIC_CHECK"}
+{"text": "Caleb Martin's defense exceeds offensive contribution.", "label": "METRIC_CHECK"}
+{"text": "Jeahen's three-point shooting percentage exceeded early season projections.", "label": "METRIC_CHECK"}
+{"text": "Is Brunson maintaining elite clutch percentages?", "label": "TRAIT_CHECK"}
+{"text": "Is Jaylen Martin ever going to see rotation minutes?", "label": "ROLE_OPPORTUNITY"}
+{"text": "Bobby Portis Jr. provides rebounding and defense without significant scoring.", "label": "METRIC_CHECK"}
+{"text": "Does Jalen Duren rebound elite.", "label": "METRIC_CHECK"}
+{"text": "Haliburton's steal rate exceeds traditional point guard standards statistically.", "label": "METRIC_CHECK"}
+{"text": "Is Isaiah Smart the best perimeter defender?", "label": "TRAIT_CHECK"}
+{"text": "Schofield's three-point accuracy improved with volume.", "label": "METRIC_CHECK"}
+{"text": "Does Owen develop athleticism faster?", "label": "METRIC_CHECK"}
+{"text": "Jared Rhoden improving.", "label": "TREND"}
+{"text": "Does Ariel Hukporti develop rim protection skills?LeBron's free throw percentage dropped this season compared to last year.", "label": "COMPARE"}
+{"text": "Scottie Barnes' assist-to-turnover ratio is elite for a power forward.", "label": "METRIC_CHECK"}
+{"text": "Does GG Jackson reach expected scoring?", "label": "METRIC_CHECK"}
+{"text": "LaMarcus Aldridge shoots fewer three-pointers than modern power forwards.", "label": "METRIC_CHECK"}
+{"text": "Ben Simmons barely attempts three-pointers despite improved mechanics slightly.", "label": "METRIC_CHECK"}
+{"text": "Ricky Rubio distributes at elite rates for a backup point guard.", "label": "METRIC_CHECK"}
+{"text": "Is Maledon's assist rate among backup point guard standards?", "label": "METRIC_CHECK"}
+{"text": "Does Clint Capela rebound at elite rates?", "label": "METRIC_CHECK"}
+{"text": "Does Johnny Davis develop expected scoring abilities?", "label": "METRIC_CHECK"}
+{"text": "Is Bol shooting three-point volume increasing?", "label": "METRIC_CHECK"}
+{"text": "Taj Gibson remains effective on fundamentals despite age.", "label": "TRAIT_CHECK"}
+{"text": "Loew's scoring volume increased in expanded backup role.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Cole Anthony streaky from three but solid defensively.", "label": "METRIC_CHECK"}
+{"text": "Does Nick Daley meaningful minutes.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Gill's scoring efficiency remained surprisingly consistent throughout.", "label": "METRIC_CHECK"}
+{"text": "Jayson Tatum shows fatigue-related shooting inconsistency late season.", "label": "TRAIT_CHECK"}
+{"text": "Richards' three-point volume.", "label": "METRIC_CHECK"}
+{"text": "Osukwu's efficiency metrics suggest underrated value among role players.", "label": "LEADERBOARD"}
+{"text": "Mikal Bridges competes with all-time great catch-and-shoot performers.", "label": "METRIC_CHECK"}
+{"text": "Quemence's assist numbers trail comparable scoring-heavy guards.", "label": "METRIC_CHECK"}
+{"text": "Shai Gilgeous-Alexander dominates mid-range.", "label": "METRIC_CHECK"}
+{"text": "Mobley's block rate ranks near elite defensive end standards overall.", "label": "METRIC_CHECK"}
+{"text": "Tidjane Salaun shoots below expectations despite versatility.", "label": "TRAIT_CHECK"}
+{"text": "Mikal Bridges' three point percentage is top-ten among high-volume shooters.", "label": "METRIC_CHECK"}
+{"text": "Does SGA take more threes than Westbrook?", "label": "COMPARE"}
+{"text": "Milton's assist rate improved through better spacing adjustments.", "label": "TREND"}
+{"text": "Khris Middleton consistent shooter.", "label": "METRIC_CHECK"}
+{"text": "Nikola Jokic rebounds at rates no other center achieves with his usage.", "label": "METRIC_CHECK"}
+{"text": "Is Waterston's assist rate exceeding backup point guard benchmarks?", "label": "METRIC_CHECK"}
+{"text": "Donovan Clingan blocks shots at elite rates already.", "label": "METRIC_CHECK"}
+{"text": "Ousmane Dieng hasn't contributed meaningful offensive production yet.", "label": "METRIC_CHECK"}
+{"text": "Is Simpson protecting rim well?", "label": "TRAIT_CHECK"}
+{"text": "Malone's three-point accuracy high.", "label": "METRIC_CHECK"}
+{"text": "Okafor's blocks per game remains surprisingly elite for playing time.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Isaiah Hartenstein center.", "label": "METRIC_CHECK"}
+{"text": "Murray's assist-to-turnover ratio improved through team chemistry.", "label": "TREND"}
+{"text": "Does Trent Jean-Baptiste showing improvement.", "label": "TREND"}
+{"text": "Jokic is arguably more clutch from three than Luka Doncic this season.", "label": "METRIC_CHECK"}
+{"text": "Jaylen Brown improves statistically with spacing rather than isolation plays.", "label": "COMPARE"}
+{"text": "Tristen Newton assists well for a backup point guard.", "label": "METRIC_CHECK"}
+{"text": "Is Derrick Walton assists.", "label": "METRIC_CHECK"}
+{"text": "Nick Daley played meaningful.", "label": "METRIC_CHECK"}
+{"text": "Luka's three-point accuracy decreased from prior years.", "label": "METRIC_CHECK"}
+{"text": "Damin Lark appearances.", "label": "METRIC_CHECK"}
+{"text": "Is Peyton Watson protecting.", "label": "TRAIT_CHECK"}
+{"text": "Does Anunoby's defensive rating rank among elite wing defenders currently?", "label": "LEADERBOARD"}
+{"text": "Kristaps Porzingis shoots threes well.", "label": "METRIC_CHECK"}
+{"text": "Aaron Nesmith shoots fewer threes than rookie season.", "label": "METRIC_CHECK"}
+{"text": "Flynn's rebound rate steady overall.", "label": "METRIC_CHECK"}
+{"text": "Does Laboral Kutcher production.", "label": "METRIC_CHECK"}
+{"text": "Kevin Durant's scoring efficiency remains elite despite his age.", "label": "TRAIT_CHECK"}
+{"text": "MarJon Beauchamp shoots inconsistently despite adequate range.", "label": "METRIC_CHECK"}
+{"text": "Is Herb defending more effectively against perimeter scorers?", "label": "TRAIT_CHECK"}
+{"text": "Rose's assist-to-turnover ratio improved dramatically from season start.", "label": "TREND"}
+{"text": "Does Sims develop shooting range?", "label": "METRIC_CHECK"}
+{"text": "Yuta Watanabe shoots threes at below-average rates despite attempts.", "label": "METRIC_CHECK"}
+{"text": "Kristaps Porzingis exceeds height-typical three-point shooting frequencies.", "label": "METRIC_CHECK"}
+{"text": "Does Saddiq Bey maintain consistency without high-volume shooting?", "label": "METRIC_CHECK"}
+{"text": "Jaylen Martin shots.", "label": "METRIC_CHECK"}
+{"text": "Kyshawn George minutes.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Tre Mann shoots fewer threes than comparable guards in the league.", "label": "LEADERBOARD"}
+{"text": "George Hill remains efficient despite reduced playing time significantly.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Musso's assist numbers improved with team's spacing improvements recently.", "label": "TREND"}
+{"text": "Does Bones Hyland shoot too many threes without results?", "label": "METRIC_CHECK"}
+{"text": "Kevin Durant remains very efficient.", "label": "METRIC_CHECK"}
+{"text": "Reeves' scoring increased with consistent bench playing time allocation.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Does Sojanovic develop expected shooting touch eventually this season?", "label": "FORECAST"}
+{"text": "Is Jaziel Nacitarhan development.", "label": "METRIC_CHECK"}
+{"text": "Draymond Green elite defense.", "label": "TRAIT_CHECK"}
+{"text": "Is Isaac Jones breaking through.", "label": "METRIC_CHECK"}
+{"text": "Does Jalen develop shooting range into next season?", "label": "FORECAST"}
+{"text": "Alec Burks shoots threes above-average efficiency.", "label": "METRIC_CHECK"}
+{"text": "Donovan Mitchell shoots in streaks.", "label": "METRIC_CHECK"}
+{"text": "Is Beal's scoring despite injuries trending down noticeably?", "label": "METRIC_CHECK"}
+{"text": "Zion Williamson finishes better than comparably tall players consistently.", "label": "COMPARE"}
+{"text": "Draymond Green defends dominantly.", "label": "METRIC_CHECK"}
+{"text": "Does Patterson develop guard range?", "label": "METRIC_CHECK"}
+{"text": "Jayson Tatum forces shots under multiple defender coverage situations.", "label": "TRAIT_CHECK"}
+{"text": "Turner's assist numbers from center position exceed typical expectations.", "label": "METRIC_CHECK"}
+{"text": "Is Mann's assist rate improving with reduced backcourt depth?", "label": "TREND"}
+{"text": "Kevin Durant shoots efficiently despite lower overall attempt volume.", "label": "METRIC_CHECK"}
+{"text": "Does Maxey convert more mid-range shots than catch-and-shoot threes yearly?", "label": "METRIC_CHECK"}
+{"text": "Booker's assist numbers improved with better spacing in recent years.", "label": "TREND"}
+{"text": "Zion Williamson's free throw percentage is oddly inconsistent for someone below-average from three.", "label": "METRIC_CHECK"}
+{"text": "Kenrich Williams provides elite perimeter defense with zero offensive scoring.", "label": "TRAIT_CHECK"}
+{"text": "Has De'Aaron Fox improved his three-point shooting this season significantly?", "label": "METRIC_CHECK"}
+{"text": "Alperen Sengun handles more now.", "label": "METRIC_CHECK"}
+{"text": "Is Bradley assisting at solid rates for backup?", "label": "METRIC_CHECK"}
+{"text": "Does Kobe Bufkin defensive.", "label": "TRAIT_CHECK"}
+{"text": "Nance's block percentage remains decent for limited role player minutes.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Lamelo Ball is more efficient assisting than traditional floor generals.", "label": "COMPARE"}
+{"text": "Does Laboral Kutcher ever contribute meaningful rotation production?", "label": "ROLE_OPPORTUNITY"}
+{"text": "Does Ausar Thompson developing.", "label": "METRIC_CHECK"}
+{"text": "Is Dalen Terry scorer.", "label": "METRIC_CHECK"}
+{"text": "Does Kobi develop expected shooting range?", "label": "METRIC_CHECK"}
+{"text": "Does Butler maintain three-point shooting despite contest types?", "label": "METRIC_CHECK"}
+{"text": "Weatherspoon's assist-to-turnover ratio improved dramatically from season start.", "label": "TREND"}
+{"text": "Jokic's offensive rating remains historically elite despite age increase.", "label": "METRIC_CHECK"}
+{"text": "Napier's rebounding consistency good.", "label": "TRAIT_CHECK"}
+{"text": "Lamelo Ball provides assists exceeding comparable shooting efficiency.", "label": "METRIC_CHECK"}
+{"text": "Kristaps Porzingis shoots threes at elite rates for tall players.", "label": "METRIC_CHECK"}
+{"text": "Jaylen Brown's field goal percentage improved in the playoffs last year.", "label": "TREND"}
+{"text": "Does Quamaine develop expected athleticism from scouts?", "label": "METRIC_CHECK"}
+{"text": "Bryce McGowens shooting threes well.", "label": "METRIC_CHECK"}
+{"text": "Robert Williams III blocks more shots than traditional backup centers.", "label": "COMPARE"}
+{"text": "Finney' assist numbers.", "label": "METRIC_CHECK"}
+{"text": "Herbert Jones is a more efficient scorer than isolation-heavy guards.", "label": "COMPARE"}
+{"text": "Is Tyus Jones the best backup point guard across the league?", "label": "LEADERBOARD"}
+{"text": "Tyler Herro improved through consistent role definition and opportunities.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Franz Wagner shoots inconsistently but with good range.", "label": "TRAIT_CHECK"}
+{"text": "Markese Burton appeared.", "label": "METRIC_CHECK"}
+{"text": "Is Walters maintaining block rate?", "label": "METRIC_CHECK"}
+{"text": "Reggie's three-point attempt volume increased significantly.", "label": "METRIC_CHECK"}
+{"text": "Is Okoro's on-ball defense improving against elite perimeter?", "label": "TRAIT_CHECK"}
+{"text": "Does Nick Daley appear in meaningful minutes?", "label": "ROLE_OPPORTUNITY"}
+{"text": "Cole's assist numbers good.", "label": "TRAIT_CHECK"}
+{"text": "Kevin Durant remains difficult to defend despite age-related volume changes.", "label": "METRIC_CHECK"}
+{"text": "Does Jordan Nwora shoot threes consistently overall?", "label": "METRIC_CHECK"}
+{"text": "Is Gordon's assist numbers trending upward?", "label": "METRIC_CHECK"}
+{"text": "Devin Booker's assist rate has declined despite increased backcourt usage.", "label": "TREND"}
+{"text": "Kel'el Ware rim.", "label": "METRIC_CHECK"}
+{"text": "Jalen Brunson is a more reliable clutch free throw shooter than league average.", "label": "COMPARE"}
+{"text": "Kuzma's assist numbers improved with increased opportunities.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Cole's scoring efficiency improved in bench role versus starting position.", "label": "ROLE_OPPORTUNITY"}
+{"text": "Bam Adebayo defends powerfully.", "label": "METRIC_CHECK"}
+{"text": "Is Toby Mayo ever going to crack rotation time?", "label": "ROLE_OPPORTUNITY"}
+{"text": "Does Markquis Nowell top tier.", "label": "LEADERBOARD"}
+{"text": "Is Chris Martin defending better.", "label": "METRIC_CHECK"}
+{"text": "Barton' rebounding against size.", "label": "METRIC_CHECK"}
+{"text": "Does Zach Edey develop into an elite passer from center?", "label": "FORECAST"}
+{"text": "Lyles' rebounding consistency improved through extra effort.", "label": "TREND"}
+{"text": "Levert's three-point accuracy increased recently.", "label": "METRIC_CHECK"}
+{"text": "Does Ingram's turnovers increase with higher usage rates?", "label": "METRIC_CHECK"}
+{"text": "Bagley's rebounding against pressure improving.", "label": "TREND"}
+{"text": "Jayson Tatum forces attempts when heavily defended.", "label": "METRIC_CHECK"}
+{"text": "Adams' defensively ranked among elite big man options.", "label": "LEADERBOARD"}
