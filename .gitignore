@@ -1,0 +1,3 @@
+*.safetensors
+*.pt
+# to save space in git commits
