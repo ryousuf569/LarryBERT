@@ -2,7 +2,7 @@ import random
 
 random.seed(42)
 
-with open("larrybert_claims.txt") as f:
+with open("data\mlm\mlm.txt") as f:
     lines = [l.strip() for l in f if l.strip()]
 
 lines = list(set(lines))
@@ -18,10 +18,9 @@ def write_lines(path, arr):
         for s in arr:
             f.write(s.strip() + "\n")
 
-write_lines("corpus_clean.txt", lines)
-write_lines("train.txt", train)
-write_lines("val.txt", val)
-write_lines("test.txt", test)
+write_lines("data/mlm/train.txt", train)
+write_lines("data/mlm/val.txt", val)
+write_lines("data/mlm/test.txt", test)
 
 
 print(len(train), len(val), len(test))
