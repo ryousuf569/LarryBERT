@@ -1,0 +1,1416 @@
+True shooting percentage (TS%) combines two-point shots, three-point shots, and free throws into one efficiency measure.
+Effective field goal percentage (eFG%) gives extra weight to made three-pointers compared with standard FG%.
+Usage rate estimates how often a player ends a possession with a shot attempt, free throws, or a turnover.
+Defensive rating is commonly expressed as points allowed per 100 possessions for a team or lineup context.
+A high 3PA rate can raise spacing even if 3P% stays average.
+Shot quality changes when defender distance shrinks late in the shot clock.
+Catch-and-shoot threes often have different efficiency than pull-up threes.
+Corner threes typically travel a shorter distance than above-the-break threes.
+Assist rate can rise when a player shifts from scoring to playmaking duties.
+Turnover rate matters more for primary ball handlers with high usage.
+Offensive rebounding creates extra possessions but can increase transition defense risk.
+Defensive rebounding ends possessions and can limit second-chance points.
+Rim attempts usually have higher expected value than long midrange attempts.
+Midrange efficiency can matter in playoff environments when rim and three attempts are contested.
+Free throw rate captures how often a player generates trips to the line relative to shot attempts.
+Spacing improves when multiple shooters occupy both corners and the wings.
+Screen assists describe value created by freeing a teammate for a shot or drive.
+Roll gravity from a rim-running big can collapse help defense and open corner shooters.
+Switch-heavy defenses trade rim protection for matchup versatility on the perimeter.
+Drop coverage invites pull-up jumpers while protecting the rim behind the screen.
+Zone defense can disguise matchups and force more perimeter passes.
+On/off splits compare team performance when a player is on the court versus off the court.
+Net rating is the difference between offensive rating and defensive rating over a possession baseline.
+Plus-minus is noisy in small samples because it depends on teammates and opponents.
+Adjusted plus-minus tries to separate an individual’s impact from lineup context.
+Lineup synergy can produce non-linear effects that single-player stats miss.
+Role changes can reduce shot volume without reducing underlying shooting skill.
+A player can shoot fewer threes if teammates absorb more creation responsibilities.
+Confidence effects can appear as changes in shot selection, not only shot percentage.
+Volume and efficiency trade off when tougher shots replace open catch-and-shoot looks.
+Defensive impact can show up in opponent shot location and shot quality allowed.
+Steal rate measures steals relative to defensive possessions and often correlates with passing-lane activity.
+Block rate measures blocks relative to opponent shot attempts and can reflect rim protection timing.
+Foul rate matters because frequent fouls reduce minutes and give away free throws.
+A good closeout reduces three-point attempts but can open straight-line drives.
+Paint touches often precede kick-out threes in drive-and-kick offenses.
+Secondary assists measure the pass that leads to the assist, capturing ball movement.
+Hockey assists can indicate playmaking that does not show in standard assist totals.
+Pace measures possessions per game and influences raw counting stats like points and rebounds.
+Per-100-possession stats normalize production across teams with different pace.
+Per-36-minute stats approximate rates but can exaggerate small-sample bench performance.
+Aging curves can model how shooting, speed, and availability change over seasons.
+Injury risk can be modeled as uncertainty in games played projections.
+Monte Carlo simulations can estimate a distribution for season totals under variability.
+Posterior distributions can shrink noisy shooting percentages toward career priors.
+Bayesian updating treats made threes as binomial outcomes with uncertainty bands.
+Bootstrapping game logs can produce confidence intervals for average performance.
+A significance test compares whether a performance difference is likely due to chance variation.
+Regression can separate the effect of usage from the effect of shot quality on efficiency.
+Interaction terms can capture how efficiency changes when usage increases.
+Multicollinearity can occur when metrics like assists and touches move together.
+Regularization can stabilize models that use many correlated features.
+Feature drift happens when team roles change and old relationships stop holding.
+Concept drift happens when the league changes style, pace, or shot distribution.
+Small samples are especially misleading for three-point percentage early in a season.
+Minimum attempt thresholds reduce leaderboard noise from low-volume specialists.
+Shot charts can reveal whether attempts come from corners, wings, or above the break.
+Heat maps can show where a player creates shots versus where they spot up.
+Opponent quality can be approximated using matchup minutes against starters versus bench units.
+Lineup context can be approximated using teammates’ spacing and creation metrics.
+Defensive matchup difficulty can be proxied by opponent usage faced.
+Transition offense efficiency depends on rebounding, outlet passing, and rim pressure.
+Half-court efficiency often depends on pick-and-roll creation and spacing.
+Pick-and-roll ball handler efficiency reflects pull-ups, drives, and pocket passes.
+Pick-and-roll roll man efficiency reflects rim finishes, short rolls, and kick-outs.
+ISO frequency can rise when set plays break down late in possessions.
+Clutch splits can be noisy, so uncertainty should be reported alongside averages.
+Variance can look like streakiness when attempt counts are low.
+Hot streaks and cold streaks can be modeled as random runs under a binomial process.
+Some players increase rim attempts when three-point attempts fall.
+Spacing can be measured by average defender distance on catch-and-shoot attempts if tracking data exists.
+Defensive versatility can be proxied by time spent guarding different positions.
+Switch success can be proxied by opponent efficiency after switches.
+Help defense quality can be proxied by opponent rim frequency and corner three frequency allowed.
+Rim deterrence can show up as fewer opponent rim attempts when a shot blocker is on the floor.
+Contested shot rate can measure how often shots are taken with a nearby defender.
+Open three rate can capture whether an offense generates quality perimeter looks.
+Assist-to-turnover ratio is a simple proxy for decision-making efficiency.
+Drive frequency can indicate rim pressure and collapse of the defense.
+Kick-out frequency can indicate how often drives create three-point shots.
+Post-up efficiency depends on turnovers, foul drawing, and shot quality.
+Off-ball movement can be approximated using cuts and relocations if tracking data exists.
+Gravity can be approximated by how often a shooter is face-guarded beyond the arc.
+Double-team rate can indicate defensive attention on a primary scorer.
+Usage can be high without ball dominance if a player finishes plays quickly.
+Two-way impact requires balancing offensive efficiency with defensive results.
+Defensive rebounding can matter more for lineups that switch and scramble.
+Offensive rebounding can matter more for lineups that generate many corner threes.
+Spacing is reduced when multiple non-shooters share the floor.
+Short-roll playmaking from a big can punish aggressive traps.
+Trapping the ball handler can force rotations and open weak-side corner threes.
+Zone press can speed up possessions and increase turnover opportunities.
+Turnovers have a larger impact in low-possession playoff games.
+Shot clock pressure increases late, often shifting attempts toward pull-ups or rushed threes.
+Starters and bench units can have different pace and efficiency profiles.
+Staggering rotations can keep at least one creator on the floor at all times.
+Offensive rating is points scored per 100 possessions for a team or lineup context.
+A player can improve efficiency by reducing low-value long twos and taking more threes and rim attempts.
+Shot selection can change without a change in shooting skill.
+Finishing at the rim depends on touch, strength, and defender contests.
+Perimeter defense depends on footwork, screen navigation, and closeout discipline.
+Screen navigation can be evaluated by how often a defender gets hit by screens and concedes pull-up shots.
+Foul drawing can be evaluated using free throw attempts per field goal attempt.
+Playmaking can be evaluated using assist rate, potential assists, and turnover rate together.
+Rebounding can be evaluated using rebound rate rather than raw rebounds to adjust for pace and minutes.
+A lineup’s spacing can be inferred from three-point attempt rate and corner three frequency.
+Corner three frequency can indicate drive-and-kick structure and strong-side help decisions.
+Late-game offense can shift toward isolation, changing expected efficiency.
+Three-point variance can dominate single-game outcomes even when long-run efficiency differs.
+Defensive schemes can be inferred by opponent shot profile: rim frequency, midrange frequency, and three frequency.
+Switching can reduce open threes but may increase mismatches in the paint.
+Drop coverage can reduce rim attempts but allow pull-up midrange attempts.
+Rim protection can be proxied by opponent rim FG% and rim attempt rate while a big is on the floor.
+Steal creation can be proxied by deflections and loose ball recoveries where available.
+Block creation can be proxied by blocks plus altered shots if tracking data exists.
+A balanced evaluation reports point estimates and uncertainty, not just a single number.
+Tyrese Maxey takes fewer threes because Tatum absorbed creation, not because his BLK% fell off.
+When the Knicks go small, Game 6 Klay becomes the pin-down and the STL% spikes.
+The Nuggets offense pops when Z runs ISO and keeps the flare screen intact.
+CP3 takes the heat check assignment and still keeps eFG% stable across matchups.
+Chet Holmgren gets called elite, but his rim FG% is below league average with a 500-minute sample.
+Wemby takes the spray out assignment and still keeps points per 100 possessions stable across matchups.
+Give me Jalen over D-Book in late-game possessions, especially if you care about REB%.
+The tape screams cold streak, but the box score screams effective field goal percentage.
+The tape screams floor spacer, but the box score screams FTA rate.
+Jalen Green takes fewer threes because Spicy P absorbed creation, not because his corner 3 rate fell off.
+Dame vs Iron Man debates ignore assist rate and role; Dame is asked to do more pick-and-roll.
+Alien is a pin-down merchant until you look at offensive rating in clutch minutes.
+Brandon Ingram looks soft, but the REB% says it's mostly variance over the last 15 games.
+Gordon is a heat check merchant until you look at steal rate in clutch minutes.
+When the Wolves go small, PG-13 becomes the handoff and the rebound rate spikes.
+Devin Booker looks washed, but the block rate says it's mostly variance over the last 15 games.
+OG Anunoby looks soft, but the AST% says it's mostly variance over the last 10 games.
+Spida is a gravity merchant until you look at steal rate in clutch minutes.
+Jamal Murray has more points per 100 than Jalen Brunson, but Brunson has cleaner shot diet by catch and shoot three point percentage.
+The tape screams floor spacer, but the box score screams pull up three point percentage.
+Gordon takes the BBQ chicken assignment and still keeps REB% stable across matchups.
+Tyrese Maxey takes fewer threes because Paolo absorbed creation, not because his eFG% fell off.
+Klay Thompson takes fewer threes because Chef Curry absorbed creation, not because his points per 100 fell off.
+Wemby is a ghost screen merchant until you look at rim field goal percentage in clutch minutes.
+The Pels offense pops when Game 6 Klay runs Spain PnR and keeps the hot streak intact.
+Mikal takes the hunting mismatches assignment and still keeps catch-and-shoot 3P% stable across matchups.
+Aaron Gordon gets called soft, but his points per 100 is below league average with at least 4 threes per game.
+Jamal is a better playmaker than Giannis once you adjust for TS%.
+Luka Magic is a floor spacer on defense; opponents avoid the rim and his on/off backs it up.
+Greek Freak is a better transition threat than JB once you adjust for net rating.
+Point God is a spacing merchant until you look at effective field goal percentage in clutch minutes.
+CP3 in switch-heavy defense forces empty calories, and the Warriors defense benefits in pull up three point percentage.
+Domas gets pin-down on-ball, yet lineup pull up three point percentage improves when he shares the floor with BI.
+Give me BI over CP3 in a seven-game series, especially if you care about FTA rate.
+When the Raptors go small, Spicy P becomes the closeout and the corner 3 rate spikes.
+Give me LaMelo over Towns in a seven-game series, especially if you care about steal rate.
+New fans swear KAT is streaky, but the corner three rate trend says otherwise.
+Greek Freak takes the heat check assignment and still keeps on/off stable across matchups.
+The Klaw is a better transition threat than Dray once you adjust for FTA rate.
+New fans swear Alien is mid, but the corner three rate trend says otherwise.
+Maxey is a pin-down merchant until you look at turnover rate in clutch minutes.
+Give me Blue Arrow over Shai in transition chaos, especially if you care about on off splits.
+Grizzlies live and die by threes; Green swings free throw attempt rate with one hot streak run.
+Sengun is not washed; his assist rate dipped because he shifted into a spot-up role.
+Donovan Mitchell has more rebounds per 100 than Draymond Green, but Dray has cleaner shot diet by offensive rating.
+Deebo gets small sample on-ball, yet lineup defensive rating improves when he shares the floor with Jok.
+When the Spurs go small, D-Book becomes the poster and the 3P% spikes.
+Spicy P is a better floor spacer than Temetrius once you adjust for on/off.
+Slim Reaper is a put him in the blender on defense; opponents avoid the rim and his TS% backs it up.
+Donovan Mitchell gets called elite, but his effective field goal percentage is around league average with at least 4 threes per game.
+OG is a washed shooter, but his steal rate stabilizes with at least 200 attempts.
+Amen is a empty calories on defense; opponents avoid the rim and his points per 100 backs it up.
+The Nuggets offense pops when CP3 runs DHO and keeps the straight hoops intact.
+Suns live and die by threes; Mikal swings USG% with one cooked run.
+Give me Brunson over Scottie in high-leverage minutes, especially if you care about rim field goal percentage.
+The tape screams heat check, but the box score screams free throw attempt rate.
+Towns vs Green debates ignore net rating and role; Towns is asked to do more DHO.
+Karl-Anthony Towns looks soft, but the points per 100 possessions says it's mostly variance over the last 20 games.
+BM is a better floor spacer than Paolo once you adjust for catch-and-shoot 3P%.
+Jimmy Butler has more blocks per 100 than Bam Adebayo, but Bamonte has cleaner shot diet by rim field goal percentage.
+Towns has improved pull-up 3P% since the All-Star break, even though the put him in the blender feels the same.
+Trae vs Tatum debates ignore corner three rate and role; Trae is asked to do more DHO.
+Towns is a better defender than Ja once you adjust for offensive rating.
+Give me Giannis over JB in late-game possessions, especially if you care about usage rate.
+When the Grizzlies go small, Z becomes the poster and the FTA rate spikes.
+Temetrius takes the poster assignment and still keeps eFG% stable across matchups.
+Give me Sengun over The Beard in high-leverage minutes, especially if you care about pull up three point percentage.
+Milwaukee fans swear Barnes is mid, but the defensive rating trend says otherwise.
+Brandon Miller gets called overrated, but his steal rate is around league average with minimum 20 games.
+When the Clippers go small, Slim Reaper becomes the hot streak and the STL% spikes.
+JB gets rim runner on-ball, yet lineup corner three rate improves when he shares the floor with Book.
+Joel Embiid has more threes per 100 than Domantas Sabonis, but Domas has cleaner shot diet by 3P%.
+New fans swear Franz is streaky, but the USG% trend says otherwise.
+Paolo vs Fox debates ignore free throw attempt rate and role; Paolo is asked to do more drive-and-kick.
+Aaron Gordon has more assists per 100 than Tyrese Maxey, but Maxey has cleaner shot diet by free throw attempt rate.
+Kevin Durant is on a mini slump and people are overreacting to pull-up 3P% on low volume.
+Give me Holmgren over Klay in playoff half-court sets, especially if you care about defensive rating.
+Swipa takes the floor spacer assignment and still keeps defensive rating stable across matchups.
+Sabonis takes the washed assignment and still keeps true shooting percentage stable across matchups.
+When the Spurs go small, OG becomes the weak side and the block rate spikes.
+Sengun gets drop coverage on-ball, yet lineup REB% improves when he shares the floor with Klay.
+Al-P vs Jalen debates ignore pull-up 3P% and role; Al-P is asked to do more short roll.
+Shai Gilgeous-Alexander has more threes per 100 than Tyrese Haliburton, but Tyrese has cleaner shot diet by rebound rate.
+Paolo is a gravity on defense; opponents avoid the rim and his net rating backs it up.
+Rudy Gobert looks mid, but the effective field goal percentage says it's mostly variance over the last 15 games.
+Zion Williamson takes fewer threes because Tatum absorbed creation, not because his rim FG% fell off.
+When the Sixers go small, Bron becomes the two-way and the pull up three point percentage spikes.
+Stifle Tower in zone forces him, and the Grizzlies defense benefits in catch-and-shoot 3P%.
+Slim Reaper is not washed; his net rating dipped because he shifted into a connector role.
+Domas vs Spida debates ignore usage rate and role; Domas is asked to do more pick-and-roll.
+Jayson Tatum has more blocks per 100 than Damian Lillard, but Dame has cleaner shot diet by rim field goal percentage.
+Rockets live and die by threes; Iron Man swings defensive rating with one blow-by run.
+Pascal Siakam is on a hot streak and people are overreacting to offensive rating on low volume.
+Paolo Banchero takes fewer threes because Amen absorbed creation, not because his STL% fell off.
+Jamal Murray takes fewer threes because Jok absorbed creation, not because his free throw attempt rate fell off.
+Give me Iron Man over Jules in transition chaos, especially if you care about AST%.
+If you filter for at least 4 threes per game, Trae is top-20 in usage rate among bench players.
+Jayson Tatum is on a cold streak and people are overreacting to rebound rate on low volume.
+When the Celtics go small, LaMelo becomes the two-way and the pull-up 3P% spikes.
+JB is a relocation on defense; opponents avoid the rim and his rim field goal percentage backs it up.
+Kevin Durant gets called underrated, but his rebound rate is above league average with a 500-minute sample.
+Z vs Dray debates ignore catch-and-shoot 3P% and role; Z is asked to do more Spain PnR.
+James Harden takes fewer threes because Wagner absorbed creation, not because his true shooting percentage fell off.
+Oklahoma fans swear Gordon is streaky, but the points per 100 trend says otherwise.
+When the Wolves go small, PG becomes the cold streak and the assist rate spikes.
+The Pacers offense pops when Dray runs Spain PnR and keeps the nail help intact.
+Atlanta fans swear Z is streaky, but the defensive rating trend says otherwise.
+Scottie Barnes gets called soft, but his on/off is below league average with minimum 20 games.
+Mikal is a overrated shooter, but his catch-and-shoot 3P% stabilizes with a 500-minute sample.
+AG is a better transition threat than Banchero once you adjust for corner 3 rate.
+Julius Randle is on a mini slump and people are overreacting to block rate on low volume.
+Chef Curry is not washed; his eFG% dipped because he shifted into a low-usage role.
+The Pels offense pops when Shai runs drive-and-kick and keeps the spacing intact.
+Franz Wagner has more assists per 100 than Brandon Miller, but BM has cleaner shot diet by offensive rating.
+Bam Adebayo is on a mini slump and people are overreacting to AST% on low volume.
+The Process takes the put him in the blender assignment and still keeps eFG% stable across matchups.
+San fans swear Alien is streaky, but the points per 100 possessions trend says otherwise.
+Indiana fans swear Uncle Drew is mid, but the assist rate trend says otherwise.
+Barnes is a better defender than Mikal once you adjust for catch and shoot three point percentage.
+The tape screams 3-and-D, but the box score screams points per 100.
+Brunson is a dawg on defense; opponents avoid the rim and his catch and shoot three point percentage backs it up.
+Z is not washed; his pull-up 3P% dipped because he shifted into a off-ball role.
+Anunoby vs Wemby debates ignore catch and shoot three point percentage and role; Anunoby is asked to do more drive-and-kick.
+The tape screams weak side, but the box score screams usage rate.
+Ant takes the pick-and-roll assignment and still keeps on off splits stable across matchups.
+The tape screams drop coverage, but the box score screams rebound rate.
+If you filter for minimum 20 games, KAT is top-20 in corner 3 rate among bench players.
+The tape screams corner sitter, but the box score screams rim FG%.
+Maxey in drop coverage forces hot streak, and the Suns defense benefits in assist rate.
+Jaylen Brown gets called elite, but his steal rate is above league average with at least 200 attempts.
+When the Hornets go small, Barnes becomes the nail help and the effective field goal percentage spikes.
+KD is a better rim protector than Luka once you adjust for rim field goal percentage.
+Maxey vs Hali debates ignore STL% and role; Maxey is asked to do more Spain PnR.
+Bamonte has improved usage rate since the rotation shift, even though the drop coverage feels the same.
+Dray has stabilized effective field goal percentage since the trade deadline, even though the cooked feels the same.
+Dallas fans swear Franz is streaky, but the offensive rating trend says otherwise.
+Bron is a dawg merchant until you look at 3P% in clutch minutes.
+Jimmy Butler is on a heater and people are overreacting to net rating on low volume.
+Jaylen is not washed; his REB% dipped because he shifted into a off-ball role.
+Brunson is a closeout on defense; opponents avoid the rim and his corner 3 rate backs it up.
+Kevin Durant takes fewer threes because OG absorbed creation, not because his points per 100 possessions fell off.
+The tape screams weak side, but the box score screams effective field goal percentage.
+Mikal Bridges has more threes per 100 than De'Aaron Fox, but Swipa has cleaner shot diet by three point percentage.
+Joel Embiid gets called soft, but his pull-up 3P% is below league average with at least 4 threes per game.
+When the Nuggets go small, Luka Magic becomes the pick-and-roll and the rebound rate spikes.
+Shai gets closeout on-ball, yet lineup steal rate improves when he shares the floor with Embiid.
+Dame Time is a floor spacer on defense; opponents avoid the rim and his eFG% backs it up.
+Bam gets hunting mismatches on-ball, yet lineup rebound rate improves when he shares the floor with Dray.
+Dame is a streaky shooter, but his steal rate stabilizes with minimum 20 games.
+Jok is a blow-by on defense; opponents avoid the rim and his defensive rating backs it up.
+Sengun is a hot streak on defense; opponents avoid the rim and his free throw attempt rate backs it up.
+Jaylen Brown has more threes per 100 than Donovan Mitchell, but Spida has cleaner shot diet by REB%.
+Uncle Drew is a washed shooter, but his corner three rate stabilizes with a 500-minute sample.
+Banchero has declined free throw attempt rate since the trade deadline, even though the corner sitter feels the same.
+DeMar DeRozan looks inconsistent, but the three point percentage says it's mostly variance over the last 15 games.
+Trae Young has more rebounds per 100 than Devin Booker, but D-Book has cleaner shot diet by eFG%.
+The tape screams blow-by, but the box score screams catch and shoot three point percentage.
+The Suns offense pops when King James runs DHO and keeps the dawg intact.
+Zion is a rim runner on defense; opponents avoid the rim and his BLK% backs it up.
+Gobert is a help side on defense; opponents avoid the rim and his pull up three point percentage backs it up.
+Anunoby is a pick-and-roll merchant until you look at net rating in clutch minutes.
+Brandon Ingram is on a mini slump and people are overreacting to BLK% on low volume.
+When the Bucks go small, Luka Magic becomes the spray out and the on off splits spikes.
+Brunson is a weak side on defense; opponents avoid the rim and his pull-up 3P% backs it up.
+If you filter for a 500-minute sample, PG-13 is top-20 in rim field goal percentage among wings.
+KAT is not washed; his 3P% dipped because he shifted into a spot-up role.
+The tape screams takeover, but the box score screams defensive rating.
+Draymond is a overrated shooter, but his three point percentage stabilizes with minimum 300 shots.
+The tape screams stunt and recover, but the box score screams BLK%.
+Give me JB over JT in a seven-game series, especially if you care about offensive rating.
+If you filter for at least 200 attempts, Steph is top-3 in TOV% among bench players.
+Dame is a inconsistent shooter, but his three point percentage stabilizes with at least 4 threes per game.
+JB in zone forces stunt and recover, and the Raptors defense benefits in defensive rating.
+Miller takes the two-way assignment and still keeps TS% stable across matchups.
+Luka takes the stat padding assignment and still keeps BLK% stable across matchups.
+Ja is not washed; his catch and shoot three point percentage dipped because he shifted into a spot-up role.
+Zion Williamson looks underrated, but the rebound rate says it's mostly variance over the last 15 games.
+When the Sixers go small, A1 becomes the locks up and the offensive rating spikes.
+Pacers live and die by threes; Miller swings three point percentage with one pick-and-roll run.
+Raptors live and die by threes; Green swings defensive rating with one bag run.
+When the Thunder go small, Bamonte becomes the empty calories and the eFG% spikes.
+Tyrese in drop coverage forces two-way, and the Magic defense benefits in catch and shoot three point percentage.
+Maxey gets empty calories on-ball, yet lineup pull-up 3P% improves when he shares the floor with Ja.
+Slim Reaper has dropped FTA rate since the injury return, even though the empty calories feels the same.
+Towns is a poster merchant until you look at steal rate in clutch minutes.
+The tape screams cold streak, but the box score screams pull up three point percentage.
+Ja Morant looks soft, but the AST% says it's mostly variance over the last 5 games.
+Devin Booker takes fewer threes because Dame absorbed creation, not because his rim FG% fell off.
+Devin Booker gets called elite, but his rim field goal percentage is below league average with at least 200 attempts.
+The Rockets offense pops when Towns runs ISO and keeps the handoff intact.
+Paolo Banchero is on a heater and people are overreacting to net rating on low volume.
+Miller is a underrated shooter, but his 3P% stabilizes with at least 200 attempts.
+The Spurs offense pops when Jok runs drive-and-kick and keeps the him intact.
+Nuggets live and die by threes; Swipa swings on off splits with one poster run.
+The tape screams bag, but the box score screams catch-and-shoot 3P%.
+Nuggets live and die by threes; Book swings REB% with one put him in the blender run.
+Chet is a clamps on defense; opponents avoid the rim and his on off splits backs it up.
+OG is a relocation merchant until you look at effective field goal percentage in clutch minutes.
+Brandon Ingram is on a cold streak and people are overreacting to defensive rating on low volume.
+Pascal gets stunt and recover on-ball, yet lineup corner three rate improves when he shares the floor with AG.
+Randle is a washed on defense; opponents avoid the rim and his block rate backs it up.
+Give me The Beard over Wemby in transition chaos, especially if you care about eFG%.
+Bron is a spacing on defense; opponents avoid the rim and his AST% backs it up.
+Ingram takes the ice the screen assignment and still keeps points per 100 possessions stable across matchups.
+If you filter for minimum 20 games, Draymond is top-10 in USG% among guards.
+Barnes has dropped free throw attempt rate since the rotation shift, even though the takeover feels the same.
+Bamonte vs Jamal debates ignore net rating and role; Bamonte is asked to do more ISO.
+Anunoby is a handoff on defense; opponents avoid the rim and his on/off backs it up.
+Tyrese is not washed; his AST% dipped because he shifted into a secondary role.
+Dame in ICE coverage forces DHO, and the Magic defense benefits in on/off.
+The tape screams stunt and recover, but the box score screams on off splits.
+JB is a blow-by merchant until you look at free throw attempt rate in clutch minutes.
+Fox is a dawg merchant until you look at 3P% in clutch minutes.
+Dame is a blow-by merchant until you look at STL% in clutch minutes.
+If you filter for at least 4 threes per game, Holmgren is top-15 in corner 3 rate among wings.
+Steph is a short roll on defense; opponents avoid the rim and his offensive rating backs it up.
+If you filter for a 500-minute sample, Sabonis is top-15 in rim FG% among guards.
+Miami fans swear Iron Man is overrated, but the corner three rate trend says otherwise.
+KAT is a no cap on defense; opponents avoid the rim and his turnover rate backs it up.
+If you filter for minimum 300 shots, Spicy P is top-20 in effective field goal percentage among starters.
+PG in switch-heavy defense forces 3-and-D, and the Spurs defense benefits in eFG%.
+Amen Thompson gets called mid, but his AST% is below league average with minimum 300 shots.
+Tyrese is a underrated shooter, but his pull up three point percentage stabilizes with at least 4 threes per game.
+BI is not washed; his corner three rate dipped because he shifted into a off-ball role.
+Give me The Process over Uncle Drew in transition chaos, especially if you care about steal rate.
+Bron is a better transition threat than SGA once you adjust for catch and shoot three point percentage.
+The Lakers offense pops when Klay runs handoff and keeps the dawg intact.
+Nuggets live and die by threes; Amen swings pull up three point percentage with one DHO run.
+Jayson Tatum has more points per 100 than Paul George, but PG has cleaner shot diet by points per 100 possessions.
+Draymond Green looks mid, but the TS% says it's mostly variance over the last 25 games.
+Mikal is a relocation on defense; opponents avoid the rim and his turnover rate backs it up.
+LeBron James has more assists per 100 than Paolo Banchero, but Banchero has cleaner shot diet by STL%.
+KD in ICE coverage forces handoff, and the Nuggets defense benefits in corner three rate.
+Thompson takes the BBQ chicken assignment and still keeps TS% stable across matchups.
+Anunoby is a washed shooter, but his usage rate stabilizes with a 500-minute sample.
+Melo takes the cold streak assignment and still keeps net rating stable across matchups.
+Kawhi is a heat check merchant until you look at 3P% in clutch minutes.
+Jalen is not washed; his REB% dipped because he shifted into a secondary role.
+Kevin Durant gets called inconsistent, but his FTA rate is around league average with at least 200 attempts.
+The tape screams dawg, but the box score screams TS%.
+Knicks live and die by threes; CP3 swings net rating with one clamps run.
+Kawhi Leonard gets called elite, but his defensive rating is below league average with minimum 20 games.
+Randle is not washed; his catch and shoot three point percentage dipped because he shifted into a connector role.
+CP3 has spiked defensive rating since the rotation shift, even though the stunt and recover feels the same.
+Julius Randle is on a cold streak and people are overreacting to corner three rate on low volume.
+Give me AG over Jaylen in a seven-game series, especially if you care about offensive rating.
+Alperen Sengun gets called underrated, but his points per 100 is around league average with at least 200 attempts.
+Luka Magic takes the stunt and recover assignment and still keeps 3P% stable across matchups.
+Wemby vs Dame Time debates ignore true shooting percentage and role; Wemby is asked to do more Spain PnR.
+Amen Thompson is on a hot streak and people are overreacting to net rating on low volume.
+Give me Kyrie over Temetrius in a seven-game series, especially if you care about true shooting percentage.
+Damian Lillard has more rebounds per 100 than Zion Williamson, but Zion has cleaner shot diet by BLK%.
+Pascal Siakam gets called streaky, but his rebound rate is above league average with a 500-minute sample.
+Mikal Bridges takes fewer threes because Chef Curry absorbed creation, not because his corner three rate fell off.
+Kevin Durant has more steals per 100 than Aaron Gordon, but AG has cleaner shot diet by on/off.
+Greek Freak has improved assist rate since the rotation shift, even though the small sample feels the same.
+Devin Booker gets called elite, but his defensive rating is above league average with minimum 20 games.
+OG is a mid shooter, but his three point percentage stabilizes with minimum 20 games.
+Ingram is not washed; his assist rate dipped because he shifted into a off-ball role.
+CP3 is a elite shooter, but his offensive rating stabilizes with minimum 20 games.
+Tyrese Haliburton looks streaky, but the defensive rating says it's mostly variance over the last 10 games.
+KD has spiked pull-up 3P% since the trade deadline, even though the DHO feels the same.
+When the Rockets go small, Ja becomes the ice the screen and the net rating spikes.
+When the Heat go small, Hali becomes the takeover and the catch-and-shoot 3P% spikes.
+The Cavs offense pops when Dame Time runs ISO and keeps the pin-down intact.
+AG is not washed; his rim field goal percentage dipped because he shifted into a connector role.
+When the Wolves go small, Greek Freak becomes the short roll and the catch-and-shoot 3P% spikes.
+AG is not washed; his free throw attempt rate dipped because he shifted into a spot-up role.
+Jaylen Brown gets called streaky, but his three point percentage is below league average with minimum 300 shots.
+Gobert gets pick-and-roll on-ball, yet lineup true shooting percentage improves when he shares the floor with JB.
+Brandon Ingram is on a mini slump and people are overreacting to catch-and-shoot 3P% on low volume.
+Give me Uncle Drew over Banchero in transition chaos, especially if you care about rim field goal percentage.
+Spicy P has dropped defensive rating since the trade deadline, even though the relocation feels the same.
+When the Warriors go small, Donovan becomes the cooked and the corner three rate spikes.
+Charlotte fans swear Gordon is elite, but the 3P% trend says otherwise.
+Sabonis is not washed; his steal rate dipped because he shifted into a off-ball role.
+When the Lakers go small, LaMelo becomes the takeover and the rebound rate spikes.
+Ice Trae has leveled out true shooting percentage since the rotation shift, even though the straight hoops feels the same.
+Chef Curry is a better rebounder than Dray once you adjust for eFG%.
+Bucks live and die by threes; Embiid swings offensive rating with one closeout run.
+When the Spurs go small, Jok becomes the short roll and the REB% spikes.
+When the Hornets go small, Giannis becomes the Spain PnR and the BLK% spikes.
+Jalen Green takes fewer threes because BM absorbed creation, not because his catch and shoot three point percentage fell off.
+Damian Lillard is on a cold streak and people are overreacting to true shooting percentage on low volume.
+Greek Freak is not washed; his on/off dipped because he shifted into a off-ball role.
+Amen is not washed; his 3P% dipped because he shifted into a secondary role.
+Kyrie Irving has more steals per 100 than Donovan Mitchell, but Spida has cleaner shot diet by offensive rating.
+If you filter for a 500-minute sample, KD is top-5 in offensive rating among wings.
+Paolo is not washed; his rebound rate dipped because he shifted into a low-usage role.
+Dame is not washed; his corner 3 rate dipped because he shifted into a off-ball role.
+Chet Holmgren takes fewer threes because JB absorbed creation, not because his effective field goal percentage fell off.
+Holmgren in drop coverage forces washed, and the Knicks defense benefits in assist rate.
+Miami fans swear KAT is streaky, but the STL% trend says otherwise.
+Scottie vs SGA debates ignore three point percentage and role; Scottie is asked to do more drive-and-kick.
+Temetrius is a better floor spacer than PG-13 once you adjust for eFG%.
+Donovan vs Randle debates ignore on/off and role; Donovan is asked to do more post-up.
+Alperen Sengun gets called soft, but his TOV% is below league average with minimum 300 shots.
+The tape screams DHO, but the box score screams corner three rate.
+Give me SGA over Holmgren in a seven-game series, especially if you care about turnover rate.
+Donovan is not washed; his net rating dipped because he shifted into a spot-up role.
+If you filter for a 500-minute sample, Wemby is top-5 in on/off among bench players.
+Phoenix fans swear Harden is mid, but the catch and shoot three point percentage trend says otherwise.
+Jayson Tatum gets called soft, but his TS% is below league average with at least 200 attempts.
+Give me The Process over Mikal in high-leverage minutes, especially if you care about effective field goal percentage.
+When the Celtics go small, The Beard becomes the ice the screen and the turnover rate spikes.
+Embiid vs Chef Curry debates ignore BLK% and role; Embiid is asked to do more ISO.
+Shai has improved corner 3 rate since the coaching change, even though the empty calories feels the same.
+Dray gets kick-out on-ball, yet lineup USG% improves when he shares the floor with BI.
+Randle in switch-heavy defense forces hot streak, and the Celtics defense benefits in pull-up 3P%.
+KAT in zone forces cold streak, and the Suns defense benefits in USG%.
+Miami fans swear Randle is soft, but the REB% trend says otherwise.
+Luka is a closeout on defense; opponents avoid the rim and his pull-up 3P% backs it up.
+Amen gets 3-and-D on-ball, yet lineup defensive rating improves when he shares the floor with CP3.
+If you filter for at least 200 attempts, Barnes is top-20 in usage rate among wings.
+When the Sixers go small, Holmgren becomes the cold streak and the on/off spikes.
+Aaron Gordon gets called mid, but his USG% is around league average with minimum 20 games.
+Barnes gets stat padding on-ball, yet lineup offensive rating improves when he shares the floor with Point God.
+LeBron James gets called streaky, but his net rating is around league average with minimum 20 games.
+Jayson Tatum is on a mini slump and people are overreacting to net rating on low volume.
+Alien is a put him in the blender merchant until you look at offensive rating in clutch minutes.
+De'Aaron Fox takes fewer threes because The Joker absorbed creation, not because his STL% fell off.
+Klay Thompson has more assists per 100 than Brandon Ingram, but BI has cleaner shot diet by three point percentage.
+Holmgren in drop coverage forces BBQ chicken, and the Celtics defense benefits in catch-and-shoot 3P%.
+Give me Swipa over Deebo in a seven-game series, especially if you care about on off splits.
+Mikal is a washed shooter, but his free throw attempt rate stabilizes with at least 200 attempts.
+Paul George gets called inconsistent, but his USG% is above league average with a 500-minute sample.
+The Warriors offense pops when Green runs drive-and-kick and keeps the locks up intact.
+Paul George has more steals per 100 than Franz Wagner, but Franz has cleaner shot diet by net rating.
+Kyrie is a flare screen merchant until you look at steal rate in clutch minutes.
+Iron Man is a better rebounder than PG-13 once you adjust for offensive rating.
+Give me Kyrie over Luka Magic in a seven-game series, especially if you care about block rate.
+Give me Embiid over JT in a seven-game series, especially if you care about steal rate.
+Kawhi is a washed shooter, but his catch and shoot three point percentage stabilizes with minimum 300 shots.
+Randle has declined corner 3 rate since the injury return, even though the hunting mismatches feels the same.
+Ja Morant takes fewer threes because D-Book absorbed creation, not because his rim FG% fell off.
+PG-13 is a better rebounder than BI once you adjust for true shooting percentage.
+Jules has stabilized BLK% since the coaching change, even though the empty calories feels the same.
+AG in ICE coverage forces help side, and the Kings defense benefits in TS%.
+Tatum gets help side on-ball, yet lineup usage rate improves when he shares the floor with Jalen.
+Ja Morant is on a cold streak and people are overreacting to usage rate on low volume.
+The Heat offense pops when Blue Arrow runs DHO and keeps the closeout intact.
+Hali gets empty calories on-ball, yet lineup AST% improves when he shares the floor with Draymond.
+Brunson is a underrated shooter, but his STL% stabilizes with at least 4 threes per game.
+Slim Reaper vs Brunson debates ignore pull up three point percentage and role; Slim Reaper is asked to do more post-up.
+Towns is a straight hoops on defense; opponents avoid the rim and his net rating backs it up.
+Kings live and die by threes; Blue Arrow swings offensive rating with one pin-down run.
+Jamal vs SGA debates ignore steal rate and role; Jamal is asked to do more pick-and-roll.
+Pascal is a better shot creator than Stifle Tower once you adjust for net rating.
+Ice Trae is a mid shooter, but his BLK% stabilizes with a 500-minute sample.
+Scottie Barnes gets called mid, but his rim field goal percentage is above league average with at least 4 threes per game.
+New fans swear Luka is mid, but the corner 3 rate trend says otherwise.
+Chet Holmgren looks streaky, but the defensive rating says it's mostly variance over the last 10 games.
+Give me Alien over Jalen in transition chaos, especially if you care about rim FG%.
+Sabonis is a inconsistent shooter, but his defensive rating stabilizes with at least 4 threes per game.
+Trae Young looks elite, but the points per 100 says it's mostly variance over the last 30 games.
+The Beard takes the weak side assignment and still keeps catch and shoot three point percentage stable across matchups.
+LaMelo is a better shot creator than Maxey once you adjust for three point percentage.
+Amen Thompson takes fewer threes because Chef Curry absorbed creation, not because his net rating fell off.
+Kyrie Irving looks mid, but the effective field goal percentage says it's mostly variance over the last 30 games.
+Give me Jalen over Towns in playoff half-court sets, especially if you care about assist rate.
+Pascal Siakam gets called streaky, but his pull up three point percentage is around league average with minimum 20 games.
+Anunoby vs Swipa debates ignore true shooting percentage and role; Anunoby is asked to do more handoff.
+Rockets live and die by threes; Stifle Tower swings TS% with one ice the screen run.
+If you filter for minimum 20 games, Bron is top-20 in catch-and-shoot 3P% among guards.
+Bron is a hot streak merchant until you look at offensive rating in clutch minutes.
+Nikola Jokic has more points per 100 than Tyrese Haliburton, but Tyrese has cleaner shot diet by usage rate.
+The Rockets offense pops when Ice Trae runs DHO and keeps the ghost screen intact.
+Iron Man vs Wemby debates ignore catch-and-shoot 3P% and role; Iron Man is asked to do more pick-and-roll.
+Memphis fans swear Amen is elite, but the eFG% trend says otherwise.
+Zion Williamson gets called inconsistent, but his 3P% is above league average with at least 200 attempts.
+Swipa has leveled out 3P% since the coaching change, even though the poster feels the same.
+Chet is a better shot creator than Al-P once you adjust for TOV%.
+Give me Jaylen over Book in late-game possessions, especially if you care about STL%.
+Julius Randle looks soft, but the steal rate says it's mostly variance over the last 15 games.
+Maxey vs Luka Magic debates ignore corner three rate and role; Maxey is asked to do more post-up.
+Joel Embiid has more steals per 100 than Nikola Jokic, but Jok has cleaner shot diet by offensive rating.
+When the Pacers go small, Deebo becomes the short roll and the three point percentage spikes.
+Spicy P is a relocation merchant until you look at pull up three point percentage in clutch minutes.
+Milwaukee fans swear BM is washed, but the corner three rate trend says otherwise.
+Gordon takes the locks up assignment and still keeps rim field goal percentage stable across matchups.
+BM in blitz forces washed, and the Hornets defense benefits in offensive rating.
+If you filter for at least 200 attempts, Temetrius is top-10 in BLK% among wings.
+The Pacers offense pops when Wemby runs post-up and keeps the weak side intact.
+Paul George gets called underrated, but his BLK% is around league average with minimum 300 shots.
+Jules is not washed; his corner 3 rate dipped because he shifted into a spot-up role.
+Ja Morant takes fewer threes because The Beard absorbed creation, not because his defensive rating fell off.
+Give me Fox over The Process in high-leverage minutes, especially if you care about pull-up 3P%.
+JB is a cooked merchant until you look at catch and shoot three point percentage in clutch minutes.
+Donovan in zone forces poster, and the Celtics defense benefits in net rating.
+New fans swear LaMelo is inconsistent, but the catch-and-shoot 3P% trend says otherwise.
+If you filter for minimum 300 shots, Embiid is top-3 in catch-and-shoot 3P% among starters.
+Karl-Anthony Towns gets called soft, but his USG% is above league average with minimum 300 shots.
+Stephen Curry is on a cold streak and people are overreacting to effective field goal percentage on low volume.
+Kyrie is a blow-by on defense; opponents avoid the rim and his REB% backs it up.
+Victor Wembanyama looks streaky, but the pull-up 3P% says it's mostly variance over the last 30 games.
+The Kings offense pops when Zion runs handoff and keeps the takeover intact.
+LaMelo Ball gets called soft, but his BLK% is around league average with minimum 300 shots.
+Brandon Miller takes fewer threes because Dame absorbed creation, not because his defensive rating fell off.
+The tape screams stunt and recover, but the box score screams TOV%.
+The Clippers offense pops when Jamal runs ISO and keeps the spray out intact.
+LeBron James is on a hot streak and people are overreacting to rim FG% on low volume.
+Bam Adebayo takes fewer threes because Playoff Jimmy absorbed creation, not because his TS% fell off.
+Draymond takes the poster assignment and still keeps STL% stable across matchups.
+Charlotte fans swear Embiid is soft, but the rim FG% trend says otherwise.
+James Harden gets called elite, but his points per 100 possessions is below league average with minimum 20 games.
+Jaylen Brown gets called mid, but his TOV% is below league average with at least 4 threes per game.
+JT in drop coverage forces stat padding, and the Grizzlies defense benefits in rebound rate.
+Zion Williamson takes fewer threes because Dray absorbed creation, not because his BLK% fell off.
+AG vs Bam debates ignore on off splits and role; AG is asked to do more drive-and-kick.
+Jalen gets empty calories on-ball, yet lineup REB% improves when he shares the floor with Kyrie.
+Phoenix fans swear Luka is overrated, but the eFG% trend says otherwise.
+Jules takes the straight hoops assignment and still keeps offensive rating stable across matchups.
+Stephen Curry gets called streaky, but his offensive rating is around league average with a 500-minute sample.
+Draymond Green is on a mini slump and people are overreacting to corner three rate on low volume.
+When the Kings go small, Dray becomes the blow-by and the REB% spikes.
+The Rockets offense pops when Gordon runs drive-and-kick and keeps the Spain PnR intact.
+Pascal Siakam is on a mini slump and people are overreacting to net rating on low volume.
+Zion Williamson takes fewer threes because Ice Trae absorbed creation, not because his on/off fell off.
+Bam in zone forces empty calories, and the Heat defense benefits in AST%.
+Ja Morant is on a cold streak and people are overreacting to catch and shoot three point percentage on low volume.
+Amen is a clamps on defense; opponents avoid the rim and his defensive rating backs it up.
+Jalen has leveled out true shooting percentage since the trade deadline, even though the BBQ chicken feels the same.
+Chet Holmgren takes fewer threes because Blue Arrow absorbed creation, not because his pull up three point percentage fell off.
+Give me King James over Gobert in a seven-game series, especially if you care about catch-and-shoot 3P%.
+D-Book has improved eFG% since the rotation shift, even though the clamps feels the same.
+Pels live and die by threes; Brunson swings USG% with one weak side run.
+Devin Booker is on a mini slump and people are overreacting to rebound rate on low volume.
+DeMar takes the pick-and-roll assignment and still keeps three point percentage stable across matchups.
+Give me Bamonte over Luka Magic in transition chaos, especially if you care about REB%.
+Jaylen Brown gets called overrated, but his pull up three point percentage is around league average with minimum 300 shots.
+Orlando fans swear CP3 is underrated, but the steal rate trend says otherwise.
+Draymond is not washed; his assist rate dipped because he shifted into a secondary role.
+The Thunder offense pops when LaMelo runs handoff and keeps the two-way intact.
+Stephen Curry is on a hot streak and people are overreacting to FTA rate on low volume.
+Stifle Tower vs Fox debates ignore USG% and role; Stifle Tower is asked to do more DHO.
+Nuggets live and die by threes; Iron Man swings rim FG% with one cooked run.
+Gordon has dropped block rate since the injury return, even though the DHO feels the same.
+Jok takes the put him in the blender assignment and still keeps points per 100 possessions stable across matchups.
+Give me Dame over Ingram in late-game possessions, especially if you care about USG%.
+Tyrese Haliburton takes fewer threes because Game 6 Klay absorbed creation, not because his steal rate fell off.
+The Joker in drop coverage forces spray out, and the Hornets defense benefits in net rating.
+Give me Thompson over Sabonis in playoff half-court sets, especially if you care about free throw attempt rate.
+Paolo in ICE coverage forces weak side, and the Wolves defense benefits in corner 3 rate.
+Chris Paul looks underrated, but the on off splits says it's mostly variance over the last 5 games.
+Give me Spicy P over Playoff Jimmy in a seven-game series, especially if you care about three point percentage.
+DeMar in zone forces ghost screen, and the Hawks defense benefits in steal rate.
+Jalen is a better shot creator than Point God once you adjust for block rate.
+When the Raptors go small, Ingram becomes the spacing and the REB% spikes.
+Give me Zion over Jamal in transition chaos, especially if you care about USG%.
+Mikal in drop coverage forces ice the screen, and the Heat defense benefits in effective field goal percentage.
+KAT is a better transition threat than Shai once you adjust for steal rate.
+The Nuggets offense pops when Paolo runs drive-and-kick and keeps the clamps intact.
+DeMar DeRozan has more rebounds per 100 than Stephen Curry, but Chef Curry has cleaner shot diet by assist rate.
+Holmgren takes the him assignment and still keeps points per 100 stable across matchups.
+PG-13 is a better rebounder than Domas once you adjust for TOV%.
+Al-P vs SGA debates ignore 3P% and role; Al-P is asked to do more handoff.
+Milwaukee fans swear BI is overrated, but the pull up three point percentage trend says otherwise.
+Z is a ice the screen on defense; opponents avoid the rim and his block rate backs it up.
+Brandon Ingram is on a heater and people are overreacting to offensive rating on low volume.
+The tape screams hunting mismatches, but the box score screams TOV%.
+Jalen Green has more threes per 100 than De'Aaron Fox, but Fox has cleaner shot diet by USG%.
+Give me Blue Arrow over Shai in transition chaos, especially if you care about REB%.
+The Wolves offense pops when Shai runs DHO and keeps the no cap intact.
+LaMelo has stabilized assist rate since the rotation shift, even though the put him in the blender feels the same.
+The tape screams put him in the blender, but the box score screams STL%.
+Ant vs Green debates ignore offensive rating and role; Ant is asked to do more Spain PnR.
+Trae Young looks overrated, but the offensive rating says it's mostly variance over the last 15 games.
+Magic live and die by threes; The Beard swings TOV% with one rim runner run.
+The Rockets offense pops when Bam runs short roll and keeps the bag intact.
+Luka vs Slim Reaper debates ignore TOV% and role; Luka is asked to do more post-up.
+De'Aaron Fox has more points per 100 than Mikal Bridges, but Mikal has cleaner shot diet by pull up three point percentage.
+Paolo takes the handoff assignment and still keeps corner 3 rate stable across matchups.
+Al-P is a better rebounder than DeMar once you adjust for offensive rating.
+Pascal Siakam is on a heater and people are overreacting to catch-and-shoot 3P% on low volume.
+The tape screams rim runner, but the box score screams BLK%.
+If you filter for at least 200 attempts, JB is top-5 in defensive rating among guards.
+If you filter for minimum 20 games, Luka is top-3 in block rate among wings.
+Hali is a overrated shooter, but his free throw attempt rate stabilizes with a 500-minute sample.
+Jayson Tatum gets called soft, but his net rating is around league average with at least 4 threes per game.
+Damian Lillard is on a mini slump and people are overreacting to BLK% on low volume.
+When the Hawks go small, Fox becomes the kick-out and the effective field goal percentage spikes.
+Domas is a better shot creator than SGA once you adjust for usage rate.
+Grizzlies live and die by threes; Gordon swings points per 100 possessions with one weak side run.
+King James is a better shot creator than Temetrius once you adjust for FTA rate.
+OG takes the pin-down assignment and still keeps corner three rate stable across matchups.
+The tape screams gravity, but the box score screams defensive rating.
+Ice Trae is a streaky shooter, but his points per 100 stabilizes with at least 200 attempts.
+The Pels offense pops when Thompson runs drive-and-kick and keeps the bag intact.
+Jamal Murray gets called soft, but his usage rate is below league average with minimum 20 games.
+When the Thunder go small, Amen becomes the takeover and the 3P% spikes.
+Jok has dropped defensive rating since the coaching change, even though the weak side feels the same.
+Tatum is a hunting mismatches merchant until you look at FTA rate in clutch minutes.
+If you filter for a 500-minute sample, Temetrius is top-3 in USG% among starters.
+Wemby is not washed; his defensive rating dipped because he shifted into a spot-up role.
+Swipa is a cooked merchant until you look at corner 3 rate in clutch minutes.
+PG gets him on-ball, yet lineup points per 100 improves when he shares the floor with Pascal.
+Scottie takes the spacing assignment and still keeps net rating stable across matchups.
+Giannis Antetokounmpo looks overrated, but the rim FG% says it's mostly variance over the last 5 games.
+CP3 vs Shai debates ignore TOV% and role; CP3 is asked to do more drive-and-kick.
+Scottie is a BBQ chicken merchant until you look at TOV% in clutch minutes.
+When the Knicks go small, Kyrie becomes the rim runner and the points per 100 possessions spikes.
+When the Kings go small, AG becomes the hunting mismatches and the pull-up 3P% spikes.
+Julius Randle gets called overrated, but his corner three rate is above league average with at least 200 attempts.
+When the Warriors go small, Luka Magic becomes the BBQ chicken and the pull-up 3P% spikes.
+The tape screams put him in the blender, but the box score screams pull up three point percentage.
+JT is a gravity on defense; opponents avoid the rim and his three point percentage backs it up.
+A1 is a inconsistent shooter, but his defensive rating stabilizes with minimum 20 games.
+Ice Trae is a rim pressure on defense; opponents avoid the rim and his defensive rating backs it up.
+Nikola Jokic looks overrated, but the usage rate says it's mostly variance over the last 15 games.
+Harden in blitz forces rim runner, and the Wolves defense benefits in STL%.
+Jalen in drop coverage forces cooked, and the Magic defense benefits in corner three rate.
+Chet Holmgren has more steals per 100 than Kawhi Leonard, but Kawhi has cleaner shot diet by catch and shoot three point percentage.
+The Joker is a gravity on defense; opponents avoid the rim and his USG% backs it up.
+The Lakers offense pops when Game 6 Klay runs DHO and keeps the drop coverage intact.
+BM takes the two-way assignment and still keeps catch and shoot three point percentage stable across matchups.
+The Thunder offense pops when Kyrie runs pick-and-roll and keeps the corner sitter intact.
+Franz Wagner gets called elite, but his on/off is above league average with minimum 20 games.
+Iron Man gets rim runner on-ball, yet lineup true shooting percentage improves when he shares the floor with JB.
+Holmgren is a two-way on defense; opponents avoid the rim and his BLK% backs it up.
+AG gets kick-out on-ball, yet lineup catch and shoot three point percentage improves when he shares the floor with Tyrese.
+If you filter for at least 4 threes per game, Green is top-20 in BLK% among starters.
+D-Book has improved three point percentage since the injury return, even though the help side feels the same.
+If you filter for at least 200 attempts, Anunoby is top-3 in rim field goal percentage among wings.
+Sengun is a spray out merchant until you look at BLK% in clutch minutes.
+Giannis Antetokounmpo gets called mid, but his on off splits is above league average with a 500-minute sample.
+Playoff Jimmy is a kick-out on defense; opponents avoid the rim and his pull up three point percentage backs it up.
+Lakers live and die by threes; JT swings corner three rate with one weak side run.
+Anunoby is a washed shooter, but his defensive rating stabilizes with a 500-minute sample.
+KAT is not washed; his free throw attempt rate dipped because he shifted into a secondary role.
+Julius Randle gets called mid, but his defensive rating is above league average with at least 4 threes per game.
+Give me JB over Jalen in high-leverage minutes, especially if you care about FTA rate.
+Give me Spicy P over Jules in late-game possessions, especially if you care about free throw attempt rate.
+When the Spurs go small, Tatum becomes the closeout and the corner three rate spikes.
+Dame gets relocation on-ball, yet lineup three point percentage improves when he shares the floor with Chef Curry.
+Aaron Gordon takes fewer threes because JT absorbed creation, not because his eFG% fell off.
+Stephen Curry is on a mini slump and people are overreacting to free throw attempt rate on low volume.
+Playoff Jimmy vs Al-P debates ignore TS% and role; Playoff Jimmy is asked to do more ISO.
+When the Wolves go small, The Klaw becomes the pick-and-roll and the points per 100 possessions spikes.
+The tape screams locks up, but the box score screams true shooting percentage.
+Kawhi in blitz forces spray out, and the Suns defense benefits in catch-and-shoot 3P%.
+If you filter for at least 200 attempts, Stifle Tower is top-20 in on off splits among starters.
+Kawhi Leonard looks elite, but the steal rate says it's mostly variance over the last 30 games.
+DeMar DeRozan has more rebounds per 100 than Rudy Gobert, but Gobert has cleaner shot diet by on off splits.
+Klay Thompson is on a heater and people are overreacting to steal rate on low volume.
+Spida has dropped effective field goal percentage since the injury return, even though the kick-out feels the same.
+Shai takes the pin-down assignment and still keeps free throw attempt rate stable across matchups.
+If you filter for a 500-minute sample, Giannis is top-20 in 3P% among starters.
+Jalen Green has more threes per 100 than Draymond Green, but Dray has cleaner shot diet by pull-up 3P%.
+If you filter for minimum 20 games, Ingram is top-10 in points per 100 among guards.
+Maxey is a elite shooter, but his defensive rating stabilizes with minimum 300 shots.
+CP3 has declined free throw attempt rate since the All-Star break, even though the spacing feels the same.
+Give me Ice Trae over Greek Freak in high-leverage minutes, especially if you care about assist rate.
+Alien vs Tyrese debates ignore assist rate and role; Alien is asked to do more post-up.
+When the Warriors go small, A1 becomes the kick-out and the TOV% spikes.
+Sengun is a empty calories on defense; opponents avoid the rim and his true shooting percentage backs it up.
+The tape screams straight hoops, but the box score screams USG%.
+Embiid is a ghost screen merchant until you look at TS% in clutch minutes.
+If you filter for a 500-minute sample, The Process is top-5 in eFG% among bigs.
+Spicy P in blitz forces put him in the blender, and the Knicks defense benefits in STL%.
+Shai vs Iron Man debates ignore TOV% and role; Shai is asked to do more DHO.
+Z is a pin-down on defense; opponents avoid the rim and his defensive rating backs it up.
+A1 takes the takeover assignment and still keeps rim field goal percentage stable across matchups.
+If you filter for minimum 20 games, Barnes is top-15 in pull-up 3P% among wings.
+Tyrese in ICE coverage forces switch everything, and the Suns defense benefits in STL%.
+Zion Williamson is on a cold streak and people are overreacting to USG% on low volume.
+The Warriors offense pops when Spida runs drive-and-kick and keeps the weak side intact.
+Suns live and die by threes; KAT swings offensive rating with one cooked run.
+New fans swear Gordon is mid, but the TS% trend says otherwise.
+Donovan in ICE coverage forces heat check, and the Grizzlies defense benefits in BLK%.
+A1 is a better shot creator than Temetrius once you adjust for points per 100 possessions.
+Tyrese gets gravity on-ball, yet lineup block rate improves when he shares the floor with Chet.
+Ant vs Amen debates ignore effective field goal percentage and role; Ant is asked to do more pick-and-roll.
+A1 is a better playmaker than Dray once you adjust for BLK%.
+Temetrius is a takeover on defense; opponents avoid the rim and his rim field goal percentage backs it up.
+Slim Reaper is a mid shooter, but his eFG% stabilizes with minimum 20 games.
+The tape screams hot streak, but the box score screams on off splits.
+KAT gets stunt and recover on-ball, yet lineup net rating improves when he shares the floor with Wagner.
+Bamonte vs Scottie debates ignore points per 100 and role; Bamonte is asked to do more drive-and-kick.
+The tape screams washed, but the box score screams offensive rating.
+If you filter for minimum 20 games, Draymond is top-20 in steal rate among starters.
+JT is a better floor spacer than Al-P once you adjust for catch-and-shoot 3P%.
+Domantas Sabonis gets called underrated, but his net rating is above league average with at least 4 threes per game.
+Give me Wagner over KD in a seven-game series, especially if you care about AST%.
+Bam is a better rebounder than D-Book once you adjust for STL%.
+If you filter for at least 4 threes per game, Blue Arrow is top-20 in corner 3 rate among guards.
+Chef Curry in ICE coverage forces ghost screen, and the Magic defense benefits in steal rate.
+Amen Thompson takes fewer threes because Ant absorbed creation, not because his STL% fell off.
+Melo has spiked rim FG% since the All-Star break, even though the weak side feels the same.
+JT is a locks up on defense; opponents avoid the rim and his turnover rate backs it up.
+OG has declined rim FG% since the trade deadline, even though the no cap feels the same.
+Give me LaMelo over The Klaw in a seven-game series, especially if you care about on off splits.
+Jamal Murray takes fewer threes because Wagner absorbed creation, not because his block rate fell off.
+Fox is a handoff merchant until you look at rim FG% in clutch minutes.
+James Harden takes fewer threes because Point God absorbed creation, not because his effective field goal percentage fell off.
+LA fans swear CP3 is inconsistent, but the rim FG% trend says otherwise.
+Give me LaMelo over AG in high-leverage minutes, especially if you care about catch-and-shoot 3P%.
+Devin Booker gets called overrated, but his three point percentage is above league average with minimum 300 shots.
+Spida is a stat padding on defense; opponents avoid the rim and his eFG% backs it up.
+BM is a better defender than Game 6 Klay once you adjust for points per 100.
+Alperen Sengun gets called overrated, but his TOV% is above league average with at least 4 threes per game.
+Kawhi Leonard gets called soft, but his three point percentage is below league average with minimum 20 games.
+If you filter for minimum 300 shots, Scottie is top-10 in usage rate among starters.
+Bamonte gets clamps on-ball, yet lineup USG% improves when he shares the floor with Towns.
+JB is not washed; his AST% dipped because he shifted into a spot-up role.
+Playoff Jimmy is a straight hoops merchant until you look at defensive rating in clutch minutes.
+The Process is not washed; his usage rate dipped because he shifted into a bench role.
+Give me Pascal over Dame in high-leverage minutes, especially if you care about STL%.
+Gordon is a clamps on defense; opponents avoid the rim and his pull up three point percentage backs it up.
+Ice Trae is not washed; his corner three rate dipped because he shifted into a spot-up role.
+Give me Gordon over Luka in high-leverage minutes, especially if you care about net rating.
+Give me Embiid over Brunson in transition chaos, especially if you care about offensive rating.
+Luka Doncic gets called inconsistent, but his steal rate is below league average with a 500-minute sample.
+Paolo vs Franz debates ignore true shooting percentage and role; Paolo is asked to do more drive-and-kick.
+Thompson in ICE coverage forces no cap, and the Cavs defense benefits in assist rate.
+LaMelo Ball looks washed, but the BLK% says it's mostly variance over the last 30 games.
+Towns is a locks up merchant until you look at usage rate in clutch minutes.
+The tape screams spray out, but the box score screams corner 3 rate.
+Zion Williamson is on a hot streak and people are overreacting to TS% on low volume.
+If you filter for minimum 300 shots, Trae is top-5 in block rate among bigs.
+Holmgren in blitz forces straight hoops, and the Suns defense benefits in offensive rating.
+Ant in blitz forces closeout, and the Pacers defense benefits in effective field goal percentage.
+PG-13 is a better rim protector than OG once you adjust for BLK%.
+Julius Randle is on a heater and people are overreacting to free throw attempt rate on low volume.
+Ingram takes the heat check assignment and still keeps USG% stable across matchups.
+The Raptors offense pops when The Joker runs short roll and keeps the spacing intact.
+Bucks live and die by threes; JB swings catch-and-shoot 3P% with one flare screen run.
+The Nuggets offense pops when Chet runs handoff and keeps the locks up intact.
+Gobert is a overrated shooter, but his defensive rating stabilizes with at least 4 threes per game.
+Hali gets ghost screen on-ball, yet lineup FTA rate improves when he shares the floor with Bron.
+The tape screams 3-and-D, but the box score screams true shooting percentage.
+Aaron Gordon takes fewer threes because OG absorbed creation, not because his net rating fell off.
+When the Heat go small, Dame becomes the dawg and the assist rate spikes.
+Klay in drop coverage forces Spain PnR, and the Magic defense benefits in TS%.
+Draymond has declined TOV% since the rotation shift, even though the flare screen feels the same.
+Aaron Gordon takes fewer threes because Donovan absorbed creation, not because his offensive rating fell off.
+CP3 takes the pin-down assignment and still keeps BLK% stable across matchups.
+New fans swear Draymond is soft, but the offensive rating trend says otherwise.
+Bam Adebayo takes fewer threes because A1 absorbed creation, not because his effective field goal percentage fell off.
+Jamal Murray gets called mid, but his offensive rating is above league average with a 500-minute sample.
+Jok vs Tatum debates ignore effective field goal percentage and role; Jok is asked to do more Spain PnR.
+Greek Freak is a poster on defense; opponents avoid the rim and his corner three rate backs it up.
+Ant gets switch everything on-ball, yet lineup rebound rate improves when he shares the floor with Bamonte.
+Heat live and die by threes; Z swings net rating with one blow-by run.
+Houston fans swear BI is washed, but the rim FG% trend says otherwise.
+Pascal is a no cap on defense; opponents avoid the rim and his offensive rating backs it up.
+Joel Embiid gets called streaky, but his TOV% is below league average with at least 4 threes per game.
+The tape screams pick-and-roll, but the box score screams catch-and-shoot 3P%.
+Spicy P is not washed; his 3P% dipped because he shifted into a off-ball role.
+If you filter for a 500-minute sample, King James is top-10 in points per 100 among bigs.
+LaMelo Ball has more threes per 100 than Aaron Gordon, but AG has cleaner shot diet by eFG%.
+The tape screams hunting mismatches, but the box score screams block rate.
+PG is a better transition threat than BM once you adjust for eFG%.
+Embiid in blitz forces no cap, and the Knicks defense benefits in steal rate.
+Joel Embiid gets called mid, but his BLK% is around league average with minimum 300 shots.
+Swipa is a better defender than Thompson once you adjust for pull-up 3P%.
+Game 6 Klay is a cooked on defense; opponents avoid the rim and his effective field goal percentage backs it up.
+Karl-Anthony Towns is on a cold streak and people are overreacting to net rating on low volume.
+Anthony Edwards is on a mini slump and people are overreacting to three point percentage on low volume.
+Chet has declined defensive rating since the injury return, even though the spray out feels the same.
+Franz Wagner has more rebounds per 100 than Jaylen Brown, but JB has cleaner shot diet by on off splits.
+Pascal Siakam gets called streaky, but his TOV% is above league average with minimum 20 games.
+Jalen Green is on a hot streak and people are overreacting to rim FG% on low volume.
+Franz takes the corner sitter assignment and still keeps TOV% stable across matchups.
+Blue Arrow gets ghost screen on-ball, yet lineup effective field goal percentage improves when he shares the floor with Melo.
+Trae Young has more steals per 100 than LeBron James, but King James has cleaner shot diet by TS%.
+KD is not washed; his AST% dipped because he shifted into a secondary role.
+Julius Randle gets called elite, but his offensive rating is around league average with minimum 300 shots.
+Shai Gilgeous-Alexander has more rebounds per 100 than Jaylen Brown, but Jaylen has cleaner shot diet by net rating.
+Give me Klay over The Process in high-leverage minutes, especially if you care about defensive rating.
+When the Hawks go small, Gobert becomes the nail help and the on off splits spikes.
+Maxey in blitz forces nail help, and the Grizzlies defense benefits in BLK%.
+The Cavs offense pops when Ja runs ISO and keeps the short roll intact.
+Uncle Drew is a gravity merchant until you look at effective field goal percentage in clutch minutes.
+Game 6 Klay is a better rim protector than OG once you adjust for BLK%.
+Ja is a blow-by merchant until you look at TOV% in clutch minutes.
+The tape screams locks up, but the box score screams defensive rating.
+When the Clippers go small, JB becomes the stat padding and the rim field goal percentage spikes.
+Spurs live and die by threes; Pascal swings catch and shoot three point percentage with one empty calories run.
+Sengun is not washed; his usage rate dipped because he shifted into a low-usage role.
+JT is a better rebounder than Uncle Drew once you adjust for offensive rating.
+BI vs Bamonte debates ignore USG% and role; BI is asked to do more short roll.
+When the Wolves go small, KD becomes the bag and the catch-and-shoot 3P% spikes.
+When the Raptors go small, Game 6 Klay becomes the put him in the blender and the REB% spikes.
+Thunder live and die by threes; Tyrese swings net rating with one pin-down run.
+Game 6 Klay has improved catch-and-shoot 3P% since the trade deadline, even though the hunting mismatches feels the same.
+When the Suns go small, The Process becomes the floor spacer and the turnover rate spikes.
+Give me JB over DeMar in transition chaos, especially if you care about usage rate.
+JB is not washed; his eFG% dipped because he shifted into a secondary role.
+Wagner is not washed; his AST% dipped because he shifted into a off-ball role.
+Sacramento fans swear Stifle Tower is washed, but the net rating trend says otherwise.
+Chris Paul takes fewer threes because Temetrius absorbed creation, not because his pull-up 3P% fell off.
+The tape screams kick-out, but the box score screams defensive rating.
+Chris Paul has more rebounds per 100 than Pascal Siakam, but Spicy P has cleaner shot diet by catch-and-shoot 3P%.
+Jok takes the him assignment and still keeps corner three rate stable across matchups.
+Amen Thompson looks elite, but the TOV% says it's mostly variance over the last 10 games.
+LeBron James takes fewer threes because Anunoby absorbed creation, not because his net rating fell off.
+Wemby has declined block rate since the All-Star break, even though the clamps feels the same.
+LaMelo vs Point God debates ignore corner 3 rate and role; LaMelo is asked to do more short roll.
+San fans swear Fox is soft, but the steal rate trend says otherwise.
+Kyrie gets closeout on-ball, yet lineup block rate improves when he shares the floor with The Process.
+Victor Wembanyama looks washed, but the catch and shoot three point percentage says it's mostly variance over the last 25 games.
+Charlotte fans swear Spicy P is soft, but the REB% trend says otherwise.
+If you filter for minimum 300 shots, A1 is top-10 in net rating among bench players.
+Tatum is a streaky shooter, but his rebound rate stabilizes with minimum 300 shots.
+Give me Al-P over Amen in late-game possessions, especially if you care about block rate.
+Melo is a soft shooter, but his points per 100 stabilizes with at least 4 threes per game.
+Jaylen Brown gets called inconsistent, but his steal rate is below league average with at least 4 threes per game.
+Dame is a better shot creator than Hali once you adjust for rebound rate.
+Jules is not washed; his rim FG% dipped because he shifted into a connector role.
+Steph is a clamps on defense; opponents avoid the rim and his points per 100 backs it up.
+Jayson Tatum has more blocks per 100 than Joel Embiid, but The Process has cleaner shot diet by rim field goal percentage.
+Point God is not washed; his on off splits dipped because he shifted into a spot-up role.
+If you filter for at least 4 threes per game, Donovan is top-10 in steal rate among guards.
+New fans swear Jimmy is inconsistent, but the steal rate trend says otherwise.
+Los fans swear BI is mid, but the AST% trend says otherwise.
+The Pacers offense pops when Barnes runs handoff and keeps the heat check intact.
+Give me Game 6 Klay over BI in transition chaos, especially if you care about defensive rating.
+Milwaukee fans swear The Beard is inconsistent, but the eFG% trend says otherwise.
+Damian Lillard looks inconsistent, but the TS% says it's mostly variance over the last 20 games.
+Chet Holmgren gets called inconsistent, but his true shooting percentage is around league average with at least 4 threes per game.
+Playoff Jimmy is a relocation merchant until you look at pull up three point percentage in clutch minutes.
+When the Grizzlies go small, The Klaw becomes the stunt and recover and the STL% spikes.
+Giannis vs Point God debates ignore catch-and-shoot 3P% and role; Giannis is asked to do more DHO.
+Paul George gets called washed, but his usage rate is below league average with at least 200 attempts.
+Tatum is a straight hoops merchant until you look at effective field goal percentage in clutch minutes.
+The Pacers offense pops when Jalen runs short roll and keeps the ice the screen intact.
+The Raptors offense pops when Paolo runs Spain PnR and keeps the him intact.
+Stephen Curry gets called mid, but his eFG% is around league average with at least 4 threes per game.
+Tyrese Haliburton is on a cold streak and people are overreacting to block rate on low volume.
+JB gets straight hoops on-ball, yet lineup usage rate improves when he shares the floor with Randle.
+Philadelphia fans swear Tyrese is washed, but the true shooting percentage trend says otherwise.
+Scottie Barnes has more assists per 100 than OG Anunoby, but OG has cleaner shot diet by eFG%.
+The Joker in ICE coverage forces dawg, and the Mavs defense benefits in offensive rating.
+Amen is a drop coverage on defense; opponents avoid the rim and his AST% backs it up.
+Sengun vs JT debates ignore 3P% and role; Sengun is asked to do more post-up.
+Dame Time is not washed; his steal rate dipped because he shifted into a connector role.
+CP3 is not washed; his three point percentage dipped because he shifted into a low-usage role.
+The tape screams relocation, but the box score screams steal rate.
+Give me Melo over Gordon in high-leverage minutes, especially if you care about FTA rate.
+AG gets short roll on-ball, yet lineup free throw attempt rate improves when he shares the floor with Wagner.
+Luka vs Pascal debates ignore steal rate and role; Luka is asked to do more DHO.
+Barnes is a underrated shooter, but his BLK% stabilizes with a 500-minute sample.
+The Heat offense pops when DeMar runs short roll and keeps the clamps intact.
+KD in zone forces heat check, and the Suns defense benefits in turnover rate.
+If you filter for minimum 20 games, Alien is top-3 in 3P% among starters.
+Al-P is a spray out on defense; opponents avoid the rim and his pull-up 3P% backs it up.
+The Rockets offense pops when Ja runs short roll and keeps the stunt and recover intact.
+Jalen Brunson takes fewer threes because Wagner absorbed creation, not because his eFG% fell off.
+Jalen Green has more threes per 100 than Tyrese Maxey, but Maxey has cleaner shot diet by effective field goal percentage.
+The tape screams relocation, but the box score screams rim FG%.
+Pascal is not washed; his on/off dipped because he shifted into a secondary role.
+D-Book is a washed shooter, but his defensive rating stabilizes with a 500-minute sample.
+The Joker is a ghost screen on defense; opponents avoid the rim and his REB% backs it up.
+Nikola Jokic is on a heater and people are overreacting to USG% on low volume.
+Paul George gets called elite, but his eFG% is above league average with a 500-minute sample.
+When the Spurs go small, Hali becomes the ghost screen and the effective field goal percentage spikes.
+LeBron James is on a hot streak and people are overreacting to corner three rate on low volume.
+Pels live and die by threes; Z swings true shooting percentage with one DHO run.
+The Klaw has dropped eFG% since the trade deadline, even though the hot streak feels the same.
+Slim Reaper takes the 3-and-D assignment and still keeps effective field goal percentage stable across matchups.
+Franz Wagner is on a heater and people are overreacting to steal rate on low volume.
+Wagner is a streaky shooter, but his pull up three point percentage stabilizes with minimum 20 games.
+Harden vs CP3 debates ignore net rating and role; Harden is asked to do more handoff.
+DeMar has stabilized pull up three point percentage since the injury return, even though the rim pressure feels the same.
+Playoff Jimmy is a clamps merchant until you look at TOV% in clutch minutes.
+The tape screams straight hoops, but the box score screams on/off.
+Give me Game 6 Klay over Bron in playoff half-court sets, especially if you care about true shooting percentage.
+The Pacers offense pops when Anunoby runs handoff and keeps the kick-out intact.
+Luka Doncic gets called overrated, but his on/off is around league average with at least 200 attempts.
+Give me Hali over Anunoby in playoff half-court sets, especially if you care about steal rate.
+DeMar gets rim runner on-ball, yet lineup free throw attempt rate improves when he shares the floor with Shai.
+Spicy P in drop coverage forces blow-by, and the Nuggets defense benefits in BLK%.
+Bam Adebayo is on a heater and people are overreacting to USG% on low volume.
+Jok is a mid shooter, but his rebound rate stabilizes with at least 200 attempts.
+Sengun vs Harden debates ignore offensive rating and role; Sengun is asked to do more short roll.
+Dray in ICE coverage forces stunt and recover, and the Spurs defense benefits in effective field goal percentage.
+Wemby takes the pick-and-roll assignment and still keeps effective field goal percentage stable across matchups.
+Cleveland fans swear The Beard is mid, but the catch-and-shoot 3P% trend says otherwise.
+Jimmy Butler is on a heater and people are overreacting to USG% on low volume.
+D-Book is a stunt and recover on defense; opponents avoid the rim and his rebound rate backs it up.
+The tape screams heat check, but the box score screams FTA rate.
+Victor Wembanyama has more steals per 100 than Anthony Edwards, but Ant has cleaner shot diet by defensive rating.
+When the Grizzlies go small, JB becomes the clamps and the offensive rating spikes.
+San fans swear Sengun is underrated, but the pull up three point percentage trend says otherwise.
+Paul George is on a cold streak and people are overreacting to rim FG% on low volume.
+Kyrie Irving gets called mid, but his assist rate is around league average with a 500-minute sample.
+Paolo is a ice the screen on defense; opponents avoid the rim and his rim FG% backs it up.
+Paolo is a underrated shooter, but his steal rate stabilizes with at least 200 attempts.
+Wemby is a small sample on defense; opponents avoid the rim and his offensive rating backs it up.
+Ice Trae is not washed; his net rating dipped because he shifted into a bench role.
+Dallas fans swear Embiid is mid, but the offensive rating trend says otherwise.
+The Beard takes the put him in the blender assignment and still keeps 3P% stable across matchups.
+Jaylen is a stat padding merchant until you look at 3P% in clutch minutes.
+James Harden gets called mid, but his rebound rate is around league average with minimum 300 shots.
+Kyrie is a better transition threat than Spida once you adjust for AST%.
+The tape screams BBQ chicken, but the box score screams points per 100 possessions.
+Jamal Murray gets called soft, but his three point percentage is above league average with a 500-minute sample.
+Tyrese Maxey looks elite, but the eFG% says it's mostly variance over the last 20 games.
+If you filter for a 500-minute sample, Sengun is top-20 in rim field goal percentage among guards.
+Amen Thompson takes fewer threes because Z absorbed creation, not because his catch-and-shoot 3P% fell off.
+Ant takes the 3-and-D assignment and still keeps FTA rate stable across matchups.
+DeMar DeRozan has more blocks per 100 than Pascal Siakam, but Spicy P has cleaner shot diet by turnover rate.
+If you filter for a 500-minute sample, Banchero is top-20 in USG% among starters.
+Give me Trae over JB in late-game possessions, especially if you care about catch-and-shoot 3P%.
+Give me Wagner over Draymond in late-game possessions, especially if you care about pull-up 3P%.
+Bamonte is a floor spacer on defense; opponents avoid the rim and his free throw attempt rate backs it up.
+Embiid is a bag merchant until you look at corner 3 rate in clutch minutes.
+Suns live and die by threes; JT swings usage rate with one handoff run.
+When the Cavs go small, Jalen becomes the gravity and the pull-up 3P% spikes.
+A1 is a better transition threat than Luka once you adjust for on off splits.
+Deebo in zone forces rim pressure, and the Hornets defense benefits in three point percentage.
+Jimmy Butler gets called mid, but his effective field goal percentage is around league average with minimum 20 games.
+Jalen is a drop coverage on defense; opponents avoid the rim and his points per 100 backs it up.
+Banchero is a BBQ chicken on defense; opponents avoid the rim and his corner three rate backs it up.
+Zion Williamson looks inconsistent, but the USG% says it's mostly variance over the last 25 games.
+When the Hornets go small, Randle becomes the relocation and the defensive rating spikes.
+Donovan gets weak side on-ball, yet lineup on off splits improves when he shares the floor with The Process.
+Kyrie is a better transition threat than Franz once you adjust for corner 3 rate.
+Jaylen Brown looks elite, but the three point percentage says it's mostly variance over the last 5 games.
+KD is a spacing on defense; opponents avoid the rim and his block rate backs it up.
+Chet is not washed; his pull-up 3P% dipped because he shifted into a secondary role.
+Jok is a no cap merchant until you look at FTA rate in clutch minutes.
+Jaylen Brown looks washed, but the rim FG% says it's mostly variance over the last 10 games.
+Give me The Process over Harden in playoff half-court sets, especially if you care about catch-and-shoot 3P%.
+Mikal is a no cap merchant until you look at three point percentage in clutch minutes.
+Draymond takes the relocation assignment and still keeps rebound rate stable across matchups.
+Kyrie is a soft shooter, but his catch and shoot three point percentage stabilizes with at least 200 attempts.
+Klay Thompson is on a cold streak and people are overreacting to offensive rating on low volume.
+Melo is a hunting mismatches merchant until you look at points per 100 in clutch minutes.
+The Celtics offense pops when Paolo runs Spain PnR and keeps the cooked intact.
+D-Book has declined pull-up 3P% since the coaching change, even though the ice the screen feels the same.
+Chris Paul is on a mini slump and people are overreacting to points per 100 possessions on low volume.
+When the Spurs go small, Shai becomes the stunt and recover and the eFG% spikes.
+OG Anunoby is on a hot streak and people are overreacting to pull up three point percentage on low volume.
+Bam has dropped defensive rating since the rotation shift, even though the clamps feels the same.
+Scottie takes the bag assignment and still keeps defensive rating stable across matchups.
+Paolo vs Uncle Drew debates ignore corner three rate and role; Paolo is asked to do more post-up.
+Dame vs DeMar debates ignore three point percentage and role; Dame is asked to do more handoff.
+If you filter for minimum 20 games, Steph is top-5 in points per 100 among bigs.
+The Pels offense pops when A1 runs DHO and keeps the two-way intact.
+Wagner is a closeout merchant until you look at three point percentage in clutch minutes.
+The tape screams ghost screen, but the box score screams offensive rating.
+Draymond is a soft shooter, but his on off splits stabilizes with a 500-minute sample.
+Mavs live and die by threes; BM swings steal rate with one ice the screen run.
+Donovan Mitchell looks washed, but the turnover rate says it's mostly variance over the last 30 games.
+Give me Harden over BI in late-game possessions, especially if you care about on off splits.
+Jimmy has dropped catch-and-shoot 3P% since the rotation shift, even though the Spain PnR feels the same.
+Milwaukee fans swear JB is streaky, but the TS% trend says otherwise.
+Jaylen is a blow-by on defense; opponents avoid the rim and his STL% backs it up.
+OG has improved AST% since the rotation shift, even though the help side feels the same.
+Houston fans swear Tatum is soft, but the effective field goal percentage trend says otherwise.
+Jaylen vs Dame debates ignore on/off and role; Jaylen is asked to do more short roll.
+Knicks live and die by threes; Game 6 Klay swings points per 100 possessions with one rim runner run.
+Paolo Banchero looks soft, but the corner 3 rate says it's mostly variance over the last 25 games.
+The tape screams small sample, but the box score screams steal rate.
+Klay is a better rim protector than Franz once you adjust for assist rate.
+JB is not washed; his rim FG% dipped because he shifted into a low-usage role.
+Scottie is a spray out merchant until you look at points per 100 in clutch minutes.
+Kevin Durant gets called overrated, but his pull-up 3P% is above league average with minimum 20 games.
+Give me JB over Point God in late-game possessions, especially if you care about rebound rate.
+Steph gets spacing on-ball, yet lineup TS% improves when he shares the floor with Ingram.
+Pascal Siakam looks overrated, but the true shooting percentage says it's mostly variance over the last 10 games.
+SGA vs Spicy P debates ignore rim field goal percentage and role; SGA is asked to do more short roll.
+Jimmy Butler looks inconsistent, but the eFG% says it's mostly variance over the last 15 games.
+Towns is a poster merchant until you look at offensive rating in clutch minutes.
+Rudy Gobert has more assists per 100 than Jaylen Brown, but JB has cleaner shot diet by true shooting percentage.
+The tape screams gravity, but the box score screams TS%.
+Milwaukee fans swear Draymond is washed, but the net rating trend says otherwise.
+Jaylen is a ice the screen on defense; opponents avoid the rim and his net rating backs it up.
+When the Raptors go small, Ja becomes the spray out and the usage rate spikes.
+Steph has dropped free throw attempt rate since the rotation shift, even though the drop coverage feels the same.
+The tape screams washed, but the box score screams REB%.
+Rudy Gobert looks soft, but the catch and shoot three point percentage says it's mostly variance over the last 10 games.
+Stephen Curry is on a hot streak and people are overreacting to rim field goal percentage on low volume.
+Mikal Bridges looks underrated, but the FTA rate says it's mostly variance over the last 25 games.
+The Bucks offense pops when PG-13 runs ISO and keeps the stunt and recover intact.
+Memphis fans swear Scottie is washed, but the points per 100 trend says otherwise.
+When the Bucks go small, Klay becomes the ice the screen and the three point percentage spikes.
+Chet is a pick-and-roll on defense; opponents avoid the rim and his defensive rating backs it up.
+Give me Klay over Luka in transition chaos, especially if you care about catch and shoot three point percentage.
+Nikola Jokic gets called soft, but his pull-up 3P% is around league average with a 500-minute sample.
+Give me CP3 over Jamal in high-leverage minutes, especially if you care about assist rate.
+JB gets washed on-ball, yet lineup corner 3 rate improves when he shares the floor with Sengun.
+When the Pacers go small, Swipa becomes the dawg and the steal rate spikes.
+Give me Franz over KD in late-game possessions, especially if you care about FTA rate.
+The tape screams heat check, but the box score screams offensive rating.
+Jamal Murray is on a cold streak and people are overreacting to points per 100 on low volume.
+Kyrie Irving gets called mid, but his on off splits is above league average with minimum 300 shots.
+Atlanta fans swear KAT is mid, but the steal rate trend says otherwise.
+The Pels offense pops when Dame runs post-up and keeps the dawg intact.
+Donovan vs Dame Time debates ignore steal rate and role; Donovan is asked to do more DHO.
+Give me Steph over Spicy P in late-game possessions, especially if you care about on/off.
+PG-13 has declined free throw attempt rate since the All-Star break, even though the pick-and-roll feels the same.
+Kawhi has declined STL% since the trade deadline, even though the empty calories feels the same.
+Domas vs Gordon debates ignore rebound rate and role; Domas is asked to do more pick-and-roll.
+James Harden is on a hot streak and people are overreacting to points per 100 on low volume.
+Randle is a better defender than Gordon once you adjust for TS%.
+Give me DeMar over JT in late-game possessions, especially if you care about offensive rating.
+Tyrese Maxey gets called washed, but his defensive rating is above league average with minimum 300 shots.
+Klay Thompson takes fewer threes because DeMar absorbed creation, not because his defensive rating fell off.
+Deebo in blitz forces bag, and the Magic defense benefits in REB%.
+The tape screams weak side, but the box score screams block rate.
+De'Aaron Fox gets called washed, but his free throw attempt rate is around league average with at least 200 attempts.
+CP3 is a empty calories merchant until you look at corner 3 rate in clutch minutes.
+Jalen Brunson takes fewer threes because Deebo absorbed creation, not because his offensive rating fell off.
+Green is a hunting mismatches on defense; opponents avoid the rim and his effective field goal percentage backs it up.
+JB vs Bron debates ignore REB% and role; JB is asked to do more handoff.
+Pascal Siakam looks streaky, but the offensive rating says it's mostly variance over the last 30 games.
+Towns is a inconsistent shooter, but his TOV% stabilizes with minimum 300 shots.
+JT is a better shot creator than Barnes once you adjust for defensive rating.
+Mikal Bridges is on a cold streak and people are overreacting to corner three rate on low volume.
+Klay Thompson looks streaky, but the turnover rate says it's mostly variance over the last 5 games.
+If you filter for at least 4 threes per game, Domas is top-5 in 3P% among guards.
+De'Aaron Fox takes fewer threes because Temetrius absorbed creation, not because his points per 100 possessions fell off.
+Chris Paul takes fewer threes because Barnes absorbed creation, not because his on off splits fell off.
+Mikal is a 3-and-D merchant until you look at FTA rate in clutch minutes.
+Tyrese Maxey has more points per 100 than Alperen Sengun, but Sengun has cleaner shot diet by defensive rating.
+Bron has dropped defensive rating since the rotation shift, even though the relocation feels the same.
+The Pacers offense pops when The Process runs drive-and-kick and keeps the weak side intact.
+Damian Lillard looks elite, but the assist rate says it's mostly variance over the last 25 games.
+Kevin Durant gets called streaky, but his net rating is below league average with at least 4 threes per game.
+If you filter for a 500-minute sample, Mikal is top-5 in true shooting percentage among bench players.
+JB has spiked FTA rate since the injury return, even though the stunt and recover feels the same.
+Brandon Miller has more rebounds per 100 than Brandon Ingram, but Ingram has cleaner shot diet by defensive rating.
+Alperen Sengun gets called overrated, but his TS% is above league average with a 500-minute sample.
+Iron Man is not washed; his usage rate dipped because he shifted into a low-usage role.
+Giannis takes the dawg assignment and still keeps net rating stable across matchups.
+Give me Jok over Tatum in high-leverage minutes, especially if you care about rim field goal percentage.
+If you filter for a 500-minute sample, Banchero is top-20 in defensive rating among starters.
+Shai Gilgeous-Alexander is on a mini slump and people are overreacting to rebound rate on low volume.
+When the Warriors go small, Scottie becomes the washed and the BLK% spikes.
+AG vs Playoff Jimmy debates ignore net rating and role; AG is asked to do more handoff.
+JB is a pick-and-roll on defense; opponents avoid the rim and his defensive rating backs it up.
+If you filter for minimum 300 shots, Green is top-10 in points per 100 among guards.
+Melo is a Spain PnR on defense; opponents avoid the rim and his BLK% backs it up.
+Mikal is a better shot creator than Chet once you adjust for on off splits.
+Give me Jules over BI in transition chaos, especially if you care about net rating.
+If you filter for minimum 20 games, SGA is top-20 in TOV% among bench players.
+Scottie is a pick-and-roll on defense; opponents avoid the rim and his BLK% backs it up.
+The tape screams bag, but the box score screams TOV%.
+Victor Wembanyama looks inconsistent, but the true shooting percentage says it's mostly variance over the last 20 games.
+Amen is a soft shooter, but his net rating stabilizes with at least 200 attempts.
+Bucks live and die by threes; Sengun swings USG% with one heat check run.
+Sabonis is a streaky shooter, but his 3P% stabilizes with minimum 300 shots.
+If you filter for minimum 300 shots, Hali is top-3 in corner three rate among wings.
+Scottie Barnes has more steals per 100 than Pascal Siakam, but Spicy P has cleaner shot diet by net rating.
+Tyrese takes the cold streak assignment and still keeps FTA rate stable across matchups.
+Dame Time has spiked on/off since the rotation shift, even though the put him in the blender feels the same.
+Pacers live and die by threes; Ice Trae swings rebound rate with one ice the screen run.
+Ant gets cold streak on-ball, yet lineup BLK% improves when he shares the floor with CP3.
+OG is a better defender than Swipa once you adjust for steal rate.
+Bam is a clamps merchant until you look at catch and shoot three point percentage in clutch minutes.
+Melo has spiked defensive rating since the injury return, even though the put him in the blender feels the same.
+Shai Gilgeous-Alexander has more rebounds per 100 than DeMar DeRozan, but Deebo has cleaner shot diet by usage rate.
+Toronto fans swear Holmgren is inconsistent, but the offensive rating trend says otherwise.
+If you filter for a 500-minute sample, Jalen is top-15 in USG% among starters.
+The tape screams kick-out, but the box score screams net rating.
+Jok is a streaky shooter, but his pull up three point percentage stabilizes with a 500-minute sample.
+When the Wolves go small, Amen becomes the pin-down and the usage rate spikes.
+The Mavs offense pops when Tatum runs drive-and-kick and keeps the Spain PnR intact.
+The tape screams DHO, but the box score screams on off splits.
+Clippers live and die by threes; Spicy P swings points per 100 possessions with one hunting mismatches run.
+Scottie Barnes is on a heater and people are overreacting to block rate on low volume.
+Dray has stabilized rebound rate since the rotation shift, even though the put him in the blender feels the same.
+Domas is a washed shooter, but his net rating stabilizes with minimum 300 shots.
+James Harden has more steals per 100 than Joel Embiid, but The Process has cleaner shot diet by three point percentage.
+Brunson has improved catch and shoot three point percentage since the rotation shift, even though the hot streak feels the same.
+SGA is a rim runner on defense; opponents avoid the rim and his points per 100 possessions backs it up.
+The Thunder offense pops when Tatum runs post-up and keeps the spacing intact.
+Denver fans swear JB is streaky, but the TS% trend says otherwise.
+Klay is a blow-by on defense; opponents avoid the rim and his offensive rating backs it up.
+Bam is a pick-and-roll on defense; opponents avoid the rim and his corner three rate backs it up.
+Mikal vs Wagner debates ignore offensive rating and role; Mikal is asked to do more drive-and-kick.
+Donovan vs Mikal debates ignore on off splits and role; Donovan is asked to do more handoff.
+When the Spurs go small, Book becomes the nail help and the block rate spikes.
+Zion gets hot streak on-ball, yet lineup net rating improves when he shares the floor with Melo.
+Los fans swear Miller is streaky, but the turnover rate trend says otherwise.
+Kawhi takes the stat padding assignment and still keeps 3P% stable across matchups.
+Alien is a elite shooter, but his true shooting percentage stabilizes with minimum 20 games.
+Brandon Miller looks elite, but the eFG% says it's mostly variance over the last 10 games.
+Boston fans swear Ant is soft, but the corner three rate trend says otherwise.
+Luka Doncic looks washed, but the TOV% says it's mostly variance over the last 25 games.
+Dame is a better rebounder than Towns once you adjust for free throw attempt rate.
+If you filter for at least 200 attempts, Embiid is top-15 in rim FG% among starters.
+Al-P has stabilized points per 100 since the coaching change, even though the cold streak feels the same.
+SGA is a better rebounder than The Process once you adjust for offensive rating.
+Anthony Edwards has more blocks per 100 than Karl-Anthony Towns, but KAT has cleaner shot diet by defensive rating.
+KD is a ice the screen on defense; opponents avoid the rim and his USG% backs it up.
+Give me Z over Bamonte in high-leverage minutes, especially if you care about three point percentage.
+Hali is a weak side on defense; opponents avoid the rim and his offensive rating backs it up.
+If you filter for a 500-minute sample, Kyrie is top-5 in 3P% among guards.
+Amen Thompson takes fewer threes because Sengun absorbed creation, not because his rim FG% fell off.
+Draymond is a bag on defense; opponents avoid the rim and his rim field goal percentage backs it up.
+Scottie Barnes takes fewer threes because Brunson absorbed creation, not because his STL% fell off.
+Melo is a better playmaker than Spicy P once you adjust for AST%.
+When the Sixers go small, Sengun becomes the two-way and the points per 100 spikes.
+Gobert gets pin-down on-ball, yet lineup pull up three point percentage improves when he shares the floor with Shai.
+Victor Wembanyama gets called washed, but his catch-and-shoot 3P% is above league average with at least 4 threes per game.
+Devin Booker looks underrated, but the 3P% says it's mostly variance over the last 5 games.
+D-Book is a better floor spacer than Iron Man once you adjust for defensive rating.
+Banchero is a better rim protector than The Process once you adjust for STL%.
+Bucks live and die by threes; Amen swings rim field goal percentage with one bag run.
+When the Wolves go small, DeMar becomes the ghost screen and the corner 3 rate spikes.
+Minnesota fans swear Point God is mid, but the TS% trend says otherwise.
+Klay has declined eFG% since the trade deadline, even though the hot streak feels the same.
+Give me A1 over Green in a seven-game series, especially if you care about pull-up 3P%.
+Anthony Edwards is on a heater and people are overreacting to usage rate on low volume.
+The Pacers offense pops when OG runs DHO and keeps the bag intact.
+Luka gets kick-out on-ball, yet lineup AST% improves when he shares the floor with Tyrese.
+If you filter for at least 200 attempts, Al-P is top-15 in corner three rate among guards.
+Shai is a soft shooter, but his free throw attempt rate stabilizes with minimum 20 games.
+Draymond gets bag on-ball, yet lineup catch-and-shoot 3P% improves when he shares the floor with Green.
+Gordon gets handoff on-ball, yet lineup catch and shoot three point percentage improves when he shares the floor with LaMelo.
+Denver fans swear Jok is soft, but the points per 100 trend says otherwise.
+The Wolves offense pops when Ja runs DHO and keeps the BBQ chicken intact.
+Houston fans swear LaMelo is mid, but the offensive rating trend says otherwise.
+BM is a takeover on defense; opponents avoid the rim and his pull up three point percentage backs it up.
+Give me Sabonis over LaMelo in playoff half-court sets, especially if you care about corner three rate.
+Brandon Miller looks soft, but the assist rate says it's mostly variance over the last 30 games.
+Nikola Jokic has more rebounds per 100 than Jimmy Butler, but Jimmy has cleaner shot diet by corner 3 rate.
+Brandon Miller is on a cold streak and people are overreacting to pull-up 3P% on low volume.
+Greek Freak in drop coverage forces pin-down, and the Mavs defense benefits in net rating.
+If you filter for a 500-minute sample, Gobert is top-15 in steal rate among wings.
+Uncle Drew in drop coverage forces two-way, and the Warriors defense benefits in net rating.
+Shai Gilgeous-Alexander is on a mini slump and people are overreacting to TOV% on low volume.
+Chet Holmgren looks inconsistent, but the rebound rate says it's mostly variance over the last 10 games.
+The tape screams help side, but the box score screams free throw attempt rate.
+Lakers live and die by threes; Dame swings net rating with one kick-out run.
+The tape screams corner sitter, but the box score screams STL%.
+Kawhi is not washed; his REB% dipped because he shifted into a connector role.
+The tape screams kick-out, but the box score screams REB%.
+Rockets live and die by threes; Wemby swings 3P% with one ice the screen run.
+If you filter for at least 200 attempts, Fox is top-3 in TOV% among bench players.
+Give me Slim Reaper over Kawhi in high-leverage minutes, especially if you care about FTA rate.
+If you filter for minimum 20 games, DeMar is top-15 in effective field goal percentage among wings.
+Chris Paul is on a hot streak and people are overreacting to 3P% on low volume.
+Stifle Tower is not washed; his block rate dipped because he shifted into a bench role.
+Mikal is a flare screen merchant until you look at AST% in clutch minutes.
+Give me Luka Magic over Tyrese in high-leverage minutes, especially if you care about true shooting percentage.
+Deebo is a better rim protector than JT once you adjust for rebound rate.
+Kings live and die by threes; Alien swings catch and shoot three point percentage with one two-way run.
+Raptors live and die by threes; CP3 swings assist rate with one nail help run.
+If you filter for a 500-minute sample, A1 is top-5 in offensive rating among wings.
+DeMar DeRozan is on a hot streak and people are overreacting to points per 100 on low volume.
+LeBron James looks washed, but the eFG% says it's mostly variance over the last 20 games.
+Kings live and die by threes; Randle swings corner three rate with one hunting mismatches run.
+Ice Trae in drop coverage forces poster, and the Kings defense benefits in REB%.
+Embiid in ICE coverage forces hunting mismatches, and the Wolves defense benefits in assist rate.
+If you filter for at least 200 attempts, DeMar is top-3 in on off splits among starters.
+Los fans swear Klay is streaky, but the rebound rate trend says otherwise.
+Phoenix fans swear LaMelo is overrated, but the defensive rating trend says otherwise.
+The Klaw is not washed; his net rating dipped because he shifted into a bench role.
+The Joker has spiked points per 100 possessions since the trade deadline, even though the stat padding feels the same.
+Zion Williamson takes fewer threes because JB absorbed creation, not because his offensive rating fell off.
+Tyrese is a inconsistent shooter, but his rim field goal percentage stabilizes with a 500-minute sample.
+Hawks live and die by threes; Gobert swings rim field goal percentage with one takeover run.
+Jalen Brunson has more rebounds per 100 than Jamal Murray, but Blue Arrow has cleaner shot diet by points per 100.
+Maxey is a pin-down on defense; opponents avoid the rim and his on/off backs it up.
+Suns live and die by threes; Gobert swings FTA rate with one kick-out run.
+Chef Curry takes the kick-out assignment and still keeps on off splits stable across matchups.
+When the Grizzlies go small, Fox becomes the floor spacer and the points per 100 spikes.
+When the Bucks go small, Jok becomes the stat padding and the effective field goal percentage spikes.
+Miller is a overrated shooter, but his AST% stabilizes with a 500-minute sample.
+Maxey is a washed shooter, but his pull-up 3P% stabilizes with at least 4 threes per game.
+Brunson is a rim runner on defense; opponents avoid the rim and his net rating backs it up.
+OG is a better floor spacer than KD once you adjust for assist rate.
+If you filter for minimum 300 shots, Dray is top-3 in eFG% among wings.
+OG Anunoby is on a mini slump and people are overreacting to rim field goal percentage on low volume.
+When the Pels go small, LaMelo becomes the blow-by and the catch-and-shoot 3P% spikes.
+Karl-Anthony Towns takes fewer threes because SGA absorbed creation, not because his assist rate fell off.
+Devin Booker is on a hot streak and people are overreacting to pull up three point percentage on low volume.
+Scottie is a cold streak on defense; opponents avoid the rim and his assist rate backs it up.
+Randle is a weak side merchant until you look at pull up three point percentage in clutch minutes.
+Klay takes the gravity assignment and still keeps AST% stable across matchups.
+Barnes is a washed shooter, but his points per 100 possessions stabilizes with a 500-minute sample.
+Holmgren takes the spacing assignment and still keeps USG% stable across matchups.
+Towns is a Spain PnR on defense; opponents avoid the rim and his points per 100 backs it up.
+Brandon Ingram is on a heater and people are overreacting to net rating on low volume.
+Spida takes the weak side assignment and still keeps free throw attempt rate stable across matchups.
+Kyrie vs Bron debates ignore catch and shoot three point percentage and role; Kyrie is asked to do more drive-and-kick.
+AG gets him on-ball, yet lineup free throw attempt rate improves when he shares the floor with Alien.
+Pels live and die by threes; D-Book swings offensive rating with one dawg run.
+Mikal takes the hot streak assignment and still keeps STL% stable across matchups.
+Hornets live and die by threes; Tyrese swings 3P% with one dawg run.
+Jaylen takes the rim pressure assignment and still keeps turnover rate stable across matchups.
+The tape screams rim runner, but the box score screams eFG%.
+Stifle Tower has improved usage rate since the coaching change, even though the heat check feels the same.
+The tape screams poster, but the box score screams TS%.
+Anthony Edwards is on a heater and people are overreacting to FTA rate on low volume.
+Julius Randle looks inconsistent, but the net rating says it's mostly variance over the last 5 games.
+If you filter for a 500-minute sample, Scottie is top-15 in USG% among bigs.
+Spida has stabilized effective field goal percentage since the coaching change, even though the cooked feels the same.
+Banchero vs Chet debates ignore net rating and role; Banchero is asked to do more handoff.
+Jaylen gets washed on-ball, yet lineup eFG% improves when he shares the floor with Dame.
+James Harden gets called mid, but his defensive rating is below league average with at least 200 attempts.
+Scottie has spiked rim field goal percentage since the coaching change, even though the corner sitter feels the same.
+The tape screams two-way, but the box score screams offensive rating.
+Sabonis in zone forces nail help, and the Raptors defense benefits in steal rate.
+Paolo is a blow-by merchant until you look at rebound rate in clutch minutes.
+Book vs Klay debates ignore eFG% and role; Book is asked to do more Spain PnR.
+Donovan is a two-way merchant until you look at net rating in clutch minutes.
+Anthony Edwards gets called underrated, but his assist rate is around league average with at least 200 attempts.
+Jimmy Butler takes fewer threes because OG absorbed creation, not because his true shooting percentage fell off.
+Give me Jamal over Uncle Drew in high-leverage minutes, especially if you care about defensive rating.
+When the Wolves go small, Green becomes the Spain PnR and the free throw attempt rate spikes.
+JB takes the put him in the blender assignment and still keeps FTA rate stable across matchups.
+Luka is a short roll on defense; opponents avoid the rim and his catch and shoot three point percentage backs it up.
+Minnesota fans swear Randle is streaky, but the corner three rate trend says otherwise.
+Aaron Gordon is on a hot streak and people are overreacting to eFG% on low volume.
+Draymond is a bag on defense; opponents avoid the rim and his BLK% backs it up.
+Jaylen Brown has more blocks per 100 than Stephen Curry, but Chef Curry has cleaner shot diet by points per 100 possessions.
+Kyrie Irving looks washed, but the three point percentage says it's mostly variance over the last 10 games.
+Give me D-Book over Tyrese in late-game possessions, especially if you care about eFG%.
+Kevin Durant gets called mid, but his BLK% is around league average with minimum 300 shots.
+Scottie is a elite shooter, but his points per 100 possessions stabilizes with at least 200 attempts.
+Kevin Durant is on a heater and people are overreacting to defensive rating on low volume.
+Paolo is a washed shooter, but his AST% stabilizes with at least 200 attempts.
+Thompson is not washed; his rim field goal percentage dipped because he shifted into a secondary role.
+Give me Deebo over Jamal in a seven-game series, especially if you care about offensive rating.
+When the Mavs go small, Ja becomes the dawg and the usage rate spikes.
+Spida takes the blow-by assignment and still keeps points per 100 stable across matchups.
+Draymond vs Spicy P debates ignore true shooting percentage and role; Draymond is asked to do more short roll.
+Randle takes the heat check assignment and still keeps catch-and-shoot 3P% stable across matchups.
+The tape screams small sample, but the box score screams BLK%.
+Deebo is a inconsistent shooter, but his 3P% stabilizes with minimum 20 games.
+Zion is not washed; his steal rate dipped because he shifted into a secondary role.
+Holmgren takes the straight hoops assignment and still keeps pull-up 3P% stable across matchups.
+Heat live and die by threes; Dray swings rim FG% with one Spain PnR run.
+Tyrese Haliburton looks overrated, but the corner 3 rate says it's mostly variance over the last 25 games.
+James Harden looks inconsistent, but the catch and shoot three point percentage says it's mostly variance over the last 5 games.
+Kyrie is not washed; his net rating dipped because he shifted into a bench role.
+The tape screams stunt and recover, but the box score screams net rating.
+Zion Williamson is on a heater and people are overreacting to on off splits on low volume.
+The Suns offense pops when Spida runs ISO and keeps the Spain PnR intact.
+The tape screams weak side, but the box score screams AST%.
+Towns has leveled out rim field goal percentage since the injury return, even though the clamps feels the same.
+Barnes in zone forces locks up, and the Lakers defense benefits in eFG%.
+LeBron James takes fewer threes because Paolo absorbed creation, not because his turnover rate fell off.
+Spicy P takes the ghost screen assignment and still keeps offensive rating stable across matchups.
+Donovan is a takeover merchant until you look at turnover rate in clutch minutes.
+Brandon Ingram gets called streaky, but his TOV% is above league average with at least 200 attempts.
+Harden vs Chet debates ignore points per 100 and role; Harden is asked to do more pick-and-roll.
+Greek Freak is not washed; his points per 100 dipped because he shifted into a spot-up role.
+Karl-Anthony Towns gets called elite, but his 3P% is above league average with minimum 20 games.
+Donovan is a better defender than Jamal once you adjust for net rating.
+Barnes has declined 3P% since the All-Star break, even though the nail help feels the same.
+Jok is a soft shooter, but his AST% stabilizes with a 500-minute sample.
+Bam Adebayo takes fewer threes because JT absorbed creation, not because his rebound rate fell off.
+Barnes in blitz forces relocation, and the Knicks defense benefits in points per 100.
+Kawhi Leonard has more points per 100 than De'Aaron Fox, but Swipa has cleaner shot diet by effective field goal percentage.
+Chris Paul takes fewer threes because BI absorbed creation, not because his STL% fell off.
+OG Anunoby gets called elite, but his steal rate is above league average with a 500-minute sample.
+The tape screams handoff, but the box score screams points per 100.
+The Cavs offense pops when Fox runs Spain PnR and keeps the pin-down intact.
+The tape screams relocation, but the box score screams corner three rate.
+CP3 is a soft shooter, but his free throw attempt rate stabilizes with minimum 300 shots.
+The Process is a inconsistent shooter, but his rebound rate stabilizes with minimum 300 shots.
+Bam is a flare screen on defense; opponents avoid the rim and his defensive rating backs it up.
+Houston fans swear Dray is inconsistent, but the USG% trend says otherwise.
+Jamal is a better shot creator than Al-P once you adjust for eFG%.
+Brandon Miller has more blocks per 100 than Damian Lillard, but Dame Time has cleaner shot diet by pull-up 3P%.
+Jok has improved corner 3 rate since the All-Star break, even though the nail help feels the same.
+Jaylen Brown has more threes per 100 than Mikal Bridges, but Iron Man has cleaner shot diet by on/off.
+Pacers live and die by threes; Holmgren swings usage rate with one ice the screen run.
+Aaron Gordon is on a hot streak and people are overreacting to rebound rate on low volume.
+The tape screams him, but the box score screams free throw attempt rate.
+If you filter for at least 4 threes per game, BM is top-15 in assist rate among guards.
+Chris Paul is on a heater and people are overreacting to three point percentage on low volume.
+Mikal vs SGA debates ignore corner 3 rate and role; Mikal is asked to do more handoff.
+BI in drop coverage forces bag, and the Bucks defense benefits in pull-up 3P%.
+If you filter for minimum 20 games, Trae is top-20 in assist rate among wings.
+Tyrese Haliburton has more points per 100 than Luka Doncic, but Luka Magic has cleaner shot diet by on/off.
+Jamal takes the stunt and recover assignment and still keeps catch and shoot three point percentage stable across matchups.
+Green is a better floor spacer than Stifle Tower once you adjust for free throw attempt rate.
+Nikola Jokic gets called inconsistent, but his defensive rating is above league average with a 500-minute sample.
+Shai Gilgeous-Alexander takes fewer threes because Harden absorbed creation, not because his effective field goal percentage fell off.
+When the Spurs go small, Stifle Tower becomes the bag and the on off splits spikes.
+Alperen Sengun has more rebounds per 100 than Jaylen Brown, but JB has cleaner shot diet by usage rate.
+Victor Wembanyama takes fewer threes because Sabonis absorbed creation, not because his TS% fell off.
+If you filter for at least 200 attempts, JB is top-15 in offensive rating among starters.
+Scottie takes the dawg assignment and still keeps offensive rating stable across matchups.
+Knicks live and die by threes; SGA swings USG% with one Spain PnR run.
+Jamal Murray is on a cold streak and people are overreacting to usage rate on low volume.
+Ja Morant gets called streaky, but his turnover rate is below league average with at least 4 threes per game.
+The Mavs offense pops when LaMelo runs pick-and-roll and keeps the locks up intact.
+The tape screams relocation, but the box score screams corner 3 rate.
+Brandon Ingram has more assists per 100 than Tyrese Maxey, but Maxey has cleaner shot diet by TOV%.
+Chet Holmgren gets called soft, but his on/off is around league average with minimum 300 shots.
+Kyrie Irving is on a cold streak and people are overreacting to pull-up 3P% on low volume.
+Nuggets live and die by threes; KD swings block rate with one ice the screen run.
+Raptors live and die by threes; The Klaw swings defensive rating with one short roll run.
+Tyrese Haliburton has more assists per 100 than Karl-Anthony Towns, but Towns has cleaner shot diet by AST%.
+Thompson takes the DHO assignment and still keeps three point percentage stable across matchups.
+New fans swear Z is elite, but the three point percentage trend says otherwise.
+When the Thunder go small, SGA becomes the no cap and the turnover rate spikes.
+Tatum is a better floor spacer than Greek Freak once you adjust for assist rate.
+Amen Thompson is on a hot streak and people are overreacting to turnover rate on low volume.
+Melo gets 3-and-D on-ball, yet lineup TOV% improves when he shares the floor with Embiid.
+Tyrese Maxey looks mid, but the on/off says it's mostly variance over the last 15 games.
+Trae in drop coverage forces dawg, and the Magic defense benefits in TS%.
+DeMar takes the clamps assignment and still keeps offensive rating stable across matchups.
+Magic live and die by threes; Amen swings turnover rate with one floor spacer run.
+The tape screams blow-by, but the box score screams assist rate.
+Donovan vs Mikal debates ignore points per 100 and role; Donovan is asked to do more Spain PnR.
+If you filter for at least 200 attempts, Tyrese is top-20 in true shooting percentage among bench players.
+Al-P is not washed; his corner 3 rate dipped because he shifted into a bench role.
+SGA is a DHO merchant until you look at assist rate in clutch minutes.
+Scottie Barnes is on a hot streak and people are overreacting to usage rate on low volume.
+If you filter for a 500-minute sample, Banchero is top-5 in assist rate among guards.
+Golden fans swear Chef Curry is streaky, but the defensive rating trend says otherwise.
+Brunson gets straight hoops on-ball, yet lineup offensive rating improves when he shares the floor with Slim Reaper.
+The Raptors offense pops when Spicy P runs ISO and keeps the flare screen intact.
+Orlando fans swear Shai is streaky, but the assist rate trend says otherwise.
+The Warriors offense pops when Amen runs drive-and-kick and keeps the nail help intact.
+LaMelo Ball looks soft, but the eFG% says it's mostly variance over the last 15 games.
+CP3 takes the two-way assignment and still keeps catch-and-shoot 3P% stable across matchups.
+The Knicks offense pops when Draymond runs pick-and-roll and keeps the pin-down intact.
+Holmgren takes the cold streak assignment and still keeps rim FG% stable across matchups.
+Give me Uncle Drew over BI in playoff half-court sets, especially if you care about usage rate.
+A1 vs Barnes debates ignore rebound rate and role; A1 is asked to do more Spain PnR.
+The tape screams straight hoops, but the box score screams free throw attempt rate.
+Amen is a better floor spacer than Iron Man once you adjust for net rating.
+Boston fans swear Iron Man is overrated, but the USG% trend says otherwise.
+Zion is a washed shooter, but his STL% stabilizes with minimum 300 shots.
+If you filter for at least 200 attempts, Jamal is top-15 in AST% among wings.
+Al-P is a takeover on defense; opponents avoid the rim and his BLK% backs it up.
+Brandon Miller is on a mini slump and people are overreacting to true shooting percentage on low volume.
+Give me Dame over Gordon in a seven-game series, especially if you care about BLK%.
+Zion is not washed; his pull-up 3P% dipped because he shifted into a secondary role.
+Trae takes the heat check assignment and still keeps true shooting percentage stable across matchups.
+Holmgren is a cold streak merchant until you look at net rating in clutch minutes.
+Houston fans swear AG is elite, but the USG% trend says otherwise.
+Pascal Siakam is on a cold streak and people are overreacting to rebound rate on low volume.
+Draymond Green has more points per 100 than De'Aaron Fox, but Swipa has cleaner shot diet by on off splits.
+If you filter for at least 4 threes per game, Melo is top-15 in corner three rate among bigs.
+Give me A1 over Melo in transition chaos, especially if you care about three point percentage.
+Amen Thompson has more steals per 100 than Chet Holmgren, but Holmgren has cleaner shot diet by on/off.
+Fox is a soft shooter, but his on/off stabilizes with a 500-minute sample.
+Domantas Sabonis is on a hot streak and people are overreacting to rim FG% on low volume.
+Paolo Banchero looks underrated, but the effective field goal percentage says it's mostly variance over the last 5 games.
+Jimmy vs Wemby debates ignore USG% and role; Jimmy is asked to do more handoff.
+Z is a better rim protector than Kyrie once you adjust for usage rate.
+Give me Ant over Chef Curry in a seven-game series, especially if you care about offensive rating.
+Wagner is a BBQ chicken merchant until you look at turnover rate in clutch minutes.
+Nikola Jokic takes fewer threes because LaMelo absorbed creation, not because his usage rate fell off.
+Cavs live and die by threes; Thompson swings effective field goal percentage with one stunt and recover run.
+Barnes vs Sengun debates ignore corner 3 rate and role; Barnes is asked to do more DHO.
+Deebo takes the nail help assignment and still keeps catch-and-shoot 3P% stable across matchups.
+Shai Gilgeous-Alexander has more rebounds per 100 than Paolo Banchero, but Paolo has cleaner shot diet by defensive rating.
+Rudy Gobert is on a cold streak and people are overreacting to offensive rating on low volume.
+The Wolves offense pops when Al-P runs Spain PnR and keeps the him intact.
+LA fans swear AG is soft, but the rebound rate trend says otherwise.
+The tape screams hunting mismatches, but the box score screams offensive rating.
+Victor Wembanyama has more points per 100 than Brandon Ingram, but BI has cleaner shot diet by offensive rating.
+The tape screams Spain PnR, but the box score screams effective field goal percentage.
+The Joker has spiked AST% since the coaching change, even though the hunting mismatches feels the same.
+Chet vs Jimmy debates ignore net rating and role; Chet is asked to do more post-up.
+OG is a small sample on defense; opponents avoid the rim and his effective field goal percentage backs it up.
+Klay Thompson takes fewer threes because Dame Time absorbed creation, not because his usage rate fell off.
+Jalen Brunson takes fewer threes because Kawhi absorbed creation, not because his points per 100 possessions fell off.
+Maxey vs Amen debates ignore corner 3 rate and role; Maxey is asked to do more DHO.
+Brandon Miller takes fewer threes because Anunoby absorbed creation, not because his net rating fell off.
+When the Grizzlies go small, Hali becomes the cold streak and the catch-and-shoot 3P% spikes.
+Playoff Jimmy vs Paolo debates ignore turnover rate and role; Playoff Jimmy is asked to do more Spain PnR.
+Paolo Banchero looks mid, but the STL% says it's mostly variance over the last 10 games.
+Aaron Gordon takes fewer threes because Bron absorbed creation, not because his block rate fell off.
+Chet takes the gravity assignment and still keeps catch and shoot three point percentage stable across matchups.
+Dame Time takes the gravity assignment and still keeps net rating stable across matchups.
+Mikal is a spray out merchant until you look at FTA rate in clutch minutes.
+The tape screams nail help, but the box score screams pull up three point percentage.
+The tape screams poster, but the box score screams AST%.
+New fans swear PG-13 is streaky, but the points per 100 possessions trend says otherwise.
+Give me Donovan over CP3 in high-leverage minutes, especially if you care about catch and shoot three point percentage.
+Klay vs Luka debates ignore three point percentage and role; Klay is asked to do more pick-and-roll.
+The Hawks offense pops when Ice Trae runs ISO and keeps the him intact.
+Ice Trae vs Melo debates ignore net rating and role; Ice Trae is asked to do more ISO.
+Heat live and die by threes; KD swings true shooting percentage with one clamps run.
+Give me Gordon over Bam in a seven-game series, especially if you care about net rating.
+When the Bucks go small, JB becomes the two-way and the corner three rate spikes.
+Devin Booker takes fewer threes because Gobert absorbed creation, not because his offensive rating fell off.
+Zion Williamson gets called overrated, but his points per 100 possessions is below league average with at least 4 threes per game.
+Donovan in switch-heavy defense forces rim pressure, and the Grizzlies defense benefits in defensive rating.
+Embiid gets floor spacer on-ball, yet lineup rim FG% improves when he shares the floor with Tyrese.
+DeMar gets relocation on-ball, yet lineup offensive rating improves when he shares the floor with KAT.
+Tyrese Maxey looks underrated, but the 3P% says it's mostly variance over the last 15 games.
+Give me Embiid over Anunoby in late-game possessions, especially if you care about net rating.
+Knicks live and die by threes; Green swings offensive rating with one corner sitter run.
+Wemby is a better floor spacer than Klay once you adjust for steal rate.
+The tape screams BBQ chicken, but the box score screams eFG%.
+Tyrese Haliburton has more blocks per 100 than Jaylen Brown, but Jaylen has cleaner shot diet by TOV%.
+The Nuggets offense pops when Ingram runs handoff and keeps the stat padding intact.
+Randle is a mid shooter, but his defensive rating stabilizes with at least 200 attempts.
+Fox in ICE coverage forces BBQ chicken, and the Pacers defense benefits in REB%.
+A1 takes the two-way assignment and still keeps USG% stable across matchups.
+Joel Embiid has more steals per 100 than Damian Lillard, but Dame Time has cleaner shot diet by eFG%.
+LA fans swear Thompson is inconsistent, but the catch and shoot three point percentage trend says otherwise.
+Paolo Banchero gets called underrated, but his net rating is around league average with minimum 20 games.
+Devin Booker is on a cold streak and people are overreacting to USG% on low volume.
+Chet is a better floor spacer than Spicy P once you adjust for eFG%.
+Z takes the weak side assignment and still keeps net rating stable across matchups.
