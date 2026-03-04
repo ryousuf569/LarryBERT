@@ -1,6 +1,3 @@
-import math
-from pathlib import Path
-
 from datasets import load_dataset
 from transformers import (
     AutoTokenizer,
@@ -9,97 +6,124 @@ from transformers import (
     Trainer,
     TrainingArguments,
 )
+import re as r
 
+MODEL_NAME = "bert-base-uncased"  # keep BERT for LarryBERT branding
 
-MODEL_DIR = r"C:/Users/ryous\Downloads/larrybert/models/larrybert-base-mlm/checkpoint-1500"
-VAL_TXT   = r"C:/Users/ryous/Downloads/larrybert\data/mlm/mlm_val.txt"
-BASE_TOKENIZER_DIR = r"C:/Users/ryous/Downloads/larrybert/models/larrybert-base-mlm"
+def train():
+    tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
 
-BLOCK_SIZE = 128
-BATCH_SIZE = 4
-MLM_PROB = 0.15
+    # Load .txt files: one line = one example
+    ds = load_dataset(
+        "text",
+        data_files={"train": "mlm_train.txt", "validation": "mlm_val.txt"},
+    )
 
-
-def main() -> None:
-    model_dir = Path(MODEL_DIR)
-    val_txt = Path(VAL_TXT)
-
-    if not model_dir.exists():
-        raise FileNotFoundError(f"MODEL_DIR not found: {model_dir}")
-    if not val_txt.exists():
-        raise FileNotFoundError(f"VAL_TXT not found: {val_txt}")
-
-    # Load tokenizer (often NOT saved in checkpoint folders)
-    tok_dir = Path(BASE_TOKENIZER_DIR) if BASE_TOKENIZER_DIR else model_dir
-    if not tok_dir.exists():
-        raise FileNotFoundError(f"Tokenizer directory not found: {tok_dir}")
-
-    tokenizer = AutoTokenizer.from_pretrained(str(tok_dir), use_fast=True, local_files_only=True)
-    model = AutoModelForMaskedLM.from_pretrained(str(model_dir), local_files_only=True)
-
-    ds = load_dataset("text", data_files={"validation": str(val_txt)})
-
-    # Tokenize without padding; we will group into blocks
     def tokenize(batch):
-        return tokenizer(batch["text"], add_special_tokens=True, truncation=True)
+        return tokenizer(
+            batch["text"],
+            truncation=True,
+            max_length=128,
+            padding="max_length",
+        )
 
     tokenized = ds.map(tokenize, batched=True, remove_columns=["text"])
 
-    def group_texts(examples):
-        concatenated = {k: sum(examples[k], []) for k in examples.keys()}
-        total_len = len(concatenated["input_ids"])
-        total_len = (total_len // BLOCK_SIZE) * BLOCK_SIZE  # drop remainder
-        if total_len == 0:
-            raise ValueError(
-                "After concatenation, total token length is 0. "
-                "Your VAL file may be empty or tokenization produced no tokens."
-            )
-        return {
-            k: [t[i:i + BLOCK_SIZE] for i in range(0, total_len, BLOCK_SIZE)]
-            for k, t in concatenated.items()
-        }
+    model = AutoModelForMaskedLM.from_pretrained(MODEL_NAME)
 
-    lm_val = tokenized.map(group_texts, batched=True)
-
-    collator = DataCollatorForLanguageModeling(
-        tokenizer=tokenizer, mlm=True, mlm_probability=MLM_PROB
+    data_collator = DataCollatorForLanguageModeling(
+        tokenizer=tokenizer,
+        mlm=True,
+        mlm_probability=0.15,
     )
 
-    targs = TrainingArguments(
-        output_dir="tmp_eval",
-        per_device_eval_batch_size=BATCH_SIZE,
+    args = TrainingArguments(
+        output_dir="models/larrybert-base-mlm",
+        overwrite_output_dir=True,
+        eval_strategy="steps",
+        eval_steps=500,
+        logging_steps=100,
+        save_steps=500,
+        save_total_limit=2,
+        learning_rate=5e-5,
+        weight_decay=0.01,
+        per_device_train_batch_size=2,     # CPU safe
+        per_device_eval_batch_size=2,
+        num_train_epochs=1,                # start with 1
+        max_steps=5000,                    # CAP STEPS for CPU
+        warmup_ratio=0.06,
         report_to="none",
-        use_cpu=True,
-        optim="adamw_torch",
-        eval_strategy="no",
-        save_strategy="no",
+        use_cpu=True,                      # force CPU
     )
 
     trainer = Trainer(
         model=model,
-        args=targs,
-        eval_dataset=lm_val["validation"],
-        data_collator=collator,
+        args=args,
+        train_dataset=tokenized["train"],
+        eval_dataset=tokenized["validation"],
+        data_collator=data_collator,
         processing_class=tokenizer,
     )
 
-    metrics = trainer.evaluate()
-    eval_loss = metrics.get("eval_loss", None)
-
-    print("\n====================")
-    print("MLM VALIDATION RESULT")
-    print("====================")
-    print("MODEL_DIR:", model_dir)
-    print("TOKENIZER_DIR:", tok_dir)
-    print("VAL_TXT:", val_txt)
-    print("BLOCK_SIZE:", BLOCK_SIZE, "BATCH_SIZE:", BATCH_SIZE, "MLM_PROB:", MLM_PROB)
-    print("METRICS:", metrics)
-
-    if eval_loss is not None and math.isfinite(eval_loss):
-        print(f"Perplexity (exp(eval_loss)): {math.exp(eval_loss):.3f}")
-    else:
-        print("eval_loss is not finite (NaN/inf). Try BLOCK_SIZE=64 or BATCH_SIZE=8, or check VAL text.")
+    trainer.train()
+    trainer.save_model("models/larrybert-base-mlm")
+    tokenizer.save_pretrained("models/larrybert-base-mlm")
 
 
-if __name__ == "__main__":
-    main()
+def train_from(saved_model):
+    tokenizer = AutoTokenizer.from_pretrained(saved_model)
+    model = AutoModelForMaskedLM.from_pretrained(saved_model, local_files_only=True)
+
+    ds = load_dataset(
+        "text",
+        data_files={"train": r"C:\Users\ryous\Downloads\larrybert\data\txt_files\train.txt", "validation": r"C:\Users\ryous\Downloads\larrybert\data\txt_files\val.txt"},
+    )
+
+    def tokenize(batch):
+        return tokenizer(
+            batch["text"],
+            truncation=True,
+            max_length=128,
+            padding="max_length",
+        )
+
+    tokenized = ds.map(tokenize, batched=True, remove_columns=["text"])
+
+    data_collator = DataCollatorForLanguageModeling(
+        tokenizer=tokenizer,
+        mlm=True,
+        mlm_probability=0.15,
+    )
+
+    args = TrainingArguments(
+        output_dir="models/larrybert-base-mlm",  
+        eval_strategy="steps",
+        eval_steps=1000,
+        logging_steps=100,
+        save_steps=1000,
+        save_total_limit=2,
+        learning_rate=5e-5,
+        weight_decay=0.01,
+        per_device_train_batch_size=2,
+        per_device_eval_batch_size=2,
+        max_steps=3000,
+        warmup_steps=500,
+        report_to="none",
+        use_cpu=True,
+    )
+
+    trainer = Trainer(
+        model=model,
+        args=args,
+        train_dataset=tokenized["train"],
+        eval_dataset=tokenized["validation"],
+        data_collator=data_collator,
+        processing_class=tokenizer,
+    )
+
+    trainer.train(resume_from_checkpoint=saved_model)
+
+    trainer.save_model("models/larrybert-base-mlm/second-run")
+    tokenizer.save_pretrained("models/larrybert-base-mlm/second-run")
+
+train_from(r"C:\Users\ryous\Downloads\larrybert\models\larrybert-base-mlm\checkpoint-1500")
