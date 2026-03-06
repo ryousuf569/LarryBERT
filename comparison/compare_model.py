@@ -26,5 +26,6 @@ def run(model_name, name, topk):
 def main():
     run('bert-base-uncased','bert-base-uncased', 5)
     run(LARRYBERT1_DIR, 'larry-bert-base-mlm', 5)
+    print("\n")
 
 main()
