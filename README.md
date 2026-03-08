@@ -14,8 +14,8 @@ The goal is to build a model that understands NBA-specific wording (players, tea
 
 ### Latest checkpoint result
 **Checkpoint:** `models/larrybert-base-mlm/checkpoint-1500`  
-- `eval_loss`: **1.3040**
-- `perplexity`: **3.684** 
+- `eval_loss`: **0.486**
+- `perplexity`: **1.626** 
 
 ## Repo structure
 - `dataprep/` — dataset prep utilities (`larrybert_autolabel.py`, `randomsplit.py`)

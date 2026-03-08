@@ -21,9 +21,9 @@ from transformers import (
 )
 
 
-MODEL_DIR = r"C:\Users\ryous\Downloads\larrybert\models\larrybert-base-mlm\checkpoint-1000"
-VAL_TXT   = r"C:\Users\ryous\Downloads\larrybert\data\mlm\mlm_val.txt"
-BASE_TOKENIZER_DIR = r"C:\Users\ryous\Downloads\larrybert\models\larrybert-base-mlm"
+MODEL_DIR = r"C:\Users\JrD\Downloads\LARRYBERT\LarryBERT\models\larrybert-base-mlm\checkpoint-15000"
+VAL_TXT   = r"C:\Users\JrD\Downloads\LARRYBERT\LarryBERT\data\mlm\mlm_val.txt"
+BASE_TOKENIZER_DIR = r"C:\Users\JrD\Downloads\LARRYBERT\LarryBERT\models\larrybert-base-mlm"
 OUT_DIR = r"C:\Users\ryous\Downloads\larrybert\models\larrybert-base-mlm-final"
 BLOCK_SIZE = 128
 BATCH_SIZE = 4
