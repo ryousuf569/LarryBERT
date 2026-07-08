@@ -1,5 +1,5 @@
 # LarryBERT
-**A BERT-style language model fine-tuned on NBA text (work in progress).** 
+**A BERT-style language model fine-tuned on NBA text.** 
 
 ## What this is
 LarryBERT is my ongoing project to fine-tune **BERT (bert-base-uncased)** using **Masked Language Modeling (MLM)** on an NBA-focused text corpus, using the Hugging Face **Trainer** pipeline.
